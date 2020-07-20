@@ -1,0 +1,1239 @@
+【JavaSE】集合类
+
+
+
+@[toc]
+
+
+
+总体框架图：
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111109.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111110.png)
+
+# 一、Collection接口
+**基本功能**
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111058.png)
+**遍历**
+方式一：集合转数组
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111111.png)
+
+方式二：使用集合自带的迭代器
+- iterator 集合的专有遍历方式，通过集合的` iterator() `方法获得，所以迭代器是依赖于集合而存在的
+
+
+```java
+//得到迭代器来遍历数组。迭代器与数组是相辅相成的
+Iterator it =c.iterator();//通过集合的方法返回迭代器对象
+while (it.hasNext()){
+   String s= (String) it.next();
+    System.out.println(s);
+}
+```
+
+> 注意基础迭代器会存在并发修改异常的问题，这个后面再详细分析源码讨论
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111112.png)
+## 1. List
+**List 集合概述**
+- 有序集合（也称序列），用户可以精确控制列表中的每个元素的插入位置，通过整数索引访问元素
+- 与 Set集合不同，List允许有重复元素
+**特点**
+- 有序：存储与取出的元素顺序一致
+- 可重复：存储的元素可重复
+
+**List集合的特有方法**
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111113.png)
+**遍历（没有学泛型之前，都要强转）**
+
+-  Iterator 普通迭代器在一边迭代同时又出现修改集合操作的时候，会发生`异常`
+
+- ListIterator listIterator()（继承Iterator，可以从后往前遍历，但开发中不怎么用它）遍历List集合时修改元素不会发生并发修改异常
+
+**出现的原因**
+普通迭代器在迭代期间不允许修改元素
+迭代器遍历的过程中，通过集合对象修改了集合中的元素，造成了迭代器获取元素中判断预期修改值和实际修改值不一致，则会出现：`ConcurrentModificationException`
+**解决的方案**
+用 `普通 for循环`遍历，然后用集合对象做对应的操作即可,切记不可以用 增强 for 循环
+或者使用专有迭代器` ListIterator`
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111114.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111115.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111116.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111117.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111118.png)
+**列表迭代器【应用】**
+ListIterator 介绍
+
+- 通过 List集合的 `listIterator()方法`得到，所以说它是List集合特有的迭代器
+- 用于允许程序员沿任一方向遍历的列表迭代器，从后往前遍历也可以实现
+- <font color=blue>允许在迭代期间修改列表</font>，并获取列表中迭代器的当前位置
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111119.png)
+**增强for循环【应用】**
+
+```java
+for(String s : list) {
+      System.out.println(s);
+   }
+   
+   //内部原理是一个Iterator迭代器
+    
+    for(String s : list) {
+      if(s.equals("world")) {
+        list.add("javaee"); //ConcurrentModificationException
+      //和普通迭代器一样会抛出并发修改异常
+      }
+    }
+    
+```
+
+**List集合子类的特点【记忆】**
+
+- **ArrayList**:：底层是数组结构实现，查询快、增删慢
+- **LinkedList**： 底层是链表结构实现，查询慢、增删快
+- **Vector**：底层数据结构是数组。线程安全
+### ArrayList
+
+> 参考：[https://blog.csdn.net/weixin_40304387/article/details/80790177]()
+> [https://www.cnblogs.com/V1haoge/p/10414458.html]()
+
+**1. 概述**
+ArrayList底层使用的是数组。是List的可变数组实现，这里的可变是针对List而言，而不是底层数组。
+数组有自身的特点，不变性，一旦数组被初始化，那么其长度就固定了，不可被改变。这就导致了ArrayList中的一个重要特性：`扩容`。
+
+```java
+public static void main(String[] args) {
+    ArrayList<String> arr=new ArrayList<>();
+    arr.add("hello");
+    arr.add("world");
+    arr.add("java");
+    //arr.add(3,"zy");
+    arr.add(4,"zy");//IndexOutOfBoundsException: Index: 4, Size: 3
+    System.out.println(arr);
+}
+```
+
+
+**案例：元素去重**
+
+```java
+/**
+ * 字符串去重：与自身比较
+ */
+public class ArrayListDemo01 {
+    public static void main(String[] args) {
+        ArrayList arrayList = new ArrayList();
+        arrayList.add("hello");
+        arrayList.add("java");
+        arrayList.add("hello");
+        arrayList.add("world");
+
+        for (int i = 0; i < arrayList.size() - 1; i++){
+            for (int j = i + 1; j<arrayList.size();j++){
+                if (arrayList.get(i).equals(arrayList.get(j))){
+                    arrayList.remove(j);
+                    j--;
+                }
+            }
+        }
+        //遍历集合
+        for (int i = 0; i < arrayList.size(); i++){
+            System.out.println(arrayList.get(i));
+        }
+    }
+}
+
+```
+
+```java
+/**
+ * 自定义对象的集合，去重
+ * 自定义对象一定要重写 equals方法
+ */
+
+public class ArrayListDemo02 {
+    public static void main(String[] args) {
+
+        Student stu1 = new Student("张三",18);
+        Student stu2 = new Student("李四",20);
+        Student stu3 = new Student("张三",18);
+        Student stu4 = new Student("张三",18);
+        Student stu5 = new Student("张三",18);
+
+        ArrayList list = new ArrayList();
+        list.add(stu1);
+        list.add(stu2);
+        list.add(stu3);
+        list.add(stu4);
+        list.add(stu5);
+        ArrayList newList = new ArrayList();
+        // 元素去重
+        for (int i = 0; i < list.size(); i++ ){
+            Student  s = (Student) list.get(i);//没有使用泛型，这里需要强转一下
+            if (!newList.contains(s)){
+                newList.add(s);
+            }
+        }
+
+        //遍历newList
+        for (int i = 0; i < newList.size(); i++){
+            Student s = (Student) newList.get(i);
+            System.out.println(s);
+        }
+
+    }
+}
+
+```
+
+`contains() `方法的源码分析：为什么要重写` equals() `方法
+不重写 ` equals() ` 方法的话，那list 集合中的每个对象在比较时，内存地址都不一样都是一个完全新生的不同的对象，那么 比较内容 也就不奏效了。
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111120.png)
+
+> 思考：去除字符串的两种方法，一种用了contains，另一种用了equals。其实去除自定义对象时也可以直接用equals，这样更明确需要重写equals。
+>
+> `contains()`底层依赖于`equals()`，String已经重写，所以我们也要把自定义对象重写（eclipse自动生成，但最好自己知道怎么写！）
+
+### LinkedList
+
+LinkedList集合的特有功能【应用】
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111121.png)
+
+使用 LinkedList  模拟栈
+```java
+public class MyStack {
+	private LinkedList link;
+
+	public MyStack() {
+		link = new LinkedList();
+	}
+
+	public void add(Object obj) {
+		link.addFirst(obj);
+	}
+
+	public Object get() {
+		// return link.getFirst();
+		return link.removeFirst();
+	}
+
+	public boolean isEmpty() {
+		return link.isEmpty();
+	}
+}
+
+```
+
+### Vector
+底层是数组，线程安全，效率低，查询快，增删慢
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111122.png)
+
+Vector的两种遍历方式
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111123.png)
+
+### CopyOnWriteArrayList
+参考： [CopyOnWriteArrayList,冷门容器却每次面试都问](https://baijiahao.baidu.com/s?id=1666117483794506320&wfr=spider&for=pc)
+
+**1. CopyOnWriteArrayList的出现原因**
+
+一些案例说明了`ArrayList`使用的局限性，既然是`非线程安全`，会出现并发修改异常问题，也就是读写时的加锁问题。
+
+那我们就使用一些机制把它变安全不就好了。变安全的方法有很多。比如说替换成`Vector`，再或者是使用` Collections`，可以将 ArrayList 包装成一个线程安全的类。不过这两种方法也有很大的缺点，那就是他们使用的都是`独占锁`，独占式锁在同一时刻`只有一个线程`能够获取，效率太低。于是**CopyOnWriteArrayList** 应用而生了。
+
+
+**2、CopyOnWriteArrayList 介绍**
+
+<font color=blue>（1）独占锁效率低：采用读写分离思想解决</font>
+
+既然独占锁的效率低下，那我们可以换一种方式，采用读写分离式的思想将读操作和写操作进行分开即可。
+
+读操作不加锁，所有线程都不会阻塞。写操作加锁，线程会阻塞。
+
+<font color=blue>（2）写线程获取到锁，其他线程包括读线程阻塞 </font>
+
+但是这时候又出现了另外一个问题了：写线程获取到锁之后，其他的读线程会陷入阻塞。
+
+<font color=blue>（3）复制思想：解决问题2  </font>
+
+这咋办呢？我们可以再转化一下思想：
+
+当我们往一个容器添加元素的时候，==不直接往当前容器添加==，而是先将当前容器进行 ==Copy==，复制出一个新的容器，然后新的容器里添加元素，添加完元素之后，==再将原容器的引用指向新的容器。==
+
+这时候会抛出来一个新的问题，**也就是数据不一致的问题**。如果写线程还没来得及写会内存，其他的线程就会读到了脏数据。
+
+这就是CopyOnWriteArrayList 的思想和原理。就是拷贝一份写。所以使用条件也很局限，那就是在读多写少的情况下比较好。
+
+
+**3、源码分析（基于JDK1.8）**
+
+- 读取
+```java
+public class CopyOnWriteArrayList<E>
+    implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
+    
+    private transient volatile Object[] array;
+ 
+    final Object[] getArray() {
+        return array;
+    }
+    
+    public E get(int index) {
+        return get(getArray(), index);
+    }
+ 
+    
+    private E get(Object[] a, int index) {
+        return (E) a[index];
+    }
+```
+可以看到，读取代码没有任何同步控制和锁操作，因为内部数组array不会发生修改，只会被另一个array替换，可以保证数据安全。
+
+- 写操作
+```java
+public boolean add(E e) {
+    final ReentrantLock lock = this.lock;
+    lock.lock();
+    try {
+        Object[] elements = getArray();
+        int len = elements.length;
+        Object[] newElements = Arrays.copyOf(elements, len + 1);
+        newElements[len] = e;
+        setArray(newElements);
+        return true;
+    } finally {
+        lock.unlock();
+    }
+}
+```
+可以看到，写操作使用了锁 `ReentrantLock` ，
+重点在 `Object[] newElements = Arrays.copyOf(elements, len + 1);`这里在生成一个新的数组，然后将新的元素加入到newElements中，
+再将新的数组替换成老的数组，修改就完成了,` setArray(newElements);`
+
+整个过程不会影响到读取的线程。当修改完成后，读取线程可以立即察觉到这个修改，因为array被volatile修饰了。
+
+
+
+
+**4、总结**
+
+这个容器很简单，虽然是采用了读写分离的思想，但是却有很大不同，不同之处在于copy。
+
+<font color=blue>1、读写锁 </font>
+
+读线程具有实时性，写线程会阻塞。解决了数据不一致的问题。但是读写锁依然会出现读线程阻塞等待的情况
+
+<font color=blue>2、CopyOnWriteArrayList </font>
+
+读线程具有实时性，写线程会阻塞。不能解决数据不一致的问题。但是CopyOnWriteArrayList 不会出现读线程阻塞等待的情况
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111124.png)
+## 2. Set
+**Set集合概述和特点**
+- 无序：元素存储和取出没有顺序
+- 遍历：没有索引、只能通过迭代器 iterator 或增强 for循环遍历
+- 不重复：不能存储重复元素
+
+Set没有特有功能方法，都和 Collection 一样
+
+```java
+//创建集合对象
+    Set<String> set = new HashSet<String>();
+```
+
+### HashSet
+**HashSet 集合的特点**
+
+- 底层数据结构是哈希表
+- 对集合的迭代顺序不作任何保证，也就是说不保证存储和取出的元素顺序一致
+- 没有带索引的方法，所以不能使用普通 for循环遍历
+- 由于是 Set集合，所以是不包含重复元素的集合
+- HashSet底层数据结构是哈希表：是**一个元素为链表的数组**，综合了数组和链表的好处。
+
+**HashSet 集合的基本使用**
+
+```java
+HashSet<String> hs = new HashSet<String>();
+```
+
+**HashSet集合保证元素唯一性源码分析**
+
+<font color= 3CB371>1.根据对象的哈希值计算存储位置</font>
+- 如果当前位置没有元素则直接存入
+- 如果当前位置有元素存在，则进入第二步
+
+<font color= 3CB371> .2.当前元素的元素和已经存在的元素比较哈希值</font>
+- 如果哈希值不同，则将当前元素进行存储
+- 如果哈希值相同，则进入第三步
+
+
+<font color= 3CB371>3.通过equals()方法比较两个元素的内容</font>
+- 如果内容不相同，则将当前元素进行存储
+- 如果内容相同，则不存储当前元素
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111125.png)
+
+### LinkedHashSet
+
+**LinkedHashSet 集合特点**
+- 哈希表和链表实现的 Set接口，具有可预测的迭代次序
+- 由链表保证元素有序，也就是说元素的存储和取出顺序是一致的
+- 由哈希表保证元素唯一，也就是说没有重复的元素
+
+
+### TreeSet
+
+**TreeSet 集合特点**
+- 元素有序，可以按照一定的规则进行排序，具体排序方式取决于构造方法
+- TreeSet() ：根据其元素的自然排序进行排序	
+- TreeSet(Comparator comparator)  ：根据指定的比较器进行排序
+
+- **没有带索引的方法**，所以不能使用普通 for循环遍历
+- 由于是 Set集合，所以**不包含重复元素**的集合
+
+
+**TreeSet的add()源码解析**
+
+底层是二叉树结构
+
+ - <font color=#FF4500>.第一个元素作为根节点，和后面的元素比较，小的放左边，大的放右边，相同的不放</font>
+- 在二叉树结构下，排序又依赖于comparable接口的`compareTo`方法，按照指定规则强行给对象比大小，然后存入树中。
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111126.png)
+**Integer自然排序演示**
+
+Integer已经实现comparable接口并重写compareTo()方法
+另外，String也重写了compareTo()方法，根据字典顺序排序字符串
+
+```java
+public class TreeSetDemo01 {
+  public static void main(String[] args) {
+    //创建集合对象
+    TreeSet<Integer> ts = new TreeSet<Integer>();//默认无参构造方法，自然排序
+    //添加元素
+    ts.add(10);
+    ts.add(40);
+    ts.add(30);
+    ts.add(50);
+    ts.add(20);
+    ts.add(30);
+    //遍历集合
+    for(Integer i : ts) {
+      System.out.println(i);//10 20 30 40 50 
+   }
+ }
+}
+```
+**存储自定义对象并遍历练习**
+Student类实现comparable接口并重写compareTo()方法
+
+```java
+@Override
+    public int compareTo(Student s) {
+
+        int num = this.age - s.age;
+        int num2 = num == 0 ? this.name.compareTo(s.name) : num;
+        return num2;
+    }
+```
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111127.png)
+
+**自定义排序比较器**
+`TreeSet(Comparator<? super E> comparator)`：比较器排序（集合具备比较性）
+
+方式一：创建Mycomparator类实现comparator接口，重写compare()方法：比较条件和自然排序一样写
+
+方式二：如果只用一次，不另外创建比较器，直接用`匿名对象`传参（开发常用）
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111128.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111129.png)
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702143325.png)
+
+
+
+
+
+
+
+**总结 TreeSet集合**
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111130.png)
+
+# 二、Map接口
+
+**Map 集合的特点**
+MAP的键要保证唯一性，所以在用自定义的类做键时，一定要重写两个方法：`hashmap`  `equals`方法
+
+双列集合接口
+
+```java
+interface Map<K,V>  K：键的类型；V：值的类型 
+```
+
+
+- 键值对映射关系
+- 一个键对应一个值
+- 键不能重复，值可以重复
+- 元素存取无序
+
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111131.png)
+**Map集合的遍历(方式1)**
+
+遍历思路
+- 我们刚才存储的元素都是成对出现的，所以我们把 Map看成是一个夫妻对的集合
+- 把所有的丈夫给集中起来
+- 遍历丈夫的集合，获取到每一个丈夫
+- 根据丈夫去找对应的妻子
+
+```java
+//获取所有键的集合。用keySet()方法实现
+    Set<String> keySet = map.keySet();
+    //遍历键的集合，获取到每一个键。用增强for实现
+    for (String key : keySet) {
+      //根据键去找值。用get(Object key)方法实现
+      String value = map.get(key);
+      System.out.println(key + "," + value);
+   }
+ }
+```
+**Map集合的遍历(方式2)**
+步骤分析
+- 获取所有键值对对象的集合
+- Set<Map.Entry<K,V>> entrySet() ：获取所有键值对实体的集合
+- 遍历键值对实体的集合，得到每一个键值对对象
+- 用增强 for实现，得到每一个Map.Entry	
+- 根据键值对对象获取键和值
+	- 用 getKey()得到键
+	- 用 getValue()得到值
+
+```java
+//创建集合对象
+    Map<String, String> map = new HashMap<String, String>();
+```
+
+
+```java
+//获取所有键值对对象的集合
+    Set<Map.Entry<String, String>> entrySet = map.entrySet();
+    //遍历键值对对象的集合，得到每一个键值对对象
+    for (Map.Entry<String, String> me : entrySet) {
+      //根据键值对对象获取键和值
+      String key = me.getKey();
+      String value = me.getValue();
+      System.out.println(key + "," + value);
+   }
+```
+
+
+
+
+
+
+### HashMap
+HashMap是基于哈希表的Map实现，此处的哈希表结构是用来保证`键的唯一性`的。
+
+HashMap的几个案例（存储不同的键和值类型）
+
+- HashMap<String, String>
+- HashMap<Integer, String>
+- HashMap<String, Student>
+- HashMap<Student, String>
+
+> 几个案例中，最后一个案例最重要：`键为student对象，值为String`。所谓“键相同，值覆盖”的特性，底层必须借助哈希表保证键的唯一性，也就是student元素的唯一性，由于HashMap键的唯一性是依赖于哈希表，哈希表依赖于`hashCode()和equals()的重写`。student要保证作为键的唯一性，则`必须重写这两个方法！`
+
+
+
+**练习：集合嵌套之ArrayList嵌套HashMap**
+
+```java
+//创建ArrayList集合
+    ArrayList<HashMap<String, String>> array = new
+ArrayList<HashMap<String, String>>();
+
+ //创建HashMap集合，并添加键值对元素
+    HashMap<String, String> hm1 = new HashMap<String, String>();
+    hm1.put("孙策", "大乔");
+    hm1.put("周瑜", "小乔");
+    
+ HashMap<String, String> hm2 = new HashMap<String, String>();
+    hm2.put("郭靖", "黄蓉");
+    hm2.put("杨过", "小龙女"); 
+      
+  HashMap<String, String> hm3 = new HashMap<String, String>();
+    hm3.put("令狐冲", "任盈盈");
+    hm3.put("林平之", "岳灵珊");  
+    
+    /把HashMap作为元素添加到ArrayList集合
+    array.add(hm1);
+    array.add(hm2);
+    array.add(hm3);
+    
+   //遍历ArrayList集合
+    for (HashMap<String, String> hm : array) {
+      Set<String> keySet = hm.keySet();
+      for (String key : keySet) {
+        String value = hm.get(key);
+        System.out.println(key + "," + value);
+     } 
+    
+```
+
+
+**练习：集合嵌套之HashMap嵌套ArrayList**
+
+```java
+//创建HashMap集合
+    HashMap<String, ArrayList<String>> hm = new HashMap<String,
+ArrayList<String>>();
+//创建ArrayList集合，并添加元素
+    ArrayList<String> sgyy = new ArrayList<String>();
+    sgyy.add("诸葛亮");
+    sgyy.add("赵云");
+
+ArrayList<String> xyj = new ArrayList<String>();
+    xyj.add("唐僧");
+    xyj.add("孙悟空");
+    
+     ArrayList<String> shz = new ArrayList<String>();
+    shz.add("武松");
+    shz.add("鲁智深");
+    
+    
+    //把ArrayList作为元素添加到HashMap集合
+    hm.put("三国演义",sgyy);
+     hm.put("西游记",xyj);
+     hm.put("水浒传",shz);
+     
+     
+      //遍历HashMap集合
+    Set<String> keySet = hm.keySet();
+    for(String key : keySet) {
+      System.out.println(key);
+      ArrayList<String> value = hm.get(key);
+      for(String s : value) {
+        System.out.println("\t" + s);
+     }
+   }
+```
+
+
+**题型：统计字符串中每个字符出现的次数**
+案例需求
+- 键盘录入一个字符串，要求统计字符串中每个字符串出现的次数。
+- 举例：键盘录入 “aababcabcdabcde” 在控制台输出：“a(5)b(4)c(3)d(2)e(1)”
+代码实现
+
+```java
+public class CharCountDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入字符串: ");
+        String line = sc.nextLine();
+
+        //创建一个map集合，键是Character，值是Integer(HashMap,TreeMap类型都可)
+        HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+       // TreeMap<Character,Integer> map = new TreeMap<>();
+        
+        //遍历字符串的每一个字符，判断该字符在map中是否存在该键
+        for (int i = 0; i < line.length(); i++){
+            char key = line.charAt(i);
+            Integer value = map.get(key);
+            //如果返回值是null：说明该字符在Map集合中不存在，就把该字符作为键， 1 作为值存储
+            if (value == null){
+                map.put(key,1);
+            }else{
+                //如果返回值不是null：说明该字符在Map集合中存在，把该值加1，然后重新存储该字符和对应的值
+                value++;
+                map.put(key,value);
+            }
+        }
+
+        //遍历map集合
+        StringBuilder sb = new StringBuilder();
+        Set<Character> keys = map.keySet();
+        for (Character key : keys){
+            Integer value = map.get(key);
+            sb.append(key).append("(").append(value).append(")");
+        }
+        System.out.println(sb.toString());
+    }
+}
+
+```
+
+### LinkedHashMap
+Map接口的哈希表和链表列表实现，具有可预知的迭代顺序
+- 哈希表保证唯一性
+- 链表保证有序性
+
+### Hashtable
+（和HashMap几乎一样，被HashMap替代了）
+
+**Hashtable与HashMap的区别**
+- HashMap：线程不安全，效率高，允许null键和null值
+- Hashtable：线程安全，效率低，不允许null键和null值
+
+
+### TreeMap
+参考：[https://www.jianshu.com/p/e11fe1760a3d]()
+概述：
+- TreeMap存储K-V键值对，通过红黑树（R-B tree）实现；
+- TreeMap继承了NavigableMap接口，NavigableMap接口继承了SortedMap接口，可支持一系列的导航定位以及导航操作的方法，当然只是提供了接口，需要TreeMap自己去实现；
+- TreeMap实现了Cloneable接口，可被克隆，实现了Serializable接口，可序列化；
+- TreeMap因为是通过红黑树实现，红黑树结构天然支持排序，默认情况下通过Key值的自然顺序进行排序；
+
+
+
+**三种Map子类集合的对比：**
+- `HashMap`可实现快速存储和检索，但其缺点是其包含的元素是`无序的`，这导致它在存在大量迭代的情况下表现不佳。
+- `LinkedHashMap`保留了HashMap的优势，且其包含的元素是`有序的`。它在有大量迭代的情况下表现更好。
+- `TreeMap`能便捷的实现对其内部元素的`各种排序`，但其一般性能比前两种map差。
+
+**LinkedHashMap映射减少了HashMap排序中的混乱，且不会导致TreeMap的性能损失。**
+
+
+<br>
+
+<br>
+
+### ConcurrentHashMap
+链接：[https://www.jianshu.com/p/d0b37b927c48]()
+**HashMap线程不安全**
+因为多线程环境下，使用HashMap进行put操作可能会引起死循环，导致CPU利用率接近100%，所以在并发情况下不能使用HashMap。
+
+**Hashtable线程安全但效率低下**
+Hashtable容器使用synchronized来保证线程安全，但在线程竞争激烈的情况下Hashtable的效率非常低下。因为当一个线程访问Hashtable的同步方法时，其他线程访问Hashtable的同步方法时，可能会进入阻塞或轮询状态。如线程1使用put进行添加元素，线程2不但不能使用put方法添加元素，并且也不能使用get方法来获取元素，所以竞争越激烈效率越低。
+
+
+> Hashtable
+> 的任何操作都会把`整个表锁住`，是阻塞的。好处是总能获取最实时的更新，比如说线程A调用putAll写入大量数据，期间线程B调用get，线程B就会被阻塞，直到线程A完成putAll，因此线程B肯定能获取到线程A写入的完整数据。坏处是所有调用都要排队，效率较低。
+>
+> ---
+>
+> ConcurrentHashMap`分段锁`
+> 是设计为非阻塞的。在更新时会局部锁住某部分数据，但不会把整个表都锁住。同步读取操作则是完全非阻塞的。好处是在保证合理的同步前提下，效率很高。坏处是严格来说读取操作不能保证反映最近的更新。例如线程A调用putAll写入大量数据，期间线程B调用get，则只能get到目前为止已经顺利插入的部分数据。
+> 应该根据具体的应用场景选择合适的HashMap。
+
+
+
+
+
+---
+# 三、Collections 集合工具类
+
+
+方法名 说明
+- 排序：`public static <T> void sort(List<T> list)` 
+默认情况下是自然顺序，所以自定义对象要实现Comparable接口
+- 反转 : `public static void reverse(List<?> list)` 反转指定列表中元素的顺序
+- 随机置换 : `public static void shuffle(List<?> list)` 使用默认的随机源随机排列指定的列表
+- 二分查找：`public static <T> int binarySearch(List<?> list, T key)`
+- 最大值：`public static <T> max(Collection<?> coll)`
+
+
+
+![image-20200703181351194](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200703181352.png)
+
+**案例：使用工具类对arraylist进行排序**
+```java
+
+{
+
+    ArrayList<Student> array = new ArrayList<Student>();
+
+    //创建学生对象
+    Student s1 = new Student("lin", 30);
+    Student s2 = new Student("wang", 32);
+    Student s3 = new Student("liu", 33);
+    Student s4 = new Student("zhang", 33);
+
+    //把学生对象添加到集合
+    array.add(s1);
+    array.add(s2);
+    array.add(s3);
+    array.add(s4);
+
+    //使用Collections 对ArrayList集合进行排序
+    Collections.sort(array, new Comparator<Student>() {
+        @Override
+        public int compare(Student s1, Student s2) {
+            //先按年龄排序，后按名字排序
+            int num = s1.getAge() - s2.getAge();
+            int num2 = num == 0 ? s1.getName().compareTo(s2.getName()) : num;
+            return num2;
+        }
+    });
+    //遍历集合
+    for (Student s : array) {
+        System.out.println(s.getName() + "," + s.getAge());
+    }
+}
+```
+
+
+**案例：斗地主**
+```java
+
+public class PokerDemo {
+    public static void main(String[] args) {
+        //创建HashMap，键是编号，值是牌
+        HashMap<Integer,String> hm =new HashMap<Integer, String>();
+
+        //创建ArrayList，存储编号
+        ArrayList<Integer> array =new ArrayList<Integer>();
+
+        //创建花色数组和点数数组
+        String[] colors={"♦", "♣", "♥", "♠"};
+        String[] numbers={"3", "4", "5", "6", "7", "8", "9", "10", "J", "Q",
+                "K", "A", "2"};
+        //从0开始往HashMap里面存储编号，并存储对应的牌。同时往ArrayList里面存储编号
+        int index=0;
+        for(String number:numbers){
+            for (String color:colors){
+                hm.put(index,color+number);
+                array.add(index);
+                index++;
+            }
+        }
+        hm.put(index,"小王");
+        array.add(index);
+        index++;
+        hm.put(index,"大王");
+        array.add(index);
+        
+        //洗牌(洗的是编号)，用Collections的shuffle()方法实现
+        Collections.shuffle(array);
+
+        //发牌(发的也是编号，为了保证编号是排序的，创建TreeSet集合接收)
+        TreeSet<Integer> lqxSet=new TreeSet<Integer>();
+        TreeSet<Integer> lySet = new TreeSet<Integer>();
+        TreeSet<Integer> fqySet = new TreeSet<Integer>();
+        TreeSet<Integer> dpSet = new TreeSet<Integer>();//底牌
+
+        for(int i=0;i<array.size();i++){
+            int x=array.get(i);
+            if(i>=array.size()-3){
+                dpSet.add(x);
+            }else if (i%3==0){
+                lqxSet.add(x);
+            }else if(i%3==1){
+                lySet.add(x);
+            }else if(i%3==2){
+                fqySet.add(x);
+            }
+        }
+        //调用看牌方法
+        lookPoker("林青霞", lqxSet, hm);
+        lookPoker("柳岩", lySet, hm);
+        lookPoker("风清扬", fqySet, hm);
+        lookPoker("底牌", dpSet, hm);
+
+
+
+
+    }
+
+    //定义方法看牌(遍历TreeSet集合，获取编号，到HashMap集合找对应的牌)
+    public static void lookPoker(String name,TreeSet<Integer> ts,HashMap<Integer,String> hm){
+
+        System.out.println(name+"的牌是：");
+
+        for (Integer key:ts){
+            String poker=hm.get(key);
+            System.out.print(poker+" ");
+        }
+        System.out.println();
+
+    }
+}
+
+```
+
+
+
+
+
+
+
+# 四、Java集合相关面试题
+以下内容是我在网上搜集的，仅供参考
+
+**集合：**
+1: HashMap和Hashtable的区别。
+
+2:Collection 和 Collections的区别。
+
+3: List, Set, Map是否继承自Collection接口?
+
+4:说出ArrayList,Vector, LinkedList的存储性能和特性？
+
+5:你所知道的集合类都有哪些？主要方法？
+
+
+
+
+
+
+
+- <font color=red>Java 集合框架的基础接口有哪些？</font>
+
+> Collection ，为集合层级的根接口。一个集合代表一组对象，这些对象即为它的元素。Java 平台不提供这个接口任何直接的实现。 
+> - Set ，是一个不能包含重复元素的集合。这个接口对数学集合抽象进行建模，被用来代表集合，就如一副牌。
+> -  List ，是一个有序集合，可以包含重复元素。你可以通过它的索引来访问任何元素。List 更像长度动态变换的数组。
+>
+>   Map ，是一个将 key 映射到value 的对象。一个 Map 不能包含重复的 key，每个 key 最多只能映射一个 value 。 
+>   一些其它的接口有 Queue、Dequeue、SortedSet、SortedMap 和 ListIterator 。
+
+
+
+
+
+
+
+
+-  <font color=red>Collection 和 Collections 的区别？</font>
+
+> Collection ，是集合类的上级接口，继承与他的接口主要有 Set 和List 。 
+> Collections ，是针对集合类的一个工具类，它提供一系列静态方法实现对各种集合的搜索、排序、线程安全化等操作。
+>
+> 
+
+
+
+
+
+
+- <font color=red>集合框架底层数据结构总结</font>
+
+
+
+> 1）List
+>
+> ArrayList ：Object 数组。 
+> Vector ：Object 数组。 
+>  LinkedList ：双向链表(JDK6 之前为循环链表，JDK7 取消了循环)。
+>
+> 
+>
+> 2）Map
+>
+> HashMap ：
+> JDK8 之前，HashMap 由数组+链表组成的，数组是HashMap的主体，链表则是主要为了解决哈希冲突而存在的（“拉链法”解决冲突）。
+> JDK8 以后，在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 8 ）时，将链表转化为红黑树，以减少搜索时间。
+>
+> LinkedHashMap ：LinkedHashMap 继承自 HashMap，所以它的底层仍然是基于拉链式散列结构即由数组和链表或红黑树组成。另外，LinkedHashMap 在上面结构的基础上，增加了一条双向链表，使得上面的结构可以保持键值对的插入顺序。同时通过对链表进行相应的操作，实现了访问顺序相关逻辑。详细可以查看：《LinkedHashMap 源码详细分析（JDK1.8）》 。
+>
+> Hashtable ：数组+链表组成的，数组是 HashMap 的主体，链表则是主要为了解决哈希冲突而存在的。
+>
+> TreeMap ：红黑树（自平衡的排序二叉树）。
+>
+> 
+>
+> 3）Set
+>
+> HashSet ：无序，唯一，基于 HashMap 实现的，底层采用 HashMap 来保存元素。
+> LinkedHashSet ：LinkedHashSet 继承自 HashSet，并且其内部是通过 LinkedHashMap 来实现的。有点类似于我们之前说的LinkedHashMap 其内部是基于 HashMap 实现一样，不过还是有一点点区别的。
+> TreeSet ：有序，唯一，红黑树(自平衡的排序二叉树)。
+
+
+
+
+
+- <font color=red>什么是迭代器(Iterator)？</font>
+
+Iterator 接口，提供了很多对集合元素进行迭代的方法。每一个集合类都包含了可以返回迭代器实例的迭代方法。迭代器可以在迭代的过程中删除底层集合的元素，但是不可以直接调用集合的 `#remove(Object Obj)` 方法删除，可以通过迭代器的 `#remove()` 方法删除。
+
+? **Iterator 和 ListIterator 的区别是什么？**
+
+- Iterator 可用来遍历 Set 和 List 集合，但是 ListIterator 只能用来遍历 List。
+- Iterator 对集合只能是前向遍历，ListIterator 既可以前向也可以后向。
+- ListIterator 实现了 Iterator 接口，并包含其他的功能。比如：增加元素，替换元素，获取前一个和后一个元素的索引等等。
+
+
+
+
+
+-  <font color=red>快速失败（fail-fast）和安全失败（fail-safe）的区别是什么？</font>
+
+差别在于 ConcurrentModification 异常：
+
+- 快速失败：当你在迭代一个集合的时候，如果有另一个线程正在修改你正在访问的那个集合时，就会抛出一个 ConcurrentModification 异常。 在 `java.util` 包下的都是快速失败。
+- 安全失败：你在迭代的时候会去底层集合做一个拷贝，所以你在修改上层集合的时候是不会受影响的，不会抛出 ConcurrentModification 异常。在 `java.util.concurrent` 包下的全是安全失败的。
+
+
+
+
+
+- <font color=red> 如何删除 List 中的某个元素？ </font>
+
+有两种方式，分别如下：
+
+- 方式一，使用 Iterator ，顺序向下，如果找到元素，则使用迭代器的 remove 方法进行移除。
+- 方式二，倒序遍历 List ，如果找到元素，则使用 remove 方法进行移除。（防止索引乱序）
+
+
+
+
+
+
+
+- <font color=red>Enumeration 和 Iterator 接口有什么不同？</font>
+
+- Enumeration 跟 Iterator 相比较快两倍，而且占用更少的内存。
+- 但是，Iterator 相对于 Enumeration 更安全，因为其他线程不能修改当前迭代器遍历的集合对象。同时，Iterators 允许调用者从底层集合中移除元素，这些 Enumerations 都没法完成。
+
+对于很多胖友，可能并未使用过 Enumeration 类，所以可以看看 [《Java Enumeration 接口》](http://www.runoob.com/java/java-enumeration-interface.html) 文章。
+
+
+
+
+
+- <font color=red>为何 Iterator 接口没有具体的实现？</font>
+
+Iterator 接口，定义了遍历集合的方法，但它的实现则是集合实现类的责任。每个能够返回用于遍历的 Iterator 的集合类都有它自己的 Iterator 实现内部类。
+
+这就允许集合类去选择迭代器是 fail-fast 还是 fail-safe 的。比如，ArrayList 迭代器是 fail-fast 的，而 CopyOnWriteArrayList 迭代器是 fail-safe 的。(CopyOnWriteArrayList 就是在底层将数组拷贝一份)
+
+
+
+
+
+- <font color=red>Comparable 和 Comparator 的区别?</font>
+
+- Comparable 接口，在 `java.lang` 包下，用于当前对象和其它对象的比较，所以它有一个 `#compareTo(Object obj)` 方法用来排序，该方法只有一个参数。
+- Comparator 接口，在 `java.util` 包下，用于传入的两个对象的比较，所以它有一个 `#compare(Object obj1, Object obj2)` 方法用来排序，该方法有两个参数。
+
+详细的，可以看看 [《Java 自定义比较器》](https://blog.csdn.net/whing123/article/details/77851737) 文章，重点是如何自己实现 Comparable 和 Comparator 的方法。
+
+> ? **compareTo 方法的返回值表示的意思？**
+>
+> - 大于 0 ，表示对象大于参数对象。
+> - 小于 0 ，表示对象小于参数对象
+> - 等于 0 ，表示两者相等。
+
+
+
+
+
+- <font color=red>如何对 Object 的 List 排序？</font>
+
+- 对 `Object[]` 数组进行排序时，我们可以用 `Arrays#sort(...)` 方法。
+- 对 `List<Object>` 数组进行排序时，我们可以用 `Collections#sort(...)` 方法。
+
+
+
+
+
+- <font color=red>List 和 Set 区别？</font>
+
+List，Set 都是继承自 Collection 接口。
+
+- List 特点：元素有放入顺序，元素可重复。
+- Set 特点：元素无放入顺序，元素不可重复，重复元素会覆盖掉。
+
+> 注意：元素虽然无放入顺序，但是元素在 Set 中的位置是有该元素的 hashcode 决定的，其位置其实是固定的。
+>
+> 另外 List 支持 `for` 循环，也就是通过下标来遍历，也可以用迭代器，但是 Set 只能用迭代，因为他无序，无法用下标来取得想要的值。
+
+Set 和 List 对比：
+
+- Set：检索元素效率高，删除和插入效率低，插入和删除不会引起元素位置改变。
+- List：和数组类似，List 可以动态增长，查找元素效率低，插入删除元素效率，因为可能会引起其他元素位置改变。
+
+
+
+
+
+- <font color=red> ArrayList 与 LinkedList 区别？</font>
+
+? **ArrayList**
+
+- 优点：ArrayList 是实现了基于动态数组的数据结构，因为地址连续，一旦数据存储好了，查询操作效率会比较高（在内存里是连着放的）。
+- 缺点：因为地址连续，ArrayList 要移动数据，所以插入和删除操作效率比较低。
+
+? **LinkedList**
+
+- 优点：LinkedList 基于链表的数据结构，地址是任意的，所以在开辟内存空间的时候不需要等一个连续的地址。对于新增和删除操作 add 和 remove ，LinedList 比较占优势。LinkedList 适用于要头尾操作或插入指定位置的场景。
+- 缺点：因为 LinkedList 要移动指针，所以查询操作性能比较低。
+
+
+
+
+
+- <font color=red> ArrayList 是如何扩容的？</font>
+
+直接看 [《ArrayList 动态扩容详解》](https://www.cnblogs.com/kuoAT/p/6771653.html) 文章，很详细。主要结论如下：
+
+- 如果通过无参构造的话，初始数组容量为 0 ，当真正对数组进行添加时，才真正分配容量。每次按照 **1.5** 倍（位运算）的比率通过 copeOf 的方式扩容。
+- 在 JKD6 中实现是，如果通过无参构造的话，初始数组容量为10，每次通过 copeOf 的方式扩容后容量为原来的 **1.5** 倍。
+
+> 重点是 1.5 倍扩容，这是和 HashMap 2 倍扩容不同的地方。
+
+
+
+
+
+<font color=red>ArrayList 与 Vector 区别？</font>
+
+ArrayList 和 Vector 都是用数组实现的，主要有这么三个区别：
+
+- 1、Vector 是多线程安全的，线程安全就是说多线程访问同一代码，不会产生不确定的结果，而 ArrayList 不是。这个可以从源码中看出，Vector 类中的方法很多有 `synchronized` 进行修饰，这样就导致了 Vector 在效率上无法与 ArrayList 相比。
+
+  > Vector 是一种老的动态数组，是线程同步的，效率很低，一般不赞成使用。
+
+- 2、两个都是采用的线性连续空间存储元素，但是当空间不足的时候，两个类的增加方式是不同。
+
+- 3、Vector 可以设置增长因子，而 ArrayList 不可以。
+
+适用场景分析：
+
+- 1、Vector 是线程同步的，所以它也是线程安全的，而 ArrayList 是线程无需同步的，是不安全的。如果不考虑到线程的安全因素，一般用 ArrayList 效率比较高。
+
+  > 实际场景下，如果需要多线程访问安全的数组，使用 CopyOnWriteArrayList 。
+
+- 2、如果集合中的元素的数目大于目前集合数组的长度时，在集合中使用数据量比较大的数据，用 Vector 有一定的优势。
+
+  > 这种情况下，使用 LinkedList 更合适。
+
+
+
+
+
+<font color=red>HashMap 和 Hashtable 的区别？</font>
+
+> Hashtable 是在 Java 1.0 的时候创建的，而集合的统一规范命名是在后来的 Java2.0 开始约定的，而当时其他一部分集合类的发布构成了新的集合框架。
+
+- Hashtable 继承 Dictionary ，HashMap 继承的是 Java2 出现的 Map 接口。
+- 2、HashMap 去掉了 Hashtable 的 contains 方法，但是加上了 containsValue 和 containsKey 方法。
+- 3、HashMap 允许空键值，而 Hashtable 不允许。
+- 【重点】4、HashTable 是同步的，而 HashMap 是非同步的，效率上比 HashTable 要高。也因此，HashMap 更适合于单线程环境，而 HashTable 适合于多线程环境。
+- 5、HashMap 的迭代器（Iterator）是 fail-fast 迭代器，HashTable的 enumerator 迭代器不是 fail-fast 的。
+- 6、HashTable 中数组默认大小是 11 ，扩容方法是 `old * 2 + 1` ，HashMap 默认大小是 16 ，扩容每次为 2 的指数大小。
+
+一般现在不建议用 HashTable 。主要原因是两点：
+
+- 一是，HashTable 是遗留类，内部实现很多没优化和冗余。
+- 二是，即使在多线程环境下，现在也有同步的 ConcurrentHashMap 替代，没有必要因为是多线程而用 Hashtable 。
+
+? **Hashtable 的 #size() 方法中明明只有一条语句 “return count;” ，为什么还要做同步？**
+
+同一时间只能有一条线程执行固定类的同步方法，但是对于类的非同步方法，可以多条线程同时访问。所以，这样就有问题了，可能线程 A 在执行 Hashtable 的 put 方法添加数据，线程 B 则可以正常调用 `#size()` 方法读取 Hashtable 中当前元素的个数，那读取到的值可能不是最新的，可能线程 A 添加了完了数据，但是没有对 `count++` ，线程 B 就已经读取 `count` 了，那么对于线程 B 来说读取到的 `count` 一定是不准确的。
+
+**而给 #size() 方法加了同步之后，意味着线程 B 调用 #size() 方法只有在线程 A 调用 put 方法完毕之后才可以调用，这样就保证了线程安全性**。
+
+
+
+<font color=red>HashSet 和 HashMap 的区别？</font>
+
+- Set 是线性结构，值不能重复。HashSet 是 Set 的 hash 实现，HashSet 中值不能重复是用 HashMap 的 key 来实现的。
+
+- Map 是键值对映射，可以空键空值。HashMap 是 Map 的 hash 实现，key 的唯一性是通过 key 值 hashcode 的唯一来确定，value 值是则是链表结构。
+
+  > 因为不同的 key 值，可能有相同的 hashcode ，所以 value 值需要是链表结构。
+
+他们的共同点都是 hash 算法实现的唯一性，他们都不能持有基本类型，只能持有对象。
+
+> 为了更好的性能，Netty 自己实现了 key 为基本类型的 HashMap ，例如 [IntObjectHashMap](https://netty.io/4.1/api/io/netty/util/collection/IntObjectHashMap.html) 。
+
+> **如何决定选用 HashMap 还是 TreeMap？**
+>
+> - 对于在 Map 中插入、删除和定位元素这类操作，HashMap 是最好的选择。
+> - 然而，假如你需要对一个有序的 key 集合进行遍历， TreeMap 是更好的选择。
+>
+> 基于你的 collection 的大小，也许向 HashMap 中添加元素会更快，再将 HashMap 换为 TreeMap 进行有序 key 的遍历。
+
+
+
+
+
+
+
+<font color=red>HashMap 的工作原理是什么？</font>
+
+我们知道在 Java 中最常用的两种结构是数组和模拟指针（引用），几乎所有的数据结构都可以利用这两种来组合实现，HashMap 也是如此。实际上 HashMap 是一个**“链表散列”**。
+
+HashMap 是基于 hashing 的原理。
+
+[HashMap 图解](http://dl.iteye.com/upload/attachment/177479/3f05dd61-955e-3eb2-bf8e-31da8a361148.jpg)
+
+- 我们使用 `#put(key, value)` 方法来存储对象到 HashMap 中，使用 `get(key)` 方法从 HashMap 中获取对象。
+- 当我们给 `#put(key, value)` 方法传递键和值时，我们先对键调用 `#hashCode()` 方法，返回的 hashCode 用于找到 bucket 位置来储存 Entry 对象。
+
+? **当两个对象的 hashCode 相同会发生什么？**
+
+因为 hashcode 相同，所以它们的 bucket 位置相同，“碰撞”会发生。
+
+因为 HashMap 使用链表存储对象，这个 Entry（包含有键值对的 Map.Entry 对象）会存储在链表中。
+
+? **hashCode 和 equals 方法有何重要性？**
+
+HashMap 使用 key 对象的 `#hashCode()` 和 `#equals(Object obj)` 方法去决定 key-value 对的索引。当我们试着从 HashMap 中获取值的时候，这些方法也会被用到。
+
+- 如果这两个方法没有被正确地实现，在这种情况下，两个不同 Key 也许会产生相同的 `#hashCode()` 和 `#equals(Object obj)` 输出，HashMap 将会认为它们是相同的，然后覆盖它们，而非把它们存储到不同的地方。
+
+同样的，所有不允许存储重复数据的集合类都使用 `#hashCode()` 和 `#equals(Object obj)` 去查找重复，所以正确实现它们非常重要。`#hashCode()` 和 `#equals(Object obj)` 方法的实现，应该遵循以下规则：
+
+- 如果 `o1.equals(o2)` ，那么 `o1.hashCode() == o2.hashCode()` 总是为 `true` 的。
+- 如果 `o1.hashCode() == o2.hashCode()` ，并不意味 `o1.equals(o2)` 会为 `true` 。
+
+
+
+<font color=red> 我们能否使用任何类作为 Map 的 key？</font>
+
+我们可以使用任何类作为 Map 的 key ，然而在使用它们之前，需要考虑以下几点：
+
+- 1、如果类重写了 equals 方法，它也应该重写 hashcode 方法。
+
+- 2、类的所有实例需要遵循与 equals 和 hashcode 相关的规则。
+
+- 3、如果一个类没有使用 equals ，你不应该在 hashcode 中使用它。
+
+- 4、用户自定义 key 类的最佳实践是使之为不可变的，这样，hashcode 值可以被缓存起来，拥有更好的性能。不可变的类也可以确保hashcode 和 equals 在未来不会改变，这样就会解决与可变相关的问题了。
+
+  > 比如，我有一个 类MyKey ，在 HashMap 中使用它。代码如下：
+
+  ```
+  //传递给MyKey的name参数被用于equals()和hashCode()中
+  MyKey key = new MyKey('Pankaj'); //assume hashCode=1234
+  myHashMap.put(key, 'Value');
+  // 以下的代码会改变key的hashCode()和equals()值
+  key.setName('Amit'); //assume new hashCode=7890
+  //下面会返回null，因为HashMap会尝试查找存储同样索引的key，而key已被改变了，匹配失败，返回null
+  myHashMap.get(new MyKey('Pankaj'));
+  
+  12345678
+  ```
+
+  - 这就是为何 String 和 Integer 被作为 HashMap 的 key 大量使用。
+
+
+
+
+
+<font color=red>HashSet 的工作原理是什么？</font>
+
+HashSet 是构建在 HashMap 之上的 Set hashing 实现类。让我们直接撸下源码，代码如下：
+
+**HashSet 如何检查重复？**
+
+> 艿艿：正如我们上面看到 HashSet 的实现原理，我们自然可以推导出，HashMap 也是如何检查重复滴。
+
+如下摘取自 《Head First Java》 第二版：
+
+当你把对象加入 HashSet 时，HashSet会先计算对象的hashcode值来判断对象加入的位置，同时也会与其他加入的对象的hashcode值作比较。
+
+- 如果没有相符的 hashcode ，HashSet会假设对象没有重复出现。
+- 但是如果发现有相同 hashcode 值的对象，这时会调用 equals 方法来检查 hashcode 相等的对象是否真的相同。
+  - 如果两者相同，HashSet 就不会让加入操作成功。
+  - **如果两者不同，HashSet 就会让加入操作成功**。
+
+
+
+
+
+
+
+
+
+
+
