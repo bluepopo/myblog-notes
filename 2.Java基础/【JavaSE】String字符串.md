@@ -6,7 +6,7 @@
 
 
 
-# （一）、String类
+# ==（一）String类==
 
 
 
@@ -366,7 +366,7 @@ s = new StringBuilder("abc").append(i).toString();
 
 
 
-# （二）StringBuilder
+# ==（二）StringBuilder==
 
 
 
@@ -384,7 +384,7 @@ StringBuilder是一个可变的字符序列。此类提供一个与 StringBuffer
 
 
 
-# （三）、StringBuffer
+# ==（三）StringBuffer==
 
 
 
@@ -495,20 +495,20 @@ public String subString(int start, int end)
 ```
 
 
-## 五、常见面试题
-### 5.1 String、StringBuffer、StringBuilder的区别
+# ==（四）面试题==
+## 1. String、StringBuffer、StringBuilder的区别
 
 - String 是内容不可变的，StringBuffer、StringBuilder内容是可以修改的
 - StringBuffer是线程安全的，效率低，StringBuilder是线程不安全的，单线程使用效率高。
 
-### 5.2 StringBuffer和数组的区别
+## 2. StringBuffer和数组的区别
 
 - StringBuffer 的数据最终是一个字符串数据
 - 数组可以存放多种数据类型，但必须是同一种数据类型的。
 
 
 
-### 5.3 常见对象 String、StringBuffer分别作为参数传递
+## 3. 常见对象 String、StringBuffer分别作为参数传递
 
 抓住拼接的本质即可，String会另外开辟空间，StringBuffer操作本身！
 ```java
@@ -544,3 +544,10 @@ public class Test01 {
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702102237.png)
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702102238.png)
+
+
+
+## 4. String为什么设计为不可变的
+
+https://www.jianshu.com/p/458283e5ce81
+
