@@ -10,7 +10,7 @@ mybatis通过 xml 或注解的方式将要执行的各种statement配置起来�
 sql 的动态参数进行映射生成最终执行的 sql 语句，最后由 mybatis 框架执行 sql 并将结果映射为 java 对象并
 返回。
 
-![MVC三层架构](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705212727.png) 
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705212727.png" alt="MVC三层架构" style="zoom:100%;" /> 
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
@@ -200,9 +200,9 @@ public static void main(String[] args) throws IOException {
 ​     第五步：执行dao中的方法
 ​     第六步：释放资源
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220455.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220455.png" alt="img" style="zoom:100%;" />
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220732.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220732.png" alt="img" style="zoom:100%;" />![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH
 
 
 
@@ -232,7 +232,7 @@ public static void main(String[] args) throws IOException {
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220937.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220937.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -240,7 +240,7 @@ public static void main(String[] args) throws IOException {
 
 简书：https://www.jianshu.com/p/65b722e3f3a8 作者：[圣村的希望](https://www.jianshu.com/u/ebedc4011de2)
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220947.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220947.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -252,7 +252,7 @@ public static void main(String[] args) throws IOException {
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220956.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705220956.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -267,7 +267,7 @@ public static void main(String[] args) throws IOException {
 2、持久层映射配置中 mapper 标签的 namespace 属性取值必须是持久层接口的全限定类名
 3、SQL 语句的配置标签<select>,<insert>,<delete>,<update>的 id 属性必须和持久层接口的方法名相同。
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131724.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131724.png" alt="img" style="zoom:100%;" />
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
@@ -587,7 +587,7 @@ List<User> findByVo(QueryVo vo);
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232126.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232126.png" alt="img" style="zoom:100%;" />
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
@@ -597,7 +597,7 @@ List<User> findByVo(QueryVo vo);
 
 起别名方法  运行起来比较快
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232119.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232119.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 ```xml
 使用别名查询
@@ -675,7 +675,7 @@ public class User2 {
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232112.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232112.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -697,7 +697,7 @@ public class User2 {
 
 ​     type属性可以取： POOLED、UNPOOLED、JNDI  
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232107.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232107.png" alt="img" style="zoom:100%;" />
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
@@ -728,13 +728,13 @@ MyBatis 在初始化时，根据<dataSource>的 type 属性来创建相应类型
 
 ### 1.2 mybatis事务控制的分析
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705222901.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705222901.png" alt="img" style="zoom:100%;" />
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705222912.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705222912.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -762,7 +762,7 @@ MyBatis 在初始化时，根据<dataSource>的 type 属性来创建相应类型
 
 #### where
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705223204.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705223204.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -770,7 +770,7 @@ MyBatis 在初始化时，根据<dataSource>的 type 属性来创建相应类型
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705223158.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705223158.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -782,7 +782,7 @@ MyBatis 在初始化时，根据<dataSource>的 type 属性来创建相应类型
 
 方法一：通过建立**子类AccountUser**的方式，实现多表连接查询
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232056.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232056.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -821,7 +821,7 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 
 从Account中去查询User。一个账户对应一个用户
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224239.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224239.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -831,7 +831,7 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224249.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224249.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -841,7 +841,7 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224437.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224437.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -849,13 +849,13 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 
 注意：collection标签属性中oftype值为映射到的引用对象Role类型（这里已经使用了别名）
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224620.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224620.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
 当我们查询角色时，可以同时得到角色的所赋予的用户信息
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224634.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705224634.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -884,13 +884,13 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232046.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232046.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 ### 问题：操作数据库的代码要放到tomcat中运行
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232038.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232038.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1017,7 +1017,7 @@ IAccountDao.xml文件中的配置如下：从表中建立主表User的映射配�
 步骤三：通过AccountTest.java测试查询所有Account方法，实现查询Account的同时查到对应的用户信息
 查询结果对比如下
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232032.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232032.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1083,7 +1083,7 @@ column表示select查询的依据参数，即 **uid。**
 
 结果对比如下
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232024.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232024.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1143,7 +1143,7 @@ column表示select查询的依据参数，即 **uid。**
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232019.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232019.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 **一级缓存是sqlSession范围的缓存，当调用SqlSeesion的 修改、添加、删除、清空缓存、关闭close()、提交commit()方法时，都会清空一级缓存。**
@@ -1241,7 +1241,7 @@ public void testClearCache()throws IOException{
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705225958.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705225958.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 **(user1==user2);//false的原因：虽然第二次查询并没有发起新的数据库操作，而是从二级缓存中获得，但是却重新创建了一个user对象用来接收查询到的数据，所以用“==”判断返回了 false。**
 
@@ -1249,7 +1249,7 @@ public void testClearCache()throws IOException{
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705230015.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705230015.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1310,7 +1310,7 @@ public interface IUserDao {
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231538.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231538.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1562,7 +1562,7 @@ public interface IAccountDao {
 
 多表查询结果：
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231547.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231547.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1619,7 +1619,7 @@ IAccountDao接口，select = "code.dao.IAccountDao.findAccountByUid",方法
 
 执行结果
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231554.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231554.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 
 
@@ -1640,7 +1640,7 @@ IAccountDao接口，select = "code.dao.IAccountDao.findAccountByUid",方法
 - 挂载于VMware虚拟机下的远程Oracle数据库
 - product 产品表
 - 简单查询 findAll 操作
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231721.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705231721.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## 6.2 创建表
@@ -1807,7 +1807,7 @@ public class TestDao {
 ```
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232019.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232019.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 

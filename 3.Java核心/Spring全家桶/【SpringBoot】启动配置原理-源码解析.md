@@ -6,7 +6,7 @@
 
 
 
-![image-20200718233338702](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200718233341.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200718233341.png" alt="image-20200718233338702" style="zoom:100%;" />
 
 <img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200718233405.png" alt="image-20200718233359049" style="zoom: 67%;" />
 
@@ -42,7 +42,7 @@ SpringApplication类会做如下事情启动应用：
 - 会获取spring.factories 中的所有 监听者 Listeners
 - 设置主配置类
 
-![image-20200718235204396](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200718235205.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200718235205.png" alt="image-20200718235204396" style="zoom:100%;" />
 
 ```java
 initialize(sources);
@@ -81,7 +81,7 @@ private List<ApplicationListener<?>> listeners;
 
 
 
-![](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719081757.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719081757.png" alt="" style="zoom:100%;" />
 
 
 
@@ -163,11 +163,11 @@ private List<ApplicationListener<?>> listeners;
     }
 ```
 
-![image-20200719085644631](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719085646.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719085646.png" alt="image-20200719085644631" style="zoom:100%;" />
 
-![image-20200719085947349](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719085948.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719085948.png" alt="image-20200719085947349" style="zoom:100%;" />
 
-![image-20200719093640520](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719093641.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719093641.png" alt="image-20200719093640520" style="zoom:100%;" />
 
 
 
@@ -207,9 +207,9 @@ SpringBoot提供的就是这样一个标准化的平台，在这个平台上既�
   ApplicationRunner
   CommandLineRunner
 
-![image-20200719115625631](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125041.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125041.png" alt="image-20200719115625631" style="zoom:100%;" />
 
-![image-20200719113421285](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719113423.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719113423.png" alt="image-20200719113421285" style="zoom:100%;" />
 
 ```java
 public class HelloApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
@@ -431,7 +431,7 @@ zy.code.configurer.HelloServiceAutoConfiguration
 
 
 
-![image-20200719225615860](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125106.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125106.png" alt="image-20200719225615860" style="zoom:100%;" />
 
 
 
@@ -439,7 +439,7 @@ zy.code.configurer.HelloServiceAutoConfiguration
 
 
 
-![image-20200719225104136](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125114.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125114.png" alt="image-20200719225104136" style="zoom:100%;" />
 
 
 
@@ -449,9 +449,9 @@ zy.code.configurer.HelloServiceAutoConfiguration
 
 第三步、使用自定义starter
 
-![image-20200719230201427](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719230204.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719230204.png" alt="image-20200719230201427" style="zoom:100%;" />
 
-![image-20200719230249563](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719230250.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200719230250.png" alt="image-20200719230249563" style="zoom:100%;" />
 
 
 
@@ -530,7 +530,7 @@ SpringFactoriesLoader.loadFactoryNames()
 
 
 
-![image-20200708103918305](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125225.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125225.png" alt="image-20200708103918305" style="zoom:100%;" />
 
 每一个这样的 xxxAutoConfiguration类都是容器中的一个组件，都加入到容器中；用他们来做自动配置；
 3）、每一个自动配置类进行自动配置功能；
@@ -595,9 +595,9 @@ public class HttpEncodingProperties {
 
 
 
-![image-20200708110120399](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125234.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125234.png" alt="image-20200708110120399" style="zoom:100%;" />
 
-![image-20200708110150420](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125243.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125243.png" alt="image-20200708110150420" style="zoom:100%;" />
 
 
 
@@ -618,11 +618,11 @@ xxxxProperties:封装配置文件中相关属性；
 @Conditional派生注解（Spring注解版原生的@Conditional作用）
 作用：必须是@Conditional指定的条件成立，才给容器中添加组件，配置配里面的所有内容才生效；
 
-![image-20200708110756522](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125251.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125251.png" alt="image-20200708110756522" style="zoom:100%;" />
 
 例如上面的HttpEncodingAutoConfiguration自动配置类中有这样一段代码
 
-![image-20200708111113877](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125257.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125257.png" alt="image-20200708111113877" style="zoom:100%;" />
 
 
 
@@ -632,13 +632,13 @@ xxxxProperties:封装配置文件中相关属性；
 我们怎么知道哪些自动配置类生效；
 **我们可以通过启用 debug=true属性；来让控制台打印自动配置报告，这样我们就可以很方便的知道哪些自动配置类是生效的；**
 
-![image-20200708111339915](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125303.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125303.png" alt="image-20200708111339915" style="zoom:100%;" />
 
 
 
-![image-20200708111458979](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125309.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125309.png" alt="image-20200708111458979" style="zoom:100%;" />
 
-![image-20200708111617062](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125316.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125316.png" alt="image-20200708111617062" style="zoom:100%;" />
 
 
 

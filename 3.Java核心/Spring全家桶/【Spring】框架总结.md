@@ -47,7 +47,7 @@ Spring为简化企业级开发而生，使用Spring开发可以将Bean对象，D
 
 
 
-![img](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230508.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230508.png)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="img" style="zoom:100%;" />
 
 # （二）程序的耦合和解耦
 ## 2.1 什么是程序的耦合
@@ -304,7 +304,7 @@ public static Object getBean(String beanName){
 ```
 
 运行结果：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704224531.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704224531.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -416,12 +416,12 @@ IOC简介：
 >```
 >
 >执行结果：
->![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230520.png)
+><img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230520.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## 3.3 spring  中工厂的类结构图
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230525.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230534.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230525.png" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230534.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 一、BeanFactory 和 ApplicationContext  的区别
 
@@ -519,7 +519,7 @@ ApplicationContext 是它的子接口。
 
 <font color=blue>global session的含义又叫全局session，作用于集群环境的全局会话范围
 global session-负载均衡</font>
-![global session-负载均衡](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230541.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230541.png" alt="global session-负载均衡" style="zoom:100%;" />
 
 `bean对象的作用范围`
 
@@ -563,7 +563,7 @@ public class Client {
 }
 ```
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230549.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230549.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 **多例模式下的初始化和销毁，且创建bean对象时为延迟加载**
 
@@ -575,7 +575,7 @@ public class Client {
 ```
 如下图，多例对象不会立即销毁，而是会有Java的垃圾回收机制销毁。
 即使调用了 `close()方法`，也不会立即销毁。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230713.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200704230713.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -922,7 +922,7 @@ public class AccountServiceImpl implements IAccountService {
 >           &ensp;  &ensp; &ensp; &ensp; 在使用注解注入时，set方法就不是必须的了。
 
  <font color=#DA3C78>Autowired:图解</font>
-![自动按照类型注入](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705110452.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705110452.png" alt="自动按照类型注入" style="zoom:100%;" />
 
 
 >   <font color=#DA3C78> **Qualifier:**</font>
@@ -1032,7 +1032,7 @@ public void init(){
 `注解的优势`：配置简单，维护方便（我们找到类，就相当于找到了对应的配置）。
 `XML  的优势`：修改时，不用改源码。不涉及重新编译和部署。
 `Spring  管理 Bean  方式的比较`：
-![xml与注解配置的对比](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131837.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131837.png" alt="xml与注解配置的对比" style="zoom:100%;" />
 
 ## 5.3 待改造问题：纯注解配置
 写到此处，基于注解的 IoC 配置已经完成，但是大家都发现了一个问题：我们依然离不开 spring 的 xml 配置文件，那么能不能不写这个 bean.xml，所有配置都用注解来实现呢？
@@ -1458,7 +1458,7 @@ public class JdbcConfig {
 **主配置文件中必须加入注解，说明properties文件的位置（classpath表示根据类路径）**
 ` @PropertySource("classpath:jdbcConfig.properties") `
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131850.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131850.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 <br>
 <br>
@@ -1478,7 +1478,7 @@ public class JdbcConfig {
 
 <font color=#0EAC51>细节问题
 可以在方法的参数中使用注解，如下图的 ` @Qualifier `，就是用来进行名称匹配的</font>
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705114517.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705114517.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -1757,7 +1757,7 @@ public class AccountDaoImpl implements IAccountDao {
 在学习完 [新注解 ](https://blog.csdn.net/qq_41864648/article/details/104380034) 一章后，继续改进代码，将 bean.xml 文件内的剩余内容 都用 注解 进行替换。最后的结果代码如下。
 
 <font color=#0067B0>**一、添加config包，包内有 两个 配置类 SpringConfiguration、JdbcCongig 。** </font>
-![工程目录结构](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131902.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131902.png" alt="工程目录结构" style="zoom:100%;" />
 **SpringConfiguration 类**
 
 ```java
@@ -2296,7 +2296,7 @@ public class AccountServiceTest {
 
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705122330.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705122330.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 <font color= #FF6CA8>**解决第一步：创建utils包，并添加：ConnectionUtils类**</font>
 
@@ -2675,7 +2675,7 @@ public class AccountDaoImpl implements IAccountDao {
 连接点。
 
 举个栗子: 平时我们写的业务层Service层接口中的方法。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133337.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133337.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 <font color=#003780>**Pointcut( 切入点):**</font>
 
@@ -2688,7 +2688,7 @@ public class AccountDaoImpl implements IAccountDao {
 所谓通知是指拦截到 Join point 之后所要做的事情就是通知。
 通知的类型：前置通知，后置通知，异常通知，最终通知，环绕通知。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133343.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133343.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 <font color=#003780>**Introduction( 引介):**</font>
 引介是一种特殊的通知在不修改类代码的前提下, Introduction 可以在运行期为类动态地添加一些方
@@ -3060,7 +3060,7 @@ public class Logger {
 # （十二 ）练习：XML实现AOP事务控制
 
 ## 1. 工程目录结构
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201437.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201437.png" alt="在这里插入图片描述" style="zoom:100%;" />
 ## 2. pom.xml
 
 ```xml
@@ -3489,9 +3489,9 @@ public class AccountServiceTest {
 ```
 
 ## 9. 执行结果
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201619.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201619.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201626.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705201626.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ![在这里插入图片描述](G:\图片\blog\20200225223146285.png)
 
@@ -4066,7 +4066,7 @@ public class AccountServiceTest {
 外，还需要导入一个 `spring-tx-5.0.2.RELEASE.jar`（它是和事务相关的）。
 
 操作数据库的持久层图：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705200536.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705200536.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ## 2. 使用JdbcTemplate导包
 
@@ -4520,7 +4520,7 @@ tips：
 <font color=#F1892D>  **@EnableTransactionManagement**  </font> //开启spring对注解事务的支持
 
 剩余的XML与纯注解的替换关系如下图：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705211023.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705211023.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 纯注解配置的代码 请看下一节
 [【Spring框架】十五、Spring 基于纯注解配置的声明式事务控制]()

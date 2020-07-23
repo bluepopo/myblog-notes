@@ -16,7 +16,7 @@
 2. 先把Spring的配置搭建完成
 3. 再使用Spring整合SpringMVC框架
 4. 最后使用Spring整合MyBatis框架
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104553.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104553.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ## <font color=#009C41>一、搭建环境</font>
 ### 创建数据库和表
@@ -161,7 +161,7 @@ money double
 ```
 
 ### 工程目录
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104559.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104559.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -424,7 +424,7 @@ public class AccountController {
 
 ## <font color=#009C41> 三、Spring整合SpringMVC的框架</font>
 ###  1.  整合原理：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104606.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104606.png" alt="在这里插入图片描述" style="zoom:100%;" />
 ###   2.让web加载spring配置文件applicationContext.xml
 1. 目的：在controller中能成功的调用service对象中的方法
 2. 让springmvc在服务器启动时加载applicationContext.xml
@@ -659,8 +659,8 @@ public class AccountController {
 
 ## <font color=#009C41> 六、总结概览，整合的思路</font>
 最后运行结果，在页面上点击连接首先传到 UserConteoller类中，执行里面的代码。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132620.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132620.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104613.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706104613.png" alt="在这里插入图片描述" style="zoom:100%;" />

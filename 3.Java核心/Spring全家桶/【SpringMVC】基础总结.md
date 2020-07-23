@@ -35,11 +35,11 @@ MVC 全名是 `Model View Controller`，是`模型(model)－视图(view)－控�
 
 ## 2. 三层架构模型
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232523.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232523.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## 3. SpringMVC执行流程原理
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232513.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232513.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -92,10 +92,10 @@ Struts2 的 OGNL 表达式使页面的开发效率相比 Spring MVC 更高些，
 
 ## 1. 入门程序的需求
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232635.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232635.png" alt="在这里插入图片描述" style="zoom:100%;" />
 我的工程目录
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232648.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705232648.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -275,10 +275,10 @@ public class HelloController {
 4. 根据执行方法的返回值，再根据配置的`视图解析器`，去指定的目录下查找指定名称的`JSP文件`
 5. Tomcat服务器渲染页面，做出响应
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233607.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233607.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 执行流程：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233616.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233616.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ### 3.1 入门案例中涉及的组件
@@ -353,7 +353,7 @@ class="org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolv
 
 作用：
 用于建立请求 URL 和处理请求方法之间的对应关系。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233625.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705233625.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 属性：
 value：用于指定请求的 URL。它和 `path `属性的作用是一样的。
@@ -439,7 +439,7 @@ SpringMVC 绑定请求参数是自动实现的，但是要想使用，必须遵�
 ` 第二种：`
 接收的请求参数是 json 格式数据。需要借助一个注解实现。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132031.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132031.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## ▶ 4. Request中文乱码解决
@@ -638,8 +638,8 @@ url 支持占位符是 spring3.0 之后加入的。是 springmvc 支持 rest 风
 3. 第三步：按照要求提供_method 请求参数，该参数的取值就是我们需要的请求方式。
 
 源码分析：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234905.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234914.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234905.png" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234914.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ----
 <br>
@@ -743,7 +743,7 @@ required：是否必须有此 cookie。
     }
 
 ```
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234946.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705234946.png" alt="在这里插入图片描述" style="zoom:100%;" />
 <font color=#CA2C68>作用在参数上 </font>
 
 
@@ -804,10 +804,10 @@ request域: ${requestScope.msg}
 session域：${sessionScope}
 ```
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705235407.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705235407.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705235401.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200705235401.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 <font color=#CA2C68>  **示例代码2：getSessionAttributes  从session获取** </font>
 
@@ -1181,7 +1181,7 @@ public class UserController {
 ## 2. SpringMVC实现文件上传
 springMVC框架文件上传的原理分析：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706092107.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706092107.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 1. SpringMVC框架提供了`MultipartFile对象`，该对象表示上传的文件，要求变量名称必须和表单file标签的name属性名称相同。
 2. 代码如下
@@ -1235,13 +1235,13 @@ class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 文件服务器：负责存储用户上传文件的服务器。
 
 `( 注意：此处说的不是服务器集群）`
-![](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706094150.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706094150.png" alt="" style="zoom:100%;" />
 
 
 
 实现步骤
  1. 新建一个服务器fileupload，新建一个工程 fileuploadserver 。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706095935.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706095935.png" alt="在这里插入图片描述" style="zoom:100%;" />
 2. 导入需要使用的jar包
 
 ```xml
@@ -1314,10 +1314,10 @@ class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 **异常处理思路**
 
 - Controller调用service，service调用dao，异常都是向上抛出的，最终有 DispatcherServlet 找异常处理器进行异常的处理。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100411.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100411.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100417.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100431.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100417.png" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706100431.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ## 2. SpringMVC的异常处理
 1. 自定义异常类
@@ -1419,7 +1419,7 @@ public class UserController {
 
 
 5. 页面跳转结果
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132926.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132926.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -1447,10 +1447,10 @@ public class UserController {
 &ensp; 我们要想自定义拦截器， 要求必须实现：<font color=#C72C1C>  **HandlerInterceptor  接口。** </font>
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132932.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720132932.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ##  2. 环境搭建
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133307.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133307.png" alt="在这里插入图片描述" style="zoom:100%;" />
 ### 2.1 pom.xml
 
 ```xml
@@ -1672,7 +1672,7 @@ public class MyInterceptor1 implements HandlerInterceptor {
 
 
 **结果**
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133316.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133316.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
