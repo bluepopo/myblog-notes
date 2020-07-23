@@ -91,84 +91,84 @@ https://www.cnblogs.com/yanl55555/category/1686360.html
 <img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111015.png#pic_center" width="80%"/>
 
 ## 7.Java代码的执行流程
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111146)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111155)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111146" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111155" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
 ## 8.JVM架构模型
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607110957)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607110948)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111207)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607110957" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607110948" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111207" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111214)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111214" alt="在这里插入图片描述" style="zoom:100%;" />
 ## 9.JVM生命周期
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111224)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111231)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111224" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111231" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
 
 ## 10.JVM发展历程
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111239)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111239" alt="在这里插入图片描述" style="zoom:100%;" />
 
 理解执行引擎
 解释器的逐行解释特点使得它响应很快，
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111246)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111255)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111303)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111246" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111255" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111303" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111315)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111315" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111326)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111326" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111339)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111339" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111346)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111346" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111355)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111355" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111437)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111437" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111446)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111446" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111454)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111454" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111504)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200606102238558.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODY0NjQ4,size_16,color_FFFFFF,t_70)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111504" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://img-blog.csdnimg.cn/20200606102238558.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODY0NjQ4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111515)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111515" alt="在这里插入图片描述" style="zoom:100%;" />
 
 # <font color=#B71C0C>二、类加载子系统</font>
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112040)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112040" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## 1.概述类加载器及类加载过程
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112044)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112059)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112044" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607112059" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113647)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113659)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113710)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113647" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113659" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113710" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 1.1 类加载过程一：Loading
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113722)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113729)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113722" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113729" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 1.2 类加载过程二：Linking
 
 在准备阶段：
  变量是这个阶段分配值得，但是被final 修饰的static 算是常量了，在编译期就已经分配值了
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113740)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113750)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113740" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113750" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ### 1.3 类加载过程三：Initialization
 ps。下图，解释，类变量就是有static修饰的成员变量，所以如果Java程序中没有类变量的显式赋值动作和静态代码块，也没有调用该类的实例的情况，clinit方法是不会出现的
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113759)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113759" alt="在这里插入图片描述" style="zoom:100%;" />
 老师的补充：
 `clinit 方法`相当于类的构造器函数（与类中的静态变量赋值和静态代码块有关）
 
@@ -177,14 +177,14 @@ ps。下图，解释，类变量就是有static修饰的成员变量，所以如
 `init 方法`相当于构造器函数。任何一个类在声明以后，内部至少会存在一个类的构造器，（这个构造器可能是你显示声明的，也可能是我们系统默认提供的），它总是会存在的。
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113808)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113808" alt="在这里插入图片描述" style="zoom:100%;" />
 
 如下图，可以这样把静态变量的声明写在静态代码块的后面，这是因为在`“Linking”`阶段的`“prepare”`阶段，默认初始化变量为零值，然后在`“Initialization”`中顺序执行`<clinit>`方法中的静态东东，先是执行静态代码块中给number赋值为20，之后再静态变量赋值时number又变成20
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113816)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113826)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113816" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113826" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113833)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113833" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 **举个栗子：两个线程加载同一个类**
@@ -229,17 +229,17 @@ class DeadThread{
 - 上面的代码，线程一与线程二只会有一个加载到DeadThread类，打印出static中的语句
 
 执行结果：
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113846)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113846" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 ## 2. 类加载器的分类
 前面讲解了，类加载的过程，这节讲述一下有哪几种类加载。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113855)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113903)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113912)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113855" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113903" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113912" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113928)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113928" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -275,13 +275,13 @@ public class ClassLoaderTest {
 
 
 ### 2.1 引导类加载器Bootstrap ClassLoader
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113938)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113938" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 2.2 扩展类加载器Extension ClassLoader
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113947)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113947" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 2.3 系统类加载器 AppClassLoader
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113956)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607113956" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -313,10 +313,10 @@ public class ClassLoaderTest1 {
 ```
 
 ### 2.4  例子：自定义一个类加载器
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114006)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114006" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114012)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114012" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 
@@ -366,13 +366,13 @@ public class CustomClassLoader extends ClassLoader {
 
 ### 2.5 ClassLoader自定义类加载器的使用及方法
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114027)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114039)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114051)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114027" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114039" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114051" alt="在这里插入图片描述" style="zoom:100%;" />
 
 由上图可知，扩展类加载器、系统类加载器都是间接的继承自ClassLoader的
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114102)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114102" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ```java
 /**
@@ -402,9 +402,9 @@ public class ClassLoaderTest2 {
 
 
 ### 2.6 双亲委派机制的工作原理
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114111.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114111.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114418)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114418" alt="在这里插入图片描述" style="zoom:100%;" />
 
 解释：双亲委派机制
 若自定义了一个类、它所在的包也是自定义的比如com.atguigu.code.Test 加载该类时使用的是AppClassLoader ,但是系统类加载器不会立即加载，而是向上级委托给 Extension ClassLoader，扩展类加载之前讲过是加载 java.etc.dirs 目录下的类，所以不会接受这个委托，于是扩展类加载器继续向上级委托给Bootstrap ClassLoader，引导类加载器是只会加载 java javax sun开头的目录，也不会接受这个委托。
@@ -412,16 +412,16 @@ public class ClassLoaderTest2 {
 上级都没有一个接受委托的，不帮忙加载这个自定义类，那么这个委托只好向下走最后还回到本身的AppClassLoader，使用系统类加载器加载该类
 
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114449)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114449" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 2.7 双亲委派机制举例
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114458)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114458" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114508)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114508" alt="在这里插入图片描述" style="zoom:100%;" />
 
 出于安全考虑，禁止自定义的类以java.lang包命名
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114516)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114516" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ### 2.8 沙箱安全机制
 问题：
@@ -429,11 +429,11 @@ public class ClassLoaderTest2 {
 解释：
  加载的String类并非我们自定义的String类，而是引导类加载器加载的核心库中的String类。
  实质上我们还是不可以自己定义一个类放进java.lang包里面 企图用引导类加载器帮我们加载，这种操作是不安全的也是不允许的，这是出于对类加载器的一种保护机制-----------沙箱安全机制
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114525)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607114525" alt="在这里插入图片描述" style="zoom:100%;" />
 
-![image-20200608150644386](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608150819.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608150819.png" alt="image-20200608150644386" style="zoom:100%;" />
 
-![image-20200608151137808](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608151137.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608151137.png" alt="image-20200608151137808" style="zoom:100%;" />
 
 
 
@@ -443,7 +443,7 @@ public class ClassLoaderTest2 {
 
 ### 2.9 类的主动使用与被动使用
 
-![image-20200608151450450](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608151641.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608151641.png" alt="image-20200608151450450" style="zoom:100%;" />
 
 
 
@@ -461,19 +461,19 @@ public class ClassLoaderTest2 {
 
 JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆外内存**  （又称永久带或元空间）
 
-![image-20200608152146850](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608152146.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608152146.png" alt="image-20200608152146850" style="zoom:100%;" />
 
 
 
-![image-20200608152811159](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608152811.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608152811.png" alt="image-20200608152811159" style="zoom:100%;" />
 
 
 
-![image-20200608153348333](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608153804.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608153804.png" alt="image-20200608153348333" style="zoom:100%;" />
 
 
 
-![image-20200608153740853](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608153816.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608153816.png" alt="image-20200608153740853" style="zoom:100%;" />
 
 
 
@@ -481,9 +481,9 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 从虚拟机的角度看线程
 
-![image-20200608154924810](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608154924.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608154924.png" alt="image-20200608154924810" style="zoom:100%;" />
 
-![image-20200608155422598](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608155422.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608155422.png" alt="image-20200608155422598" style="zoom:100%;" />
 
 
 
@@ -493,7 +493,7 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 ## 4.1 PC 概述
 
-![image-20200608170349661](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608170349.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608170349.png" alt="image-20200608170349661" style="zoom:100%;" />
 
 思考一个问题：Java虚拟机中存不存在寄存器结构呢？
 
@@ -501,23 +501,23 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 ## 4.2 PC作用
 
-![image-20200608171946980](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608171947.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608171947.png" alt="image-20200608171946980" style="zoom:100%;" />
 
 
 
 ## 4.3 PC 详细介绍
 
-![image-20200608172251264](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608172251.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608172251.png" alt="image-20200608172251264" style="zoom:100%;" />
 
-![image-20200608172839124](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608172839.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608172839.png" alt="image-20200608172839124" style="zoom:100%;" />
 
-![image-20200608185141567](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608185141.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608185141.png" alt="image-20200608185141567" style="zoom:100%;" />
 
 如上图的反编译结构，圈出来的左边那列就是PC寄存器中存放的指令的偏移地址，右边就是对于的指令
 
 
 
-![image-20200608185948649](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608185948.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608185948.png" alt="image-20200608185948649" style="zoom:100%;" />
 
 
 
@@ -527,11 +527,11 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 
 
-![image-20200608190218562](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608190427.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608190427.png" alt="image-20200608190218562" style="zoom:100%;" />
 
 
 
-![image-20200608190418421](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608190418.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608190418.png" alt="image-20200608190418421" style="zoom:100%;" />
 
 
 
@@ -541,21 +541,21 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 ### 5.1 虚拟机栈的概述
 
-![image-20200608192122875](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608192122.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200608192122.png" alt="image-20200608192122875" style="zoom:100%;" />
 
 很多程序员都会粗略的将JVM中的内存区理解为栈和堆，（其实细分是有很多东西的）这是为什么？
 
-![image-20200609114915662](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609114920.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609114920.png" alt="image-20200609114915662" style="zoom:100%;" />
 
 
 
-![image-20200609115425471](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609115428.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609115428.png" alt="image-20200609115425471" style="zoom:100%;" />
 
-![image-20200609115929551](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609115931.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609115931.png" alt="image-20200609115929551" style="zoom:100%;" />
 
-![image-20200609120446108](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609120448.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609120448.png" alt="image-20200609120446108" style="zoom:100%;" />
 
-![image-20200609120750968](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609120753.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609120753.png" alt="image-20200609120750968" style="zoom:100%;" />
 
 
 
@@ -565,15 +565,15 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 ### 5.2 栈的存储单位
 
-![image-20200609122042664](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609122043.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200609122043.png" alt="image-20200609122042664" style="zoom:100%;" />
 
 
 
-![image-20200610110432217](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610110441.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610110441.png" alt="image-20200610110432217" style="zoom:100%;" />
 
 
 
-![image-20200610111611593](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610111613.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610111613.png" alt="image-20200610111611593" style="zoom:100%;" />
 
 
 
@@ -581,7 +581,7 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 ### 5.3 （栈帧）内部结构
 
-![image-20200610162420112](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610162421.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610162421.png" alt="image-20200610162420112" style="zoom:100%;" />
 
 
 
@@ -589,23 +589,23 @@ JDK 1.8 之后方法区换成了元空间，也就是本地缓存。它是 **堆
 
 每个线程都有各自的虚拟机栈、一个栈中有多个栈帧、每一个栈帧中都有各自的局部变量表
 
-![image-20200610164538814](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610164540.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610164540.png" alt="image-20200610164538814" style="zoom:100%;" />
 
-![image-20200610171206208](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610171207.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610171207.png" alt="image-20200610171206208" style="zoom:100%;" />
 
-![image-20200610174702689](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610174704.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610174704.png" alt="image-20200610174702689" style="zoom:100%;" />
 
-![image-20200610174738494](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610174739.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610174739.png" alt="image-20200610174738494" style="zoom:100%;" />
 
-![image-20200610175319555](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610180217.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610180217.png" alt="image-20200610175319555" style="zoom:100%;" />
 
 
 
-![image-20200610175810665](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610175812.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610175812.png" alt="image-20200610175810665" style="zoom:100%;" />
 
-![image-20200610175958804](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610180206.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610180206.png" alt="image-20200610175958804" style="zoom:100%;" />
 
-![image-20200610181340500](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610184848.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610184848.png" alt="image-20200610181340500" style="zoom:100%;" />
 
 
 
@@ -627,13 +627,13 @@ int k  = i + ++i +i++;
 
 
 
-![image-20200610185035977](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185140.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185140.png" alt="image-20200610185035977" style="zoom:100%;" />
 
-![image-20200610185744769](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185745.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185745.png" alt="image-20200610185744769" style="zoom:100%;" />
 
-![image-20200610185945746](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185947.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610185947.png" alt="image-20200610185945746" style="zoom:100%;" />
 
-![image-20200610190217512](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190218.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190218.png" alt="image-20200610190217512" style="zoom:100%;" />
 
 
 
@@ -641,7 +641,7 @@ int k  = i + ++i +i++;
 
 ### 5.6 代码追踪
 
-![image-20200610190859657](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190901.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190901.png" alt="image-20200610190859657" style="zoom:100%;" />
 
 
 
@@ -659,23 +659,23 @@ istore_3 ：将相加结果存储到局部变量表，成为变量3
 
 return ：（如果方法带有返回值的话，其返回值结果会被压入当前栈帧的操作数栈当中，方法结束，并更新PC寄存器中下一条需要执行的的字节码指令）
 
-![image-20200610190922969](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190924.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610190924.png" alt="image-20200610190922969" style="zoom:100%;" />
 
 
 
-![image-20200610192137933](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610192220.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610192220.png" alt="image-20200610192137933" style="zoom:100%;" />
 
 ### 5.7 栈顶缓存技术
 
-![image-20200610224342977](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610224902.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610224902.png" alt="image-20200610224342977" style="zoom:100%;" />
 
 
 
 ### 5.8 （栈帧）动态链接
 
-![image-20200610224851673](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610224853.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610224853.png" alt="image-20200610224851673" style="zoom:100%;" />
 
-![image-20200610231209570](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610231210.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200610231210.png" alt="image-20200610231209570" style="zoom:100%;" />
 
 动态链接比喻：
 
@@ -691,19 +691,19 @@ return ：（如果方法带有返回值的话，其返回值结果会被压入�
 
 ### 5.9 方法的调用：虚方法与动态静态调用
 
-![image-20200611162822278](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611162830.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611162830.png" alt="image-20200611162822278" style="zoom:100%;" />
 
-![image-20200611163255344](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611163256.png)
-
-
-
-![image-20200611164732014](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611165018.png)
-
-![image-20200611165651720](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611165837.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611163256.png" alt="image-20200611163255344" style="zoom:100%;" />
 
 
 
-![image-20200611180306980](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616161449.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611165018.png" alt="image-20200611164732014" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611165837.png" alt="image-20200611165651720" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616161449.png" alt="image-20200611180306980" style="zoom:100%;" />
 
 注意：
 
@@ -800,11 +800,11 @@ interface MethodInterface{
 
 
 
-![image-20200611182741135](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611182743.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611182743.png" alt="image-20200611182741135" style="zoom:100%;" />
 
 
 
-![image-20200611183730068](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611183731.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611183731.png" alt="image-20200611183730068" style="zoom:100%;" />
 
 
 
@@ -812,31 +812,31 @@ interface MethodInterface{
 
 **方法重写的本质与虚方法表的使用**
 
-![image-20200611184038187](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611184039.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611184039.png" alt="image-20200611184038187" style="zoom:100%;" />
 
 
 
-![image-20200611184841007](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611184842.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611184842.png" alt="image-20200611184841007" style="zoom:100%;" />
 
 
 
-![image-20200611185439452](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611185440.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611185440.png" alt="image-20200611185439452" style="zoom:100%;" />
 
-![image-20200611190334970](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611190356.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200611190356.png" alt="image-20200611190334970" style="zoom:100%;" />
 
 ### 5.10 （栈帧）方法返回地址
 
 总结：方法返回地址 返回的就是 PC寄存器的值`(即下一条指令的地址)`
 
-![image-20200615230150319](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230502.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230502.png" alt="image-20200615230150319" style="zoom:100%;" />
 
-![image-20200615230445861](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230450.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230450.png" alt="image-20200615230445861" style="zoom:100%;" />
 
-![image-20200615230814244](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230815.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615230815.png" alt="image-20200615230814244" style="zoom:100%;" />
 
-![image-20200615231219603](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615231221.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615231221.png" alt="image-20200615231219603" style="zoom:100%;" />
 
-![image-20200615231413547](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615231414.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200615231414.png" alt="image-20200615231413547" style="zoom:100%;" />
 
 
 
@@ -844,7 +844,7 @@ interface MethodInterface{
 
 ### 5.11 栈的相关面试题
 
-![image-20200616154804038](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616161103.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616161103.png" alt="image-20200616154804038" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java3;
@@ -909,7 +909,7 @@ public class StringBuilderTest {
 
 ```
 
-![image-20200616165741855](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616165743.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616165743.png" alt="image-20200616165741855" style="zoom:100%;" />
 
 # 六、 本地方法接口
 
@@ -919,17 +919,17 @@ public class StringBuilderTest {
 
 <img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200607111015.png#pic_center" width="80%"/>
 
-![image-20200616162554691](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162555.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162555.png" alt="image-20200616162554691" style="zoom:100%;" />
 
-![image-20200616162521826](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162524.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162524.png" alt="image-20200616162521826" style="zoom:100%;" />
 
 
 
-![image-20200616162700940](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162703.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616162703.png" alt="image-20200616162700940" style="zoom:100%;" />
 
-![image-20200616163607562](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616163932.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616163932.png" alt="image-20200616163607562" style="zoom:100%;" />
 
-![image-20200616163929897](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616163942.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616163942.png" alt="image-20200616163929897" style="zoom:100%;" />
 
 
 
@@ -937,11 +937,11 @@ public class StringBuilderTest {
 
 # 七、 本地方法栈
 
-![image-20200616164224090](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616164531.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616164531.png" alt="image-20200616164224090" style="zoom:100%;" />
 
-![image-20200616164652274](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616165018.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616165018.png" alt="image-20200616164652274" style="zoom:100%;" />
 
-![image-20200616165209611](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616201310.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616201310.png" alt="image-20200616165209611" style="zoom:100%;" />
 
 
 
@@ -949,23 +949,23 @@ public class StringBuilderTest {
 
 ## 8.1 堆的概念及内部结构
 
-![image-20200616213119806](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616213121.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200616213121.png" alt="image-20200616213119806" style="zoom:100%;" />
 
 
 
 
 
-![image-20200617124557560](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617124606.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617124606.png" alt="image-20200617124557560" style="zoom:100%;" />
 
 
 
 `数组和对象可能永远不会存储在栈上，那么虚拟栈中的局部变量表存储的是一些基本类型的变量和对象的引用。`
 
-![image-20200617125202355](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617130104.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617130104.png" alt="image-20200617125202355" style="zoom:100%;" />
 
 
 
-![image-20200617125357733](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617125359.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617125359.png" alt="image-20200617125357733" style="zoom:100%;" />
 
 
 
@@ -973,11 +973,11 @@ public class StringBuilderTest {
 
 
 
-![image-20200617130053309](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617130054.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617130054.png" alt="image-20200617130053309" style="zoom:100%;" />
 
 
 
-![image-20200617130432786](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170413.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170413.png" alt="image-20200617130432786" style="zoom:100%;" />
 
 
 
@@ -985,11 +985,11 @@ public class StringBuilderTest {
 
 
 
-![image-20200617130828522](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170403.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170403.png" alt="image-20200617130828522" style="zoom:100%;" />
 
 
 
-![image-20200617130923380](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170355.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170355.png" alt="image-20200617130923380" style="zoom:100%;" />
 
 
 
@@ -1005,7 +1005,7 @@ public class StringBuilderTest {
 
 
 
-![image-20200617170346399](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170347.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170347.png" alt="image-20200617170346399" style="zoom:100%;" />
 
 
 
@@ -1062,7 +1062,7 @@ public class HeapSpaceInitial {
 
 输出结果：
 
-![image-20200617165751642](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617165753.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617165753.png" alt="image-20200617165751642" style="zoom:100%;" />
 
 
 
@@ -1072,7 +1072,7 @@ public class HeapSpaceInitial {
 
 
 
-![image-20200617170502653](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170504.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617170504.png" alt="image-20200617170502653" style="zoom:100%;" />
 
 
 
@@ -1119,11 +1119,11 @@ class Picture{
 
 ## 8.3 年轻代与老年代
 
-![image-20200617171435101](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617171439.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617171439.png" alt="image-20200617171435101" style="zoom:100%;" />
 
 
 
-![image-20200617171846769](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617171847.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617171847.png" alt="image-20200617171846769" style="zoom:100%;" />
 
 ```java
 /**
@@ -1138,23 +1138,23 @@ class Picture{
  */
 ```
 
-![image-20200617172311001](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617172312.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617172312.png" alt="image-20200617172311001" style="zoom:100%;" />
 
-![image-20200617172340726](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617172341.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617172341.png" alt="image-20200617172340726" style="zoom:100%;" />
 
 
 
-![image-20200617173047753](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617175436.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617175436.png" alt="image-20200617173047753" style="zoom:100%;" />
 
 ## 8.4 图解对象分配过程
 
-![image-20200617224955465](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617224956.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617224956.png" alt="image-20200617224955465" style="zoom:100%;" />
 
 
 
-![image-20200617180431420](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617180432.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617180432.png" alt="image-20200617180431420" style="zoom:100%;" />
 
-![image-20200617224213769](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617224214.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617224214.png" alt="image-20200617224213769" style="zoom:100%;" />
 
 注意：
 
@@ -1169,13 +1169,13 @@ class Picture{
 
 
 
-![image-20200617225843016](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617225844.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617225844.png" alt="image-20200617225843016" style="zoom:100%;" />
 
 
 
 **对象分配的特殊情况**
 
-![image-20200617230214047](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617231339.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617231339.png" alt="image-20200617230214047" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java1;
@@ -1206,7 +1206,7 @@ public class HeapInstanceTest {
 
 ```
 
-![image-20200617231325375](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617231326.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617231326.png" alt="image-20200617231325375" style="zoom:100%;" />
 
 
 
@@ -1222,9 +1222,9 @@ public class HeapInstanceTest {
 
 ![image-20200617233013208](G:\图片\blog\image-20200617233013208.png)
 
-![image-20200617233335240](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617234704.png)![image-20200617233358240](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617233359.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617233359.png" alt="image-20200617233335240](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617234704.png)![image-20200617233358240" style="zoom:100%;" />
 
-![image-20200617233531492](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617233532.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617233532.png" alt="image-20200617233531492" style="zoom:100%;" />
 
 
 
@@ -1265,7 +1265,7 @@ public class GCTest {
 
 ```
 
-![image-20200617234655007](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617234656.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200617234656.png" alt="image-20200617234655007" style="zoom:100%;" />
 
 
 
@@ -1277,11 +1277,11 @@ public class GCTest {
 
 ## 8.6 堆空间分代思想
 
-![image-20200618143831745](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618143832.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618143832.png" alt="image-20200618143831745" style="zoom:100%;" />
 
 
 
-![image-20200618143954456](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618143955.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618143955.png" alt="image-20200618143954456" style="zoom:100%;" />
 
 
 
@@ -1289,11 +1289,11 @@ public class GCTest {
 
 ## 8.7 内存分配策略
 
-![image-20200618144321482](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618144322.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200618144322.png" alt="image-20200618144321482" style="zoom:100%;" />
 
 
 
-![image-20200618215943169](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002315.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002315.png" alt="image-20200618215943169" style="zoom:100%;" />
 
 
 
@@ -1303,13 +1303,13 @@ public class GCTest {
 
 
 
-![image-20200618221140391](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002402.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002402.png" alt="image-20200618221140391" style="zoom:100%;" />
 
-![image-20200618221155098](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002420.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002420.png" alt="image-20200618221155098" style="zoom:100%;" />
 
 
 
-![image-20200618223845260](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002540.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002540.png" alt="image-20200618223845260" style="zoom:100%;" />
 
 
 
@@ -1317,13 +1317,13 @@ public class GCTest {
 
 ![image-20200618221511255](G:\图片\blog\image-20200618221511255.png)
 
-![image-20200618223506414](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002612.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002612.png" alt="image-20200618223506414" style="zoom:100%;" />
 
 
 
 ## 8.9 （小结）堆空间的参数设置
 
-![image-20200618234509665](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002602.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002602.png" alt="image-20200618234509665" style="zoom:100%;" />
 
 ![image-20200618234538372](G:\图片\blog\image-20200618234538372.png)
 
@@ -1360,7 +1360,7 @@ public class HeapArgsTest {
 
 ```
 
-![image-20200618235538774](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002620.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002620.png" alt="image-20200618235538774" style="zoom:100%;" />
 
 ## 8.10 堆是分配对象的唯一选择吗？
 
@@ -1368,13 +1368,13 @@ public class HeapArgsTest {
 
 
 
-![image-20200619000257080](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002627.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002627.png" alt="image-20200619000257080" style="zoom:100%;" />
 
 ## 8.11 逃逸分析：概述
 
-![image-20200619000645002](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002640.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002640.png" alt="image-20200619000645002" style="zoom:100%;" />
 
-![image-20200619000717418](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002648.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002648.png" alt="image-20200619000717418" style="zoom:100%;" />
 
 为啥是没有发生逃逸的对象，可以分配到栈上呢？
 
@@ -1383,9 +1383,9 @@ public class HeapArgsTest {
 
 
 
-![image-20200619001256300](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002658.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619002658.png" alt="image-20200619001256300" style="zoom:100%;" />
 
-![image-20200619001314834](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619173616.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200619173616.png" alt="image-20200619001314834" style="zoom:100%;" />
 
 
 
@@ -1434,19 +1434,19 @@ public class EscapeAnalysis {
 
 ```
 
-![image-20200619001753453](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120146.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120146.png" alt="image-20200619001753453" style="zoom:100%;" />
 
 
 
-![image-20200619001852645](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120153.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120153.png" alt="image-20200619001852645" style="zoom:100%;" />
 
 
 
 ## 8.12 逃逸分析：栈上分配
 
-![image-20200619001908148](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120200.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120200.png" alt="image-20200619001908148" style="zoom:100%;" />
 
-![image-20200619165132980](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120208.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120208.png" alt="image-20200619165132980" style="zoom:100%;" />
 
  
 
@@ -1502,7 +1502,7 @@ public class StackAllocation {
 
 结果：如下图，执行时间较长，对象都在堆空间创建 且堆空间发生了垃圾回收，造成运行效率变低
 
-![image-20200619172428318](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120215.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120215.png" alt="image-20200619172428318" style="zoom:100%;" />
 
 
 
@@ -1514,15 +1514,15 @@ public class StackAllocation {
 
 结果：如下图，执行时间明显变短，没有出现GC，程序方法中的某些变量采用了逃逸分析分配到了栈上
 
-![image-20200619172853127](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120225.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120225.png" alt="image-20200619172853127" style="zoom:100%;" />
 
 
 
 ## 8.13 逃逸分析：同步省略
 
-![image-20200619173542605](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120230.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120230.png" alt="image-20200619173542605" style="zoom:100%;" />
 
-![image-20200619174254437](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120236.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120236.png" alt="image-20200619174254437" style="zoom:100%;" />
 
 
 
@@ -1540,7 +1540,7 @@ public class StackAllocation {
 
 ## 8.14 逃逸分析：标量替换
 
-![image-20200619174643146](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120244.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120244.png" alt="image-20200619174643146" style="zoom:100%;" />
 
 
 
@@ -1554,9 +1554,9 @@ public class StackAllocation {
 
 
 
-![image-20200619212028461](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120251.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120251.png" alt="image-20200619212028461" style="zoom:100%;" />
 
-![image-20200619212416595](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120259.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120259.png" alt="image-20200619212416595" style="zoom:100%;" />
 
 
 
@@ -1616,7 +1616,7 @@ class Account{
 
 
 
-![image-20200619213045721](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120304.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120304.png" alt="image-20200619213045721" style="zoom:100%;" />
 
 
 
@@ -1626,7 +1626,7 @@ class Account{
 
 
 
-![image-20200619213634958](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120312.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120312.png" alt="image-20200619213634958" style="zoom:100%;" />
 
 
 
@@ -1640,13 +1640,13 @@ class Account{
 
 方法区又是什么，方法区是干啥的？能帮助我们什么？请带着疑问看下去。
 
-![image-20200619213800381](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120319.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120319.png" alt="image-20200619213800381" style="zoom:100%;" />
 
-![image-20200619232127749](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120331.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120331.png" alt="image-20200619232127749" style="zoom:100%;" />
 
 
 
-![image-20200619232359462](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120325.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120325.png" alt="image-20200619232359462" style="zoom:100%;" />
 
 
 
@@ -1656,7 +1656,7 @@ class Account{
 
 内存上独立于堆，所以在设置堆空间大小的参数时，对方法区的空间大小是没有影响的。
 
-![image-20200619233334988](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120339.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120339.png" alt="image-20200619233334988" style="zoom:100%;" />
 
 
 
@@ -1691,19 +1691,19 @@ public class MethodAreaDemo {
 
 
 
-![image-20200619234341429](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120345.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120345.png" alt="image-20200619234341429" style="zoom:100%;" />
 
 
 
 ## 9.3 设置方法区的大小与OOM
 
-![image-20200621114659204](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120350.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120350.png" alt="image-20200621114659204" style="zoom:100%;" />
 
 
 
 
 
-![image-20200621115200643](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120357.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120357.png" alt="image-20200621115200643" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java;
@@ -1736,7 +1736,7 @@ public class MethodAreaDemo {
 
 
 
-![image-20200621120110661](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120405.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120405.png" alt="image-20200621120110661" style="zoom:100%;" />
 
 
 
@@ -1780,19 +1780,19 @@ public class OOMTest extends ClassLoader {
 
 ```
 
-![image-20200621121552256](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621121554.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621121554.png" alt="image-20200621121552256" style="zoom:100%;" />
 
-![image-20200621121610961](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122035.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122035.png" alt="image-20200621121610961" style="zoom:100%;" />
 
 
 
-![image-20200621122205729](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122206.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122206.png" alt="image-20200621122205729" style="zoom:100%;" />
 
-![image-20200621122448091](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122449.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122449.png" alt="image-20200621122448091" style="zoom:100%;" />
 
-![image-20200621122806938](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122808.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122808.png" alt="image-20200621122806938" style="zoom:100%;" />
 
-![image-20200621122827325](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122828.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122828.png" alt="image-20200621122827325" style="zoom:100%;" />
 
 
 
@@ -1808,13 +1808,13 @@ public class OOMTest extends ClassLoader {
 
 ## 9.4 方法区的内部结构
 
-![image-20200621122025247](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122026.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621122026.png" alt="image-20200621122025247" style="zoom:100%;" />
 
 
 
 
 
-![image-20200621123815613](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621123816.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621123816.png" alt="image-20200621123815613" style="zoom:100%;" />
 
 
 
@@ -1822,9 +1822,9 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200621124624016](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621124627.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621124627.png" alt="image-20200621124624016" style="zoom:100%;" />
 
-![image-20200621124900149](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621124902.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621124902.png" alt="image-20200621124900149" style="zoom:100%;" />
 
 声明了` final `的类变量，在编译的时候就初始化了。如下图所示 53行的`number`变量在**编译时**就初始化了值为2，而没有加 `final `修饰的` count `变量在编译阶段并没有任何初始化值。
 
@@ -1852,11 +1852,11 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200622000225770](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622000227.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622000227.png" alt="image-20200622000225770" style="zoom:100%;" />
 
 
 
-![image-20200622000510859](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622000511.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622000511.png" alt="image-20200622000510859" style="zoom:100%;" />
 
 
 
@@ -1864,11 +1864,11 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200622000903411](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002056.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002056.png" alt="image-20200622000903411" style="zoom:100%;" />
 
-![image-20200622001014516](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002038.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002038.png" alt="image-20200622001014516" style="zoom:100%;" />
 
-![image-20200622002025766](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002026.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200622002026.png" alt="image-20200622002025766" style="zoom:100%;" />
 
 
 
@@ -1880,33 +1880,33 @@ public class OOMTest extends ClassLoader {
 
 <font color=#0067B0>**运行时常量池**</font>
 
-![image-20200623143534370](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623143542.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623143542.png" alt="image-20200623143534370" style="zoom:100%;" />
 
 
 
 ## 9.5 方法区使用举例
 
-![image-20200623145233677](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145237.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145237.png" alt="image-20200623145233677" style="zoom:100%;" />
 
 
 
-![image-20200623145542152](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145543.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145543.png" alt="image-20200623145542152" style="zoom:100%;" />
 
-![image-20200623145612156](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145613.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145613.png" alt="image-20200623145612156" style="zoom:100%;" />
 
-![image-20200623145735502](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145736.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145736.png" alt="image-20200623145735502" style="zoom:100%;" />
 
-![image-20200623145830787](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145831.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623145831.png" alt="image-20200623145830787" style="zoom:100%;" />
 
 
 
 ![image-20200623145934445](G:\图片\blog\image-20200623145934445.png)
 
-![image-20200623151340745](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151344.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151344.png" alt="image-20200623151340745" style="zoom:100%;" />
 
-![image-20200623151522506](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151523.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151523.png" alt="image-20200623151522506" style="zoom:100%;" />
 
-![image-20200623151643338](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151644.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623151644.png" alt="image-20200623151643338" style="zoom:100%;" />
 
 ![image-20200623151949825](G:\图片\blog\image-20200623151949825.png)
 
@@ -1922,7 +1922,7 @@ public class OOMTest extends ClassLoader {
 
 ## 9.6 方法区的演变过程
 
-![image-20200619234414007](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120412.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120412.png" alt="image-20200619234414007" style="zoom:100%;" />
 
 
 
@@ -1938,23 +1938,23 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200619234915713](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120418.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120418.png" alt="image-20200619234915713" style="zoom:100%;" />
 
-![image-20200619234943521](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120424.png)
-
-
-
-![image-20200623152628800](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623152630.png)
-
-![image-20200623153334761](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623153335.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200621120424.png" alt="image-20200619234943521" style="zoom:100%;" />
 
 
 
-![image-20200623153419470](G:\图片\blog\image-20200623153419470.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623152630.png" alt="image-20200623152628800" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623153335.png" alt="image-20200623153334761" style="zoom:100%;" />
 
 
 
-![image-20200623153445594](G:\图片\blog\image-20200623153445594.png)
+![image-20200723132641569](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132642.png)
+
+
+
+![image-20200723132718826](G:\图片\blog\image-20200723132718826.png)
 
 
 
@@ -1968,7 +1968,7 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200623154655141](G:\图片\blog\image-20200623154655141.png)
+![image-20200723132622041](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132623.png)
 
 
 
@@ -1976,7 +1976,7 @@ public class OOMTest extends ClassLoader {
 
 
 
-![image-20200623155510092](G:\图片\blog\image-20200623155510092.png)
+![image-20200723132527831](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132602.png)
 
 
 
@@ -2049,29 +2049,29 @@ public class StaticObjTest {
 
 ```
 
-![image-20200623162550229](G:\图片\blog\image-20200623162550229.png)
+![image-20200723132431964](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132433.png)
 
 
 
+![image-20200723132452205](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132453.png)
 
 
-![image-20200623162956086](G:\图片\blog\image-20200623162956086.png)
 
 ## 9.7 方法区的垃圾回收
 
-![image-20200623204124722](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623204125.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623204125.png" alt="image-20200623204124722" style="zoom:100%;" />
 
-![image-20200623204808855](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623204810.png)
-
-
-
-![image-20200623204907245](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205441.png)
-
-![image-20200623205428164](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205432.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623204810.png" alt="image-20200623204808855" style="zoom:100%;" />
 
 
 
-![image-20200623205829298](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205830.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205441.png" alt="image-20200623204907245" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205432.png" alt="image-20200623205428164" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623205830.png" alt="image-20200623205829298" style="zoom:100%;" />
 
 
 
@@ -2087,7 +2087,7 @@ public class StaticObjTest {
 
 面试题中经常出现该关键点，主要考察对象实例化的过程和JVM内存结构的细节分配流程。
 
-![image-20200623210901216](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623210944.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623210944.png" alt="image-20200623210901216" style="zoom:100%;" />
 
 
 
@@ -2103,19 +2103,23 @@ public class StaticObjTest {
 
 
 
-![image-20200623212348232](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623212349.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623212349.png" alt="image-20200623212348232" style="zoom:100%;" />
 
-![image-20200623212601247](G:\图片\blog\image-20200623212601247.png)
+![image-20200723132139110](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132140.png)
 
 
 
-![image-20200623212832305](G:\图片\blog\image-20200623212832305.png)
+![image-20200723132201729](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132343.png)
 
-![image-20200623212846069](G:\图片\blog\image-20200623212846069.png)
+![image-20200723132222727](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132329.png)
 
-![image-20200623212859365](G:\图片\blog\image-20200623212859365.png)
+![image-20200723132245527](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132319.png)
 
-![image-20200623213429480](G:\图片\blog\image-20200623213429480.png)
+![image-20200723132303256](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132308.png)
+
+
+
+
 
 ```java
 package com.atguigu.java;
@@ -2157,27 +2161,27 @@ class Account{
 
 ## 10.2 对象的内存布局
 
-![image-20200623215213724](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623215215.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623215215.png" alt="image-20200623215213724" style="zoom:100%;" />
 
 
 
+![image-20200723132057139](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132140.png)
 
 
-![image-20200623220306249](G:\图片\blog\image-20200623220306249.png)
 
 ## 10.3 对象的访问定位
 
-![image-20200623220635991](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220637.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220637.png" alt="image-20200623220635991" style="zoom:100%;" />
 
 
 
-![image-20200623220812334](G:\图片\blog\image-20200623220812334.png)
+![image-20200723132035083](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723132036.png)
 
 
 
-![image-20200623220900328](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220902.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220902.png" alt="image-20200623220900328" style="zoom:100%;" />
 
-![image-20200623220926716](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220928.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623220928.png" alt="image-20200623220926716" style="zoom:100%;" />
 
 
 
@@ -2187,13 +2191,13 @@ class Account{
 
 # 十、 直接内存
 
-![image-20200623221914467](G:\图片\blog\image-20200623221914467.png)
+![image-20200723131945582](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723131947.png)
 
-![image-20200623222520692](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623222522.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623222522.png" alt="image-20200623222520692" style="zoom:100%;" />
 
-![image-20200623222615870](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623222617.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200623222617.png" alt="image-20200623222615870" style="zoom:100%;" />
 
-![image-20200623223127242](G:\图片\blog\image-20200623223127242.png)
+![image-20200723131922753](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723131947.png)
 
 ```java
 package com.atguigu.java;
@@ -2223,7 +2227,7 @@ public class MaxDirectMemorySizeTest {
 
 ```
 
-![image-20200623224127001](G:\图片\blog\image-20200623224127001.png)
+![image-20200723131855981](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723131904.png)
 
 
 

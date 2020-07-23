@@ -1,6 +1,6 @@
 【Mysql】高级
 
-![image-20200714224928090](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714224929.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714224929.png" alt="image-20200714224928090" style="zoom:100%;" />
 
 
 
@@ -10,11 +10,11 @@
 
 ## 1.1 CentOS安装Mysql
 
-![image-20200715121017464](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715121018.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715121018.png" alt="image-20200715121017464" style="zoom:100%;" />
 
 
 
-![image-20200715123320750](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123322.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123322.png" alt="image-20200715123320750" style="zoom:100%;" />
 
 
 
@@ -26,15 +26,15 @@
 
 
 
-![image-20200715122810904](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123527.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123527.png" alt="image-20200715122810904" style="zoom:100%;" />
 
 修改字符集，编辑 my.cnf
 
 
 
-![image-20200715123756364](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123757.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715123757.png" alt="image-20200715123756364" style="zoom:100%;" />
 
-![image-20200715124050289](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715124051.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715124051.png" alt="image-20200715124050289" style="zoom:100%;" />
 
 注意：对于原来创建过的database，可能中文字符还会乱码，可以重新创建一个database
 
@@ -42,7 +42,7 @@
 
 
 
-![image-20200715124442088](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715124506.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715124506.png" alt="image-20200715124442088" style="zoom:100%;" />
 
 1. 二进制日志文件 log-bin :主要用于主从复制
 
@@ -50,7 +50,7 @@
 
 3. 查询日志log : 默认关闭，记录查询的sql语句，开启后可能会降低mysql性能，因为记录日志也会消耗系统资源。
 
-![image-20200715130001680](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131818.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131818.png" alt="image-20200715130001680" style="zoom:100%;" />
 
 
 
@@ -60,9 +60,9 @@
 
 1. 总体概览
 
-![image-20200715131238361](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715131239.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715131239.png" alt="image-20200715131238361" style="zoom:100%;" />
 
-![image-20200715131410224](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715131411.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715131411.png" alt="image-20200715131410224" style="zoom:100%;" />
 
 
 
@@ -74,9 +74,9 @@
 
 
 
-![image-20200715131524652](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131835.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131835.png" alt="image-20200715131524652" style="zoom:100%;" />
 
-![image-20200715131832651](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132014.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132014.png" alt="image-20200715131832651" style="zoom:100%;" />
 
 
 
@@ -86,7 +86,7 @@
 
 
 
-![image-20200715132009666](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132137.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132137.png" alt="image-20200715132009666" style="zoom:100%;" />
 
 
 
@@ -96,7 +96,7 @@
 
 ## 2.1  SQL慢问题
 
-![image-20200715132138903](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132142.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715132142.png" alt="image-20200715132138903" style="zoom:100%;" />
 
 
 
@@ -110,7 +110,7 @@
 
 
 
-![image-20200715132933009](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131843.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131843.png" alt="image-20200715132933009" style="zoom:100%;" />
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-![image-20200715133249995](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131849.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131849.png" alt="image-20200715133249995" style="zoom:100%;" />
 
 
 
@@ -138,9 +138,9 @@ MySQL官方定义：索引index，是帮助MySQL高效获取数据的数据结�
 
 
 
-![image-20200715140124463](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715140125.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715140125.png" alt="image-20200715140124463" style="zoom:100%;" />
 
-![image-20200715141040495](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715141041.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715141041.png" alt="image-20200715141040495" style="zoom:100%;" />
 
 结论：
 
@@ -154,7 +154,7 @@ MySQL官方定义：索引index，是帮助MySQL高效获取数据的数据结�
 
 
 
-![image-20200715143157323](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131900.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131900.png" alt="image-20200715143157323" style="zoom:100%;" />
 
 
 
@@ -164,11 +164,11 @@ MySQL官方定义：索引index，是帮助MySQL高效获取数据的数据结�
 
 
 
-![image-20200715144312189](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715144313.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715144313.png" alt="image-20200715144312189" style="zoom:100%;" />
 
 ### ✔添加索引的语法
 
-![image-20200715144138894](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715174032.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715174032.png" alt="image-20200715144138894" style="zoom:100%;" />
 
 
 
@@ -176,29 +176,29 @@ MySQL官方定义：索引index，是帮助MySQL高效获取数据的数据结�
 
 
 
-![image-20200715164304256](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715171757.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715171757.png" alt="image-20200715164304256" style="zoom:100%;" />
 
 
 
 
 
-![image-20200715170345191](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715170346.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715170346.png" alt="image-20200715170345191" style="zoom:100%;" />
 
-![image-20200715172800575](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131909.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131909.png" alt="image-20200715172800575" style="zoom:100%;" />
 
 
 
-![image-20200715172902787](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715172903.png)
 
-![image-20200715173111218](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715173112.png)
 
-![image-20200715173305427](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131920.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715172903.png" alt="image-20200715172902787" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715173112.png" alt="image-20200715173111218" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131920.png" alt="image-20200715173305427" style="zoom:100%;" />
 
 ## 2.6 索引性能分析
 
-![image-20200715173624344](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715173625.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715173625.png" alt="image-20200715173624344" style="zoom:100%;" />
 
 
 
@@ -230,9 +230,9 @@ Exetrs
 
 
 
-![image-20200715174410114](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131927.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131927.png" alt="image-20200715174410114" style="zoom:100%;" />
 
-![image-20200715180218024](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715180219.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715180219.png" alt="image-20200715180218024" style="zoom:100%;" />
 
 
 
@@ -242,17 +242,17 @@ Exetrs
 
 ### ==id：==
 
-![image-20200715180834515](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131934.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717131934.png" alt="image-20200715180834515" style="zoom:100%;" />
 
 
 
 
 
-![image-20200715181000540](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715181001.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715181001.png" alt="image-20200715181000540" style="zoom:100%;" />
 
 
 
-![image-20200715181612180](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715181613.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715181613.png" alt="image-20200715181612180" style="zoom:100%;" />
 
 
 
@@ -262,7 +262,7 @@ Exetrs
 
 <img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715183007.png" alt="image-20200715183005469" style="zoom:80%;" />
 
-![image-20200715183042963](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715183044.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715183044.png" alt="image-20200715183042963" style="zoom:100%;" />
 
 
 
@@ -270,9 +270,9 @@ Exetrs
 
 
 
-![image-20200715183434402](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715183435.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715183435.png" alt="image-20200715183434402" style="zoom:100%;" />
 
-![image-20200715185810549](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715185811.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715185811.png" alt="image-20200715185810549" style="zoom:100%;" />
 
 
 
@@ -300,7 +300,7 @@ key_len 显示的值为索引字段的最大可能长度，而非实际使用长
 
 
 
-![image-20200715191406246](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715191408.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715191408.png" alt="image-20200715191406246" style="zoom:100%;" />
 
 
 
@@ -318,7 +318,7 @@ key_len 显示的值为索引字段的最大可能长度，而非实际使用长
 
 
 
-![image-20200715192611367](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715192612.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715192612.png" alt="image-20200715192611367" style="zoom:100%;" />
 
 
 
@@ -328,7 +328,7 @@ key_len 显示的值为索引字段的最大可能长度，而非实际使用长
 
 根据表统计信息以及索引选用的情况，大致估算找到所需的记录需要读取的行数。
 
-![image-20200715193310482](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715193311.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715193311.png" alt="image-20200715193310482" style="zoom:100%;" />
 
 
 
@@ -338,31 +338,31 @@ key_len 显示的值为索引字段的最大可能长度，而非实际使用长
 
 
 
-![image-20200715192512753](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717132158.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717132158.png" alt="image-20200715192512753" style="zoom:100%;" />
 
-![image-20200715194301197](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130836.png)
-
-
-
-![image-20200715194620178](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715194621.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130836.png" alt="image-20200715194301197" style="zoom:100%;" />
 
 
 
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715194621.png" alt="image-20200715194620178" style="zoom:100%;" />
 
 
-![image-20200715194809805](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130846.png)
 
-![image-20200715195359286](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130854.png)
 
-![image-20200715195556683](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715195557.png)
 
-![image-20200715195745035](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715195746.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130846.png" alt="image-20200715194809805" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130854.png" alt="image-20200715195359286" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715195557.png" alt="image-20200715195556683" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715195746.png" alt="image-20200715195745035" style="zoom:100%;" />
 
 
 
 ### 练习
 
-![image-20200715201207562](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715201209.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715201209.png" alt="image-20200715201207562" style="zoom:100%;" />
 
 
 
@@ -370,13 +370,13 @@ key_len 显示的值为索引字段的最大可能长度，而非实际使用长
 
 ## 3.1 单表优化案例：文章分类评论观看量
 
-![image-20200715203206062](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130903.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130903.png" alt="image-20200715203206062" style="zoom:100%;" />
 
-![image-20200715202415652](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715202417.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715202417.png" alt="image-20200715202415652" style="zoom:100%;" />
 
-![image-20200715202620446](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130910.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130910.png" alt="image-20200715202620446" style="zoom:100%;" />
 
-![image-20200715203126034](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131509.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131509.png" alt="image-20200715203126034" style="zoom:100%;" />
 
 
 
@@ -388,7 +388,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200715204539708](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715204540.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715204540.png" alt="image-20200715204539708" style="zoom:100%;" />
 
 
 
@@ -396,17 +396,17 @@ class：id，card（card的数值表示所属的一个分类)
 
 ## 3.3 三表优化案例：join的使用
 
-![image-20200715210303881](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210305.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210305.png" alt="image-20200715210303881" style="zoom:100%;" />
 
-![image-20200715210433169](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210434.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210434.png" alt="image-20200715210433169" style="zoom:100%;" />
 
 
 
 
 
-![image-20200715210050890](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210052.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715210052.png" alt="image-20200715210050890" style="zoom:100%;" />
 
 
 
@@ -418,7 +418,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 ## 4.1 索引失效的原因
 
-![image-20200715211236005](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715211237.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200715211237.png" alt="image-20200715211236005" style="zoom:100%;" />
 
 
 
@@ -426,47 +426,47 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200716091111389](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131524.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131524.png" alt="image-20200716091111389" style="zoom:100%;" />
 
-![image-20200716091713556](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716091714.png)
-
-
-
-
-
-![image-20200716092601457](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716092605.png)
-
-
-
-![image-20200716093414363](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131532.png)
-
-![image-20200716094532267](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131539.png)
-
-![image-20200716094807331](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716094808.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716091714.png" alt="image-20200716091713556" style="zoom:100%;" />
 
 
 
 
 
-![image-20200716095035050](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716095036.png)
-
-![image-20200716095206953](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133504.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716092605.png" alt="image-20200716092601457" style="zoom:100%;" />
 
 
 
-![image-20200716095506262](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716095507.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131532.png" alt="image-20200716093414363" style="zoom:100%;" />
 
-![image-20200716100521601](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716100522.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720131539.png" alt="image-20200716094532267" style="zoom:100%;" />
 
-![image-20200716101212696](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716101213.png)
-
-
-
-![image-20200716102503681](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102505.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716094808.png" alt="image-20200716094807331" style="zoom:100%;" />
 
 
 
-![image-20200716102641376](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102642.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716095036.png" alt="image-20200716095035050" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133504.png" alt="image-20200716095206953" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716095507.png" alt="image-20200716095506262" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716100522.png" alt="image-20200716100521601" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716101213.png" alt="image-20200716101212696" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102505.png" alt="image-20200716102503681" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102642.png" alt="image-20200716102641376" style="zoom:100%;" />
 
 
 
@@ -478,7 +478,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200716102928867](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102929.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716102929.png" alt="image-20200716102928867" style="zoom:100%;" />
 
 
 
@@ -486,53 +486,53 @@ class：id，card（card的数值表示所属的一个分类)
 
 ## 4.3 面试题
 
-![image-20200716103155963](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133514.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133514.png" alt="image-20200716103155963" style="zoom:100%;" />
 
-![image-20200716103309298](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716103310.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716103310.png" alt="image-20200716103309298" style="zoom:100%;" />
 
-![image-20200716103701744](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104213.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104213.png" alt="image-20200716103701744" style="zoom:100%;" />
 
-![image-20200716104125271](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104126.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104126.png" alt="image-20200716104125271" style="zoom:100%;" />
 
-![image-20200716104609212](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104610.png)
-
-
-
-![image-20200716104830656](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104831.png)
-
-![image-20200716105013032](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716105014.png)
-
-![image-20200716105316678](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133524.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104610.png" alt="image-20200716104609212" style="zoom:100%;" />
 
 
 
-![image-20200716105548231](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134410.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716104831.png" alt="image-20200716104830656" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716105014.png" alt="image-20200716105013032" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720133524.png" alt="image-20200716105316678" style="zoom:100%;" />
 
 
 
-![image-20200716105755526](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134418.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134410.png" alt="image-20200716105548231" style="zoom:100%;" />
 
 
 
-
-
-![image-20200716105927685](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716105930.png)
-
-![image-20200716110445332](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716110446.png)
-
-![image-20200716110923862](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716110924.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134418.png" alt="image-20200716105755526" style="zoom:100%;" />
 
 
 
 
 
-![image-20200716113045284](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134436.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716105930.png" alt="image-20200716105927685" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716110446.png" alt="image-20200716110445332" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200716110924.png" alt="image-20200716110923862" style="zoom:100%;" />
 
 
 
 
 
-![image-20200716113226118](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134442.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134436.png" alt="image-20200716113045284" style="zoom:100%;" />
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134442.png" alt="image-20200716113226118" style="zoom:100%;" />
 
 
 
@@ -550,9 +550,9 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717133139299](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134221.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134221.png" alt="image-20200717133139299" style="zoom:100%;" />
 
-![image-20200717134210000](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134210.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134210.png" alt="image-20200717134210000" style="zoom:100%;" />
 
 
 
@@ -560,7 +560,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 ### ==order by==
 
-![image-20200717134743824](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134745.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717134745.png" alt="image-20200717134743824" style="zoom:100%;" />
 
 
 
@@ -572,87 +572,87 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717135527601](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717135528.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717135528.png" alt="image-20200717135527601" style="zoom:100%;" />
 
-![image-20200717135623252](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717135625.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717135625.png" alt="image-20200717135623252" style="zoom:100%;" />
 
-![image-20200717135829698](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717140035.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717140035.png" alt="image-20200717135829698" style="zoom:100%;" />
 
-![image-20200717140049249](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717140050.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717140050.png" alt="image-20200717140049249" style="zoom:100%;" />
 
-![image-20200717140636466](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134455.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134455.png" alt="image-20200717140636466" style="zoom:100%;" />
 
-![image-20200717141131407](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134503.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134503.png" alt="image-20200717141131407" style="zoom:100%;" />
 
-![image-20200717143819956](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717144444.png)
-
-
-
-![image-20200717145154326](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145155.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717144444.png" alt="image-20200717143819956" style="zoom:100%;" />
 
 
 
-![](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145427.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145155.png" alt="image-20200717145154326" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145427.png" alt="" style="zoom:100%;" />
 
 
 
 ## 5.3 慢查询日志
 
-![image-20200717145601421](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145629.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145629.png" alt="image-20200717145601421" style="zoom:100%;" />
 
 
 
-![image-20200717145722902](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145724.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145724.png" alt="image-20200717145722902" style="zoom:100%;" />
 
-![image-20200717145944955](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145946.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717145946.png" alt="image-20200717145944955" style="zoom:100%;" />
 
-![image-20200717150022083](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134518.png)
-
-
-
-
-
-
-
-![image-20200717150336557](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717150337.png)
-
-![image-20200717150551646](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717155721.png)
-
-![image-20200717150727190](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717150728.png)
-
-
-
-![image-20200717160001967](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160003.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134518.png" alt="image-20200717150022083" style="zoom:100%;" />
 
 
 
 
 
-![image-20200717160123213](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134526.png)
 
-![image-20200717160219393](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160220.png)
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717150337.png" alt="image-20200717150336557" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717155721.png" alt="image-20200717150551646" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717150728.png" alt="image-20200717150727190" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160003.png" alt="image-20200717160001967" style="zoom:100%;" />
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134526.png" alt="image-20200717160123213" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160220.png" alt="image-20200717160219393" style="zoom:100%;" />
 
 
 
 ### ==mysqldumpslow：日志分析工具==
 
-![image-20200717161002403](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161003.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161003.png" alt="image-20200717161002403" style="zoom:100%;" />
 
-![image-20200717160631183](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160838.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717160838.png" alt="image-20200717160631183" style="zoom:100%;" />
 
-![image-20200717161019494](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161020.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161020.png" alt="image-20200717161019494" style="zoom:100%;" />
 
 
 
 ## 5.4 批量数据脚本
 
-![image-20200717161237320](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161238.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717161238.png" alt="image-20200717161237320" style="zoom:100%;" />
 
 
 
 2. 修改配置参数，创建函数
 
-![image-20200717161938040](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717163035.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717163035.png" alt="image-20200717161938040" style="zoom:100%;" />
 
 
 
@@ -662,9 +662,9 @@ class：id，card（card的数值表示所属的一个分类)
 
 **3. 创建函数**
 
-![image-20200717162517758](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717162519.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717162519.png" alt="image-20200717162517758" style="zoom:100%;" />
 
-![image-20200717163029338](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717163030.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717163030.png" alt="image-20200717163029338" style="zoom:100%;" />
 
 
 
@@ -672,9 +672,9 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717163808908](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134538.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134538.png" alt="image-20200717163808908" style="zoom:100%;" />
 
-![image-20200717163547001](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134547.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134547.png" alt="image-20200717163547001" style="zoom:100%;" />
 
 
 
@@ -684,7 +684,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717164032873](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717164033.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717164033.png" alt="image-20200717164032873" style="zoom:100%;" />
 
 
 
@@ -694,17 +694,17 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717164831547](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134555.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134555.png" alt="image-20200717164831547" style="zoom:100%;" />
 
-![image-20200717165048348](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717165049.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717165049.png" alt="image-20200717165048348" style="zoom:100%;" />
 
 
 
-![image-20200717165717557](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134603.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134603.png" alt="image-20200717165717557" style="zoom:100%;" />
 
-![image-20200717170132902](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717170134.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717170134.png" alt="image-20200717170132902" style="zoom:100%;" />
 
-![image-20200717170422470](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717170424.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717170424.png" alt="image-20200717170422470" style="zoom:100%;" />
 
 
 
@@ -714,13 +714,13 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717171057799](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717173850.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717173850.png" alt="image-20200717171057799" style="zoom:100%;" />
 
-![image-20200717171016943](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717173841.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717173841.png" alt="image-20200717171016943" style="zoom:100%;" />
 
-![image-20200717171135088](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717171136.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717171136.png" alt="image-20200717171135088" style="zoom:100%;" />
 
-![image-20200717174445239](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717174446.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717174446.png" alt="image-20200717174445239" style="zoom:100%;" />
 
 
 
@@ -736,7 +736,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 1. 什么是锁
 
-![image-20200717175143556](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134618.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134618.png" alt="image-20200717175143556" style="zoom:100%;" />
 
 
 
@@ -758,13 +758,13 @@ class：id，card（card的数值表示所属的一个分类)
 
 ## 6.2 表锁
 
-![image-20200717175744842](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717175745.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717175745.png" alt="image-20200717175744842" style="zoom:100%;" />
 
-![image-20200717175807715](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717175808.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717175808.png" alt="image-20200717175807715" style="zoom:100%;" />
 
-![image-20200717180042654](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717180211.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717180211.png" alt="image-20200717180042654" style="zoom:100%;" />
 
-![image-20200717180213061](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134627.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134627.png" alt="image-20200717180213061" style="zoom:100%;" />
 
 
 
@@ -772,7 +772,7 @@ class：id，card（card的数值表示所属的一个分类)
 
 ==读锁案例1==
 
-![image-20200717181335611](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717181645.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717181645.png" alt="image-20200717181335611" style="zoom:100%;" />
 
 
 
@@ -780,11 +780,11 @@ class：id，card（card的数值表示所属的一个分类)
 
 ==写锁案例2==
 
-![image-20200717182140857](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717182141.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717182141.png" alt="image-20200717182140857" style="zoom:100%;" />
 
 
 
-![image-20200717182401937](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134634.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134634.png" alt="image-20200717182401937" style="zoom:100%;" />
 
 
 
@@ -792,9 +792,9 @@ class：id，card（card的数值表示所属的一个分类)
 
 如何查看那些表被加锁，以及锁定得状况
 
-![image-20200717205927957](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717205929.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717205929.png" alt="image-20200717205927957" style="zoom:100%;" />
 
-![image-20200717210144359](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717210145.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717210145.png" alt="image-20200717210144359" style="zoom:100%;" />
 
 
 
@@ -804,29 +804,29 @@ class：id，card（card的数值表示所属的一个分类)
 
 
 
-![image-20200717211122135](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134643.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134643.png" alt="image-20200717211122135" style="zoom:100%;" />
 
-![image-20200717211511835](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211513.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211513.png" alt="image-20200717211511835" style="zoom:100%;" />
 
-![image-20200717211632462](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211633.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211633.png" alt="image-20200717211632462" style="zoom:100%;" />
 
 
 
 
 
-![image-20200717211659739](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211700.png)
-
-![image-20200717212251942](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717212253.png)
-
-![image-20200717213151863](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717213153.png)
 
 
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717211700.png" alt="image-20200717211659739" style="zoom:100%;" />
 
-![image-20200717213335445](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134743.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717212253.png" alt="image-20200717212251942" style="zoom:100%;" />
 
-![image-20200717215023531](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215024.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717213153.png" alt="image-20200717213151863" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134743.png" alt="image-20200717213335445" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215024.png" alt="image-20200717215023531" style="zoom:100%;" />
 
 
 
@@ -834,50 +834,50 @@ class：id，card（card的数值表示所属的一个分类)
 
 ## 6.4 间隙锁
 
-![image-20200717215502513](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215505.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215505.png" alt="image-20200717215502513" style="zoom:100%;" />
 
-![image-20200717215837698](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215838.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717215838.png" alt="image-20200717215837698" style="zoom:100%;" />
 
 
 
-![image-20200717222058809](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717222059.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717222059.png" alt="image-20200717222058809" style="zoom:100%;" />
 
 
 
 ## 6.5 如何锁定一行
 
-![image-20200717223346322](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134754.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134754.png" alt="image-20200717223346322" style="zoom:100%;" />
 
 
 
 ## 6.6 小总结
 
-![image-20200717223549291](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717223550.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717223550.png" alt="image-20200717223549291" style="zoom:100%;" />
 
-![image-20200717223813091](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134800.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134800.png" alt="image-20200717223813091" style="zoom:100%;" />
 
-![image-20200717223904076](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134812.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134812.png" alt="image-20200717223904076" style="zoom:100%;" />
 
-![image-20200717224022233](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134821.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134821.png" alt="image-20200717224022233" style="zoom:100%;" />
 
 ## 6.7 页锁
 
 
 
-![image-20200717224044863](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224049.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224049.png" alt="image-20200717224044863" style="zoom:100%;" />
 
 # 七、主从复制
 
 
 
-![image-20200717224257020](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224749.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224749.png" alt="image-20200717224257020" style="zoom:100%;" />
 
-![image-20200717224558042](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224559.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200717224559.png" alt="image-20200717224558042" style="zoom:100%;" />
 
 ## 7.1 一主一从配置
 
-![image-20200717225707797](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134829.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134829.png" alt="image-20200717225707797" style="zoom:100%;" />
 
-![image-20200717225751534](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134838.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134838.png" alt="image-20200717225751534" style="zoom:100%;" />
 
-![image-20200717225806974](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134849.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720134849.png" alt="image-20200717225806974" style="zoom:100%;" />

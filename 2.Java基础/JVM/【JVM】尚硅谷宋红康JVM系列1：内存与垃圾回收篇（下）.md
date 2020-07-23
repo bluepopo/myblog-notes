@@ -8,21 +8,21 @@
 
 ## 1.1 执行引擎概述
 
-![image-20200624153748813](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154616.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154616.png" alt="image-20200624153748813" style="zoom:100%;" />
 
-![image-20200624153817904](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154605.png)
-
-
-
-![image-20200624154104488](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154105.png)
-
-![image-20200624154548110](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154550.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154605.png" alt="image-20200624153817904" style="zoom:100%;" />
 
 
 
-![image-20200624154809102](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125831.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154105.png" alt="image-20200624154104488" style="zoom:100%;" />
 
-![image-20200624155250217](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155251.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624154550.png" alt="image-20200624154548110" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125831.png" alt="image-20200624154809102" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155251.png" alt="image-20200624155250217" style="zoom:100%;" />
 
 
 
@@ -32,33 +32,33 @@
 
 ## 1.2 Java代码编译和执行过程
 
-![image-20200624155401559](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125832.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125832.png" alt="image-20200624155401559" style="zoom:100%;" />
 
-![image-20200624155710110](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155711.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155711.png" alt="image-20200624155710110" style="zoom:100%;" />
 
-![image-20200624155758065](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155759.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155759.png" alt="image-20200624155758065" style="zoom:100%;" />
 
-![image-20200624155905315](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155906.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624155906.png" alt="image-20200624155905315" style="zoom:100%;" />
 
-![image-20200624160228571](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624160229.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624160229.png" alt="image-20200624160228571" style="zoom:100%;" />
 
 ## 1.3 机器码、指令、汇编语言
 
-![image-20200624160534739](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125833.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125833.png" alt="image-20200624160534739" style="zoom:100%;" />
 
-![image-20200624160848321](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624160849.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624160849.png" alt="image-20200624160848321" style="zoom:100%;" />
 
-![image-20200624161034930](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161037.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161037.png" alt="image-20200624161034930" style="zoom:100%;" />
 
-![image-20200624161238315](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161239.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161239.png" alt="image-20200624161238315" style="zoom:100%;" />
 
-![image-20200624161440100](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161441.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161441.png" alt="image-20200624161440100" style="zoom:100%;" />
 
-![image-20200624161554889](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161745.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161745.png" alt="image-20200624161554889" style="zoom:100%;" />
 
-![image-20200624161733062](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161734.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624161734.png" alt="image-20200624161733062" style="zoom:100%;" />
 
-![image-20200624161836295](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125834.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125834.png" alt="image-20200624161836295" style="zoom:100%;" />
 
 
 
@@ -66,21 +66,21 @@
 
 ## 1.4 解释器
 
-![image-20200624162155029](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624162156.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624162156.png" alt="image-20200624162155029" style="zoom:100%;" />
 
-![image-20200624162635583](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624162636.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624162636.png" alt="image-20200624162635583" style="zoom:100%;" />
 
-![image-20200624162818852](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125835.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125835.png" alt="image-20200624162818852" style="zoom:100%;" />
 
-![image-20200624163033222](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624163034.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624163034.png" alt="image-20200624163033222" style="zoom:100%;" />
 
 
 
 ## 1.5 JIT编译器
 
-![image-20200624163550753](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624163552.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624163552.png" alt="image-20200624163550753" style="zoom:100%;" />
 
-![image-20200624164051084](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624164052.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624164052.png" alt="image-20200624164051084" style="zoom:100%;" />
 
 
 
@@ -89,27 +89,27 @@
 - 解释器采用逐行解释，启动快，但是把总体的字节码解释成本地代码的周期较长，需要一定的时间。
 - 即时编译器，启动慢，因为启动后要先编译大量字节码变成本地代码，然后一气呵成的执行。
 
-![image-20200624164653385](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624164654.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624164654.png" alt="image-20200624164653385" style="zoom:100%;" />
 
-![image-20200624165056966](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624165057.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624165057.png" alt="image-20200624165056966" style="zoom:100%;" />
 
 
 
-![image-20200624191007255](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191602.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191602.png" alt="image-20200624191007255" style="zoom:100%;" />
 
-![image-20200624191139576](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191458.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191458.png" alt="image-20200624191139576" style="zoom:100%;" />
 
-![image-20200624191447897](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191449.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191449.png" alt="image-20200624191447897" style="zoom:100%;" />
 
-![image-20200624191747085](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191749.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191749.png" alt="image-20200624191747085" style="zoom:100%;" />
 
-![image-20200624191832255](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125836.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125836.png" alt="image-20200624191832255" style="zoom:100%;" />
 
-![image-20200624191908146](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191909.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624191909.png" alt="image-20200624191908146" style="zoom:100%;" />
 
-![image-20200624192336066](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192337.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192337.png" alt="image-20200624192336066" style="zoom:100%;" />
 
-![image-20200624192420791](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125837.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125837.png" alt="image-20200624192420791" style="zoom:100%;" />
 
 
 
@@ -117,23 +117,23 @@
 
 ## 1.6 HotSpot设置模式：C1、C2编译器
 
-![image-20200624192451551](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192452.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192452.png" alt="image-20200624192451551" style="zoom:100%;" />
 
-![image-20200624192805485](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192809.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624192809.png" alt="image-20200624192805485" style="zoom:100%;" />
 
-![image-20200624193334254](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193707.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193707.png" alt="image-20200624193334254" style="zoom:100%;" />
 
-![image-20200624193705494](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193716.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193716.png" alt="image-20200624193705494" style="zoom:100%;" />
 
-![image-20200624193855882](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193856.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193856.png" alt="image-20200624193855882" style="zoom:100%;" />
 
-![image-20200624193940070](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193941.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193941.png" alt="image-20200624193940070" style="zoom:100%;" />
 
-![image-20200624193957109](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193958.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624193958.png" alt="image-20200624193957109" style="zoom:100%;" />
 
-![image-20200624194304806](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624194305.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624194305.png" alt="image-20200624194304806" style="zoom:100%;" />
 
-![image-20200624194405502](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125838.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125838.png" alt="image-20200624194405502" style="zoom:100%;" />
 
 
 
@@ -141,11 +141,11 @@
 
 ## 2.1 String的基本特性
 
-![image-20200624195346231](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624195347.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624195347.png" alt="image-20200624195346231" style="zoom:100%;" />
 
-![image-20200624213859876](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125839.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125839.png" alt="image-20200624213859876" style="zoom:100%;" />
 
-![image-20200624214216228](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624214217.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624214217.png" alt="image-20200624214216228" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java;
@@ -194,7 +194,7 @@ public class StringTest1 {
 
 
 
-![image-20200624221911367](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125840.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125840.png" alt="image-20200624221911367" style="zoom:100%;" />
 
 面试题：考察字符串的不可变性
 
@@ -225,7 +225,7 @@ public class StringExer {
 
 ```
 
-![image-20200624222759391](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624222800.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624222800.png" alt="image-20200624222759391" style="zoom:100%;" />
 
 
 
@@ -239,15 +239,15 @@ public class StringExer {
 
 ## 2.2 String的内存分配
 
-![image-20200624230236440](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624230442.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200624230442.png" alt="image-20200624230236440" style="zoom:100%;" />
 
-![image-20200624230247736](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125841.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125841.png" alt="image-20200624230247736" style="zoom:100%;" />
 
-![image-20200624231148738](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125842.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125842.png" alt="image-20200624231148738" style="zoom:100%;" />
 
-![image-20200624231221835](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125843.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125843.png" alt="image-20200624231221835" style="zoom:100%;" />
 
-![image-20200624231255185](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125844.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125844.png" alt="image-20200624231255185" style="zoom:100%;" />
 
 
 
@@ -294,7 +294,7 @@ public class StringTest3 {
 
 
 
-![image-20200625125408653](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625125417.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625125417.png" alt="image-20200625125408653" style="zoom:100%;" />
 
 
 
@@ -302,9 +302,9 @@ public class StringTest3 {
 
 
 
-![image-20200625125931896](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625125933.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625125933.png" alt="image-20200625125931896" style="zoom:100%;" />
 
-![image-20200625130038059](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625130039.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625130039.png" alt="image-20200625130038059" style="zoom:100%;" />
 
 
 
@@ -320,7 +320,7 @@ public class StringTest3 {
 
 ## 2.4 字符串拼接
 
-![image-20200625130522093](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625130523.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200625130523.png" alt="image-20200625130522093" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java1;
@@ -462,7 +462,7 @@ public class StringTest5 {
 
 ```
 
-![image-20200627193249311](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627193259.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627193259.png" alt="image-20200627193249311" style="zoom:100%;" />
 
 
 
@@ -470,7 +470,7 @@ public class StringTest5 {
 
 ## ♥2.5 intern()的使用
 
-![image-20200627202010936](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627202012.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627202012.png" alt="image-20200627202010936" style="zoom:100%;" />
 
 
 
@@ -482,11 +482,11 @@ public class StringTest5 {
 
 
 
-![image-20200627202839174](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627202840.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627202840.png" alt="image-20200627202839174" style="zoom:100%;" />
 
 
 
-![image-20200627203904404](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204120.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204120.png" alt="image-20200627203904404" style="zoom:100%;" />
 
 
 
@@ -527,9 +527,9 @@ public class StringNewTest {
 
 ```
 
-![image-20200627204504556](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204505.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204505.png" alt="image-20200627204504556" style="zoom:100%;" />
 
-![image-20200627204720403](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204721.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200627204721.png" alt="image-20200627204720403" style="zoom:100%;" />
 
 
 
@@ -579,9 +579,9 @@ public class StringIntern {
 
 ```
 
-![image-20200628095846049](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125845.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125845.png" alt="image-20200628095846049" style="zoom:100%;" />
 
-![image-20200628095909311](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125846.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125846.png" alt="image-20200628095909311" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java2;
@@ -610,7 +610,7 @@ public class StringIntern1 {
 
 
 
-![image-20200628105051468](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628105053.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628105053.png" alt="image-20200628105051468" style="zoom:100%;" />
 
 
 
@@ -643,11 +643,11 @@ public class StringExer1 {
 
 ```
 
-![image-20200628105826450](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628105829.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628105829.png" alt="image-20200628105826450" style="zoom:100%;" />
 
-![image-20200628110222920](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628110223.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628110223.png" alt="image-20200628110222920" style="zoom:100%;" />
 
-![image-20200628110108178](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628110109.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628110109.png" alt="image-20200628110108178" style="zoom:100%;" />
 
 
 
@@ -681,9 +681,9 @@ public class StringExer2 {
 
 
 
-![image-20200628122027141](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628122028.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628122028.png" alt="image-20200628122027141" style="zoom:100%;" />
 
-![image-20200628123110553](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628123111.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628123111.png" alt="image-20200628123110553" style="zoom:100%;" />
 
 ## 2.6 StringTable的垃圾回收
 
@@ -711,11 +711,11 @@ public class StringGCTest {
 
 ## 2.7 G1中字符串去重操作
 
-![image-20200628124455515](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628124456.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628124456.png" alt="image-20200628124455515" style="zoom:100%;" />
 
-![image-20200628124801094](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125847.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125847.png" alt="image-20200628124801094" style="zoom:100%;" />
 
-![image-20200628125040483](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125041.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628125041.png" alt="image-20200628125040483" style="zoom:100%;" />
 
 
 
@@ -725,25 +725,25 @@ public class StringGCTest {
 
 ### 3.1.1 什么是垃圾
 
-![image-20200628130659838](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628130700.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628130700.png" alt="image-20200628130659838" style="zoom:100%;" />
 
-![image-20200628130908285](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628130909.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628130909.png" alt="image-20200628130908285" style="zoom:100%;" />
 
-![image-20200628131009695](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628131010.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628131010.png" alt="image-20200628131009695" style="zoom:100%;" />
 
-![image-20200628131417809](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628131418.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628131418.png" alt="image-20200628131417809" style="zoom:100%;" />
 
 
 
 ### 3.1.2 为什么需要GC
 
-![image-20200628131751267](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161630.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161630.png" alt="image-20200628131751267" style="zoom:100%;" />
 
 ### 3.1.3 早期垃圾回收
 
-![image-20200628131833169](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161620.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161620.png" alt="image-20200628131833169" style="zoom:100%;" />
 
-![image-20200628132034213](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161614.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161614.png" alt="image-20200628132034213" style="zoom:100%;" />
 
 
 
@@ -753,13 +753,13 @@ public class StringGCTest {
 
 ### 3.1.4 Java垃圾回收的机制
 
-![image-20200628132211476](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628132212.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628132212.png" alt="image-20200628132211476" style="zoom:100%;" />
 
-![image-20200628132427080](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161606.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161606.png" alt="image-20200628132427080" style="zoom:100%;" />
 
-![image-20200628132541921](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628133650.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628133650.png" alt="image-20200628132541921" style="zoom:100%;" />
 
-![image-20200628133056218](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628133606.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628133606.png" alt="image-20200628133056218" style="zoom:100%;" />
 
 
 
@@ -773,11 +773,11 @@ public class StringGCTest {
 
 ### 3.2.1 标记阶段：引用计数算法
 
-![image-20200628134345611](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628134346.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628134346.png" alt="image-20200628134345611" style="zoom:100%;" />
 
-![image-20200628135303470](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161559.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161559.png" alt="image-20200628135303470" style="zoom:100%;" />
 
-![image-20200628135556000](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160434.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160434.png" alt="image-20200628135556000" style="zoom:100%;" />
 
 
 
@@ -829,43 +829,43 @@ public class RefCountGC {
 
 
 
-![image-20200628160117491](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160118.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160118.png" alt="image-20200628160117491" style="zoom:100%;" />
 
-![image-20200628160838748](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160843.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628160843.png" alt="image-20200628160838748" style="zoom:100%;" />
 
-![image-20200628161112488](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161113.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161113.png" alt="image-20200628161112488" style="zoom:100%;" />
 
 ### 3.2.2 标记阶段：可达性分析算法
 
-![image-20200628161358800](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161400.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161400.png" alt="image-20200628161358800" style="zoom:100%;" />
 
-![image-20200628161546756](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161547.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161547.png" alt="image-20200628161546756" style="zoom:100%;" />
 
-![image-20200628161834209](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161838.png)
-
-
-
-![image-20200628162114457](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170144.png)
-
-![image-20200628162801918](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170150.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628161838.png" alt="image-20200628161834209" style="zoom:100%;" />
 
 
 
-![image-20200628162822611](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170155.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170144.png" alt="image-20200628162114457" style="zoom:100%;" />
 
-![image-20200628163131459](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170137.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170150.png" alt="image-20200628162801918" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170155.png" alt="image-20200628162822611" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170137.png" alt="image-20200628163131459" style="zoom:100%;" />
 
 
 
 ### 3.2.3 对象得finalization机制
 
-![image-20200628163434736](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628163435.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628163435.png" alt="image-20200628163434736" style="zoom:100%;" />
 
-![image-20200628163819446](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628163821.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628163821.png" alt="image-20200628163819446" style="zoom:100%;" />
 
-![image-20200628164224086](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170129.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170129.png" alt="image-20200628164224086" style="zoom:100%;" />
 
-![image-20200628165233093](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628165234.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628165234.png" alt="image-20200628165233093" style="zoom:100%;" />
 
 
 
@@ -936,11 +936,11 @@ public class CanReliveObj {
 
 一、MAT的GC Roots溯源
 
-![image-20200628170448248](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170449.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628170449.png" alt="image-20200628170448248" style="zoom:100%;" />
 
-![image-20200628170701025](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172641.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172641.png" alt="image-20200628170701025" style="zoom:100%;" />
 
-![image-20200628170755246](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172630.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172630.png" alt="image-20200628170755246" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java;
@@ -982,9 +982,9 @@ public class GCRootsTest {
 
 ```
 
-![image-20200628171223671](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628171225.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628171225.png" alt="image-20200628171223671" style="zoom:100%;" />
 
-![image-20200628171518739](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172618.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172618.png" alt="image-20200628171518739" style="zoom:100%;" />
 
 
 
@@ -994,7 +994,7 @@ public class GCRootsTest {
 
 
 
-![image-20200628172155879](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172602.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172602.png" alt="image-20200628172155879" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java;
@@ -1028,11 +1028,11 @@ public class HeapOOM {
 
 ```
 
-![image-20200628172550883](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172552.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172552.png" alt="image-20200628172550883" style="zoom:100%;" />
 
 
 
-![image-20200628172726768](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172727.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172727.png" alt="image-20200628172726768" style="zoom:100%;" />
 
 
 
@@ -1040,25 +1040,25 @@ public class HeapOOM {
 
 ### 3.2.5 清楚阶段：标记-清楚算法
 
-![image-20200628172925242](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172926.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628172926.png" alt="image-20200628172925242" style="zoom:100%;" />
 
-![image-20200628173131183](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628173133.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628173133.png" alt="image-20200628173131183" style="zoom:100%;" />
 
-![image-20200628175717818](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183603.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183603.png" alt="image-20200628175717818" style="zoom:100%;" />
 
 
 
-![image-20200628180437348](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183610.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183610.png" alt="image-20200628180437348" style="zoom:100%;" />
 
 ### 3.2.6 清除阶段：复制算法
 
-![image-20200628181504462](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183440.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183440.png" alt="image-20200628181504462" style="zoom:100%;" />
 
-![image-20200628181442913](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183432.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183432.png" alt="image-20200628181442913" style="zoom:100%;" />
 
-![image-20200628181919373](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183427.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183427.png" alt="image-20200628181919373" style="zoom:100%;" />
 
-![image-20200628182112198](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182113.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182113.png" alt="image-20200628182112198" style="zoom:100%;" />
 
 
 
@@ -1066,15 +1066,15 @@ public class HeapOOM {
 
 ### 3.2.7 清除阶段：标记-压缩算法
 
-![image-20200628182225645](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182226.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182226.png" alt="image-20200628182225645" style="zoom:100%;" />
 
-![image-20200628182600524](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182601.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182601.png" alt="image-20200628182600524" style="zoom:100%;" />
 
-![image-20200628182916307](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182917.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628182917.png" alt="image-20200628182916307" style="zoom:100%;" />
 
 ![image-20200628183225188](G:\图片\blog\image-20200628183225188.png)
 
-![image-20200628183306372](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183414.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183414.png" alt="image-20200628183306372" style="zoom:100%;" />
 
 
 
@@ -1086,13 +1086,13 @@ public class HeapOOM {
 
 
 
-![image-20200628183548983](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183549.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200628183549.png" alt="image-20200628183548983" style="zoom:100%;" />
 
 ![image-20200628183942294](G:\图片\blog\image-20200628183942294.png)
 
 ### 3.2.9 分代收集算法
 
-![image-20200629151422972](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629151431.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629151431.png" alt="image-20200629151422972" style="zoom:100%;" />
 
 ![image-20200629152313884](G:\图片\blog\image-20200629152313884.png)
 
@@ -1104,15 +1104,15 @@ public class HeapOOM {
 
 ### 3.2.10 增量收集算法、分区算法
 
-![image-20200629180154525](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140403.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140403.png" alt="image-20200629180154525" style="zoom:100%;" />
 
-![image-20200629181157790](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629181159.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629181159.png" alt="image-20200629181157790" style="zoom:100%;" />
 
-![image-20200629183923786](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140357.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140357.png" alt="image-20200629183923786" style="zoom:100%;" />
 
-![image-20200629184413352](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629184414.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629184414.png" alt="image-20200629184413352" style="zoom:100%;" />
 
-![image-20200629184602997](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140412.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140412.png" alt="image-20200629184602997" style="zoom:100%;" />
 
 
 
@@ -1136,7 +1136,7 @@ public class HeapOOM {
 
 - 该方法可以主动的进行垃圾回收
 
-![image-20200629191003101](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629191004.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629191004.png" alt="image-20200629191003101" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java;
@@ -1222,7 +1222,7 @@ public class LocalVarGC {
 
 ```
 
-![image-20200629194141824](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629194142.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629194142.png" alt="image-20200629194141824" style="zoom:100%;" />
 
 ![image-20200629194351685](G:\图片\blog\image-20200629194351685.png)
 
@@ -1238,15 +1238,15 @@ public class LocalVarGC {
 
 ![image-20200629201642701](G:\图片\blog\image-20200629201642701.png)
 
-![image-20200629232606518](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629232607.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200629232607.png" alt="image-20200629232606518" style="zoom:100%;" />
 
 ![image-20200630001240362](G:\图片\blog\image-20200630001240362.png)
 
 ![image-20200630001302132](G:\图片\blog\image-20200630001302132.png)
 
-![image-20200630001535323](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630001741.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630001741.png" alt="image-20200630001535323" style="zoom:100%;" />
 
-![image-20200630003442419](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630003443.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630003443.png" alt="image-20200630003442419" style="zoom:100%;" />
 
 
 
@@ -1256,13 +1256,13 @@ public class LocalVarGC {
 
 ![image-20200630003740510](G:\图片\blog\image-20200630003740510.png)
 
-![image-20200630003857585](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630003858.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630003858.png" alt="image-20200630003857585" style="zoom:100%;" />
 
 
 
 ### 3.3.3 Stop The World 
 
-![image-20200630084323578](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630084331.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630084331.png" alt="image-20200630084323578" style="zoom:100%;" />
 
 ![image-20200630085208676](G:\图片\blog\image-20200630085208676.png)
 
@@ -1333,13 +1333,13 @@ public class StopTheWorldDemo {
 
 ### 3.3.4 垃圾回收的并行与并发
 
-![image-20200630093615852](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630093616.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630093616.png" alt="image-20200630093615852" style="zoom:100%;" />
 
 ![image-20200630093805257](G:\图片\blog\image-20200630093805257.png)
 
 
 
-![image-20200630093851374](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630093852.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630093852.png" alt="image-20200630093851374" style="zoom:100%;" />
 
 ![image-20200630094032491](G:\图片\blog\image-20200630094032491.png)
 
@@ -1355,11 +1355,11 @@ public class StopTheWorldDemo {
 
 ![image-20200630094514654](G:\图片\blog\image-20200630094514654.png)
 
-![image-20200630094855402](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630094856.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630094856.png" alt="image-20200630094855402" style="zoom:100%;" />
 
-![image-20200630095018560](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630095019.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630095019.png" alt="image-20200630095018560" style="zoom:100%;" />
 
-![image-20200630095153277](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630095154.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630095154.png" alt="image-20200630095153277" style="zoom:100%;" />
 
 
 
@@ -1367,13 +1367,13 @@ public class StopTheWorldDemo {
 
 ### 3.3.6 再谈引用：强引用
 
-![image-20200630135350705](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630135351.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630135351.png" alt="image-20200630135350705" style="zoom:100%;" />
 
-![image-20200630140334450](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140335.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140335.png" alt="image-20200630140334450" style="zoom:100%;" />
 
-![image-20200630140509339](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140510.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630140510.png" alt="image-20200630140509339" style="zoom:100%;" />
 
-![image-20200630141147784](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630141148.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630141148.png" alt="image-20200630141147784" style="zoom:100%;" />
 
 ```java
 package com.atguigu.java1;
@@ -1406,7 +1406,7 @@ public class StrongReferenceTest {
 
 注意：上述代码，堆空间的StringBuffer并没有被回收，因为虽然 **str为null**消除了一份强引用，但是**str1也是一份强引用，**引用了堆空间中的StringBuffer ("Hello,尚硅谷");
 
-![image-20200630141811455](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630141812.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630141812.png" alt="image-20200630141811455" style="zoom:100%;" />
 
 ![image-20200630141856204](G:\图片\blog\image-20200630141856204.png)
 
@@ -1424,7 +1424,7 @@ public class StrongReferenceTest {
 
 ![image-20200630142217243](G:\图片\blog\image-20200630142217243.png)
 
-![image-20200630142636171](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630143857.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630143857.png" alt="image-20200630142636171" style="zoom:100%;" />
 
 
 
@@ -1495,7 +1495,7 @@ public class SoftReferenceTest {
 
 ### 3.3.8 再谈引用：弱引用
 
-![image-20200630150252625](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630150253.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630150253.png" alt="image-20200630150252625" style="zoom:100%;" />
 
 ![image-20200630151029168](G:\图片\blog\image-20200630151029168.png)
 
@@ -1550,7 +1550,7 @@ public class WeakReferenceTest {
 
 ![image-20200630151622285](G:\图片\blog\image-20200630151622285.png)
 
-![image-20200630152352832](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630152354.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630152354.png" alt="image-20200630152352832" style="zoom:100%;" />
 
 
 
@@ -1641,7 +1641,7 @@ public class PhantomReferenceTest {
 
 ### 3.3.10  再谈引用：终结器引用
 
-![image-20200630161251688](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630161252.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630161252.png" alt="image-20200630161251688" style="zoom:100%;" />
 
 
 
@@ -1651,21 +1651,21 @@ public class PhantomReferenceTest {
 
 ## 4.1 GC分类与性能指标
 
-![image-20200630162322174](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630162323.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630162323.png" alt="image-20200630162322174" style="zoom:100%;" />
 
 ![image-20200630162733748](G:\图片\blog\image-20200630162733748.png)
 
-![image-20200630162933033](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172532.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172532.png" alt="image-20200630162933033" style="zoom:100%;" />
 
-![image-20200630163031607](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163032.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163032.png" alt="image-20200630163031607" style="zoom:100%;" />
 
-![image-20200630163109990](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163110.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163110.png" alt="image-20200630163109990" style="zoom:100%;" />
 
 
 
-![image-20200630163306975](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163307.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163307.png" alt="image-20200630163306975" style="zoom:100%;" />
 
 
 
@@ -1675,19 +1675,19 @@ public class PhantomReferenceTest {
 
 
 
-![image-20200630163342695](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163343.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163343.png" alt="image-20200630163342695" style="zoom:100%;" />
 
-![image-20200630163813433](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163814.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630163814.png" alt="image-20200630163813433" style="zoom:100%;" />
 
 ![image-20200630164012184](G:\图片\blog\image-20200630164012184.png)
 
 
 
-![image-20200630164300620](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630164301.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630164301.png" alt="image-20200630164300620" style="zoom:100%;" />
 
 ![image-20200630164451072](G:\图片\blog\image-20200630164451072.png)
 
-![image-20200630164757065](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630164758.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630164758.png" alt="image-20200630164757065" style="zoom:100%;" />
 
 ![image-20200630165936588](G:\图片\blog\image-20200630165936588.png)
 
@@ -1701,13 +1701,13 @@ public class PhantomReferenceTest {
 
 
 
-![image-20200630170211232](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630170212.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630170212.png" alt="image-20200630170211232" style="zoom:100%;" />
 
 ![image-20200630170631158](G:\图片\blog\image-20200630170631158.png)
 
 
 
-![image-20200630174034182](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174035.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174035.png" alt="image-20200630174034182" style="zoom:100%;" />
 
 
 
@@ -1715,27 +1715,27 @@ public class PhantomReferenceTest {
 
 - **CMS是第一款 并发 的垃圾回收器。**
 
-![image-20200630174312967](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174314.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174314.png" alt="image-20200630174312967" style="zoom:100%;" />
 
-![image-20200630174532307](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174533.png)
-
-
-
-![image-20200630174652165](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174653.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174533.png" alt="image-20200630174532307" style="zoom:100%;" />
 
 
 
-![image-20200630175004310](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630175005.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630174653.png" alt="image-20200630174652165" style="zoom:100%;" />
 
-![image-20200630175309299](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630175310.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630175005.png" alt="image-20200630175004310" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630175310.png" alt="image-20200630175309299" style="zoom:100%;" />
 
 
 
 ![image-20200630175610159](G:\图片\blog\image-20200630175610159.png)
 
-![image-20200630184234798](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630184235.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630184235.png" alt="image-20200630184234798" style="zoom:100%;" />
 
-![image-20200630184528279](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630184529.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630184529.png" alt="image-20200630184528279" style="zoom:100%;" />
 
 
 
@@ -1747,13 +1747,13 @@ public class PhantomReferenceTest {
 
 ## 4.3 Serial回收器：串行回收
 
-![image-20200630185057152](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630185058.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630185058.png" alt="image-20200630185057152" style="zoom:100%;" />
 
-![image-20200630190137927](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190139.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190139.png" alt="image-20200630190137927" style="zoom:100%;" />
 
-![image-20200630190222334](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190223.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190223.png" alt="image-20200630190222334" style="zoom:100%;" />
 
-![image-20200630190403770](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190404.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630190404.png" alt="image-20200630190403770" style="zoom:100%;" />
 
 
 
@@ -1781,47 +1781,47 @@ public class PhantomReferenceTest {
 
 ## 4.5 Parallel回收器：吞吐量优先
 
-![image-20200630191730997](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630191731.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630191731.png" alt="image-20200630191730997" style="zoom:100%;" />
 
-![image-20200630192446655](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192447.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192447.png" alt="image-20200630192446655" style="zoom:100%;" />
 
-![image-20200630192500226](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192501.png)
-
-
-
-![image-20200630192935584](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192936.png)
-
-![image-20200630193206721](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630193207.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192501.png" alt="image-20200630192500226" style="zoom:100%;" />
 
 
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192936.png" alt="image-20200630192935584" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630193207.png" alt="image-20200630193206721" style="zoom:100%;" />
 
 
 
 
 
-![image-20200630192624403](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192625.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630192625.png" alt="image-20200630192624403" style="zoom:100%;" />
 
 
 
 ## 4.6 CMS回收器：低延迟
 
-![image-20200630222312154](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630222313.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630222313.png" alt="image-20200630222312154" style="zoom:100%;" />
 
-![image-20200630222720056](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630222720.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630222720.png" alt="image-20200630222720056" style="zoom:100%;" />
 
 ![image-20200630222802455](G:\图片\blog\image-20200630222802455.png)
 
-![image-20200630223000868](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630223001.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630223001.png" alt="image-20200630223000868" style="zoom:100%;" />
 
 ![image-20200630223316085](G:\图片\blog\image-20200630223316085.png)
 
-![image-20200630223412103](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630223413.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630223413.png" alt="image-20200630223412103" style="zoom:100%;" />
 
-![image-20200630224054047](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224055.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224055.png" alt="image-20200630224054047" style="zoom:100%;" />
 
-![image-20200630224523449](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224524.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224524.png" alt="image-20200630224523449" style="zoom:100%;" />
 
-![image-20200630224712327](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224713.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200630224713.png" alt="image-20200630224712327" style="zoom:100%;" />
 
 
 
@@ -1876,7 +1876,7 @@ public class GCUseTest {
 
 ![image-20200701142643467](G:\图片\blog\image-20200701142643467.png)
 
-![image-20200701143216069](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701143217.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701143217.png" alt="image-20200701143216069" style="zoom:100%;" />
 
 ![image-20200701143401173](G:\图片\blog\image-20200701143401173.png)
 
@@ -1884,39 +1884,39 @@ public class GCUseTest {
 
 ## 4.7 G1回收器：区域化分代式
 
-![image-20200701143648097](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701143649.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701143649.png" alt="image-20200701143648097" style="zoom:100%;" />
 
 ![image-20200701144044835](G:\图片\blog\image-20200701144044835.png)
 
-![image-20200701144534046](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701144534.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701144534.png" alt="image-20200701144534046" style="zoom:100%;" />
 
-![image-20200701144637016](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701144637.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701144637.png" alt="image-20200701144637016" style="zoom:100%;" />
 
 
 
-![image-20200701145018980](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145019.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145019.png" alt="image-20200701145018980" style="zoom:100%;" />
 
 
 
-![image-20200701145157744](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145510.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145510.png" alt="image-20200701145157744" style="zoom:100%;" />
 
-![image-20200701145459124](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145500.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145500.png" alt="image-20200701145459124" style="zoom:100%;" />
 
-![image-20200701145725846](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145753.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145753.png" alt="image-20200701145725846" style="zoom:100%;" />
 
-![image-20200701145743481](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145744.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701145744.png" alt="image-20200701145743481" style="zoom:100%;" />
 
-![image-20200701150411228](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701150412.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701150412.png" alt="image-20200701150411228" style="zoom:100%;" />
 
-![image-20200701150632410](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701150633.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701150633.png" alt="image-20200701150632410" style="zoom:100%;" />
 
-![image-20200701151212115](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151213.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151213.png" alt="image-20200701151212115" style="zoom:100%;" />
 
-![image-20200701151641453](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151642.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151642.png" alt="image-20200701151641453" style="zoom:100%;" />
 
-![image-20200701151749126](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151750.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701151750.png" alt="image-20200701151749126" style="zoom:100%;" />
 
 ![image-20200701152050940](G:\图片\blog\image-20200701152050940.png)
 
@@ -1924,49 +1924,49 @@ public class GCUseTest {
 
 ## 4.7 G1回收器：实现过程
 
-![image-20200701152726957](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701152728.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701152728.png" alt="image-20200701152726957" style="zoom:100%;" />
 
-![image-20200701153033379](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701153034.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701153034.png" alt="image-20200701153033379" style="zoom:100%;" />
 
-![image-20200701153101107](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701153102.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701153102.png" alt="image-20200701153101107" style="zoom:100%;" />
 
-![image-20200701154749008](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701154750.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701154750.png" alt="image-20200701154749008" style="zoom:100%;" />
 
 
 
 
 
-![image-20200701162148478](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162149.png)
 
-![image-20200701154332254](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701154333.png)
 
-![image-20200701162345658](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162346.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162149.png" alt="image-20200701162148478" style="zoom:100%;" />
 
-![image-20200701162802955](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162803.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701154333.png" alt="image-20200701154332254" style="zoom:100%;" />
 
-![image-20200701163035947](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701163037.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162346.png" alt="image-20200701162345658" style="zoom:100%;" />
 
-![image-20200701163300018](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701163301.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701162803.png" alt="image-20200701162802955" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701163037.png" alt="image-20200701163035947" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701163301.png" alt="image-20200701163300018" style="zoom:100%;" />
 
 ![image-20200701163927996](G:\图片\blog\image-20200701163927996.png)
 
-![image-20200701164330449](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164331.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164331.png" alt="image-20200701164330449" style="zoom:100%;" />
 
-![image-20200701164518497](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165010.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165010.png" alt="image-20200701164518497" style="zoom:100%;" />
 
-![image-20200701164613663](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164614.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164614.png" alt="image-20200701164613663" style="zoom:100%;" />
 
 
 
 ## 4.8 垃圾回收器总结
 
-![image-20200701164713114](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164714.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164714.png" alt="image-20200701164713114" style="zoom:100%;" />
 
 
 
-![image-20200701164855718](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164959.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164959.png" alt="image-20200701164855718" style="zoom:100%;" />
 
 
 
@@ -1978,13 +1978,13 @@ public class GCUseTest {
 
 
 
-![image-20200701164948340](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164949.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701164949.png" alt="image-20200701164948340" style="zoom:100%;" />
 
-![image-20200701165143047](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165244.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165244.png" alt="image-20200701165143047" style="zoom:100%;" />
 
-![image-20200701165234961](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165235.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165235.png" alt="image-20200701165234961" style="zoom:100%;" />
 
-![image-20200701165258518](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165302.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165302.png" alt="image-20200701165258518" style="zoom:100%;" />
 
 ## 4.9 GC日志分析
 
@@ -2021,25 +2021,25 @@ public class GCLogTest {
 
 ```
 
-![image-20200701165648982](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165650.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165650.png" alt="image-20200701165648982" style="zoom:100%;" />
 
-![image-20200701165719534](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165720.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165720.png" alt="image-20200701165719534" style="zoom:100%;" />
 
-![image-20200701165743240](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165744.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165744.png" alt="image-20200701165743240" style="zoom:100%;" />
 
-![image-20200701165756658](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165757.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165757.png" alt="image-20200701165756658" style="zoom:100%;" />
 
-![image-20200701165810411](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165811.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165811.png" alt="image-20200701165810411" style="zoom:100%;" />
 
-![image-20200701165934543](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165935.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165935.png" alt="image-20200701165934543" style="zoom:100%;" />
 
-![image-20200701165957637](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165958.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701165958.png" alt="image-20200701165957637" style="zoom:100%;" />
 
-![image-20200701170110716](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172452.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172452.png" alt="image-20200701170110716" style="zoom:100%;" />
 
-![image-20200701170133618](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172445.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172445.png" alt="image-20200701170133618" style="zoom:100%;" />
 
-![image-20200701170153274](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171336.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171336.png" alt="image-20200701170153274" style="zoom:100%;" />
 
 
 
@@ -2072,11 +2072,11 @@ public class GCLogTest1 {
 
 ```
 
-![image-20200701170416399](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701170417.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701170417.png" alt="image-20200701170416399" style="zoom:100%;" />
 
-![image-20200701170730819](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171322.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171322.png" alt="image-20200701170730819" style="zoom:100%;" />
 
-![image-20200701171241621](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171242.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171242.png" alt="image-20200701171241621" style="zoom:100%;" />
 
 
 
@@ -2084,47 +2084,47 @@ public class GCLogTest1 {
 
 
 
-![image-20200701171308286](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172430.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172430.png" alt="image-20200701171308286" style="zoom:100%;" />
 
-![image-20200701171408751](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172421.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172421.png" alt="image-20200701171408751" style="zoom:100%;" />
 
 在当前工程下创建好目录，然后使用参数设置将GC日志输出成文件，使用工具打开文件。
 
-![image-20200701171557481](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172414.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172414.png" alt="image-20200701171557481" style="zoom:100%;" />
 
 
 
 ## 4.10 垃圾回收器的新发展
 
-![image-20200701171651088](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171652.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171652.png" alt="image-20200701171651088" style="zoom:100%;" />
 
-![image-20200701171742320](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171743.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171743.png" alt="image-20200701171742320" style="zoom:100%;" />
 
-![image-20200701171802147](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172408.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172408.png" alt="image-20200701171802147" style="zoom:100%;" />
 
-![image-20200701171828053](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172400.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172400.png" alt="image-20200701171828053" style="zoom:100%;" />
 
-![image-20200701171855750](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172349.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172349.png" alt="image-20200701171855750" style="zoom:100%;" />
 
-![image-20200701171920346](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172343.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172343.png" alt="image-20200701171920346" style="zoom:100%;" />
 
-![image-20200701171950734](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171951.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701171951.png" alt="image-20200701171950734" style="zoom:100%;" />
 
-![image-20200701172023380](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172024.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172024.png" alt="image-20200701172023380" style="zoom:100%;" />
 
-![image-20200701172054364](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172055.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172055.png" alt="image-20200701172054364" style="zoom:100%;" />
 
-![image-20200701172114842](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172115.png)
-
-
-
-![image-20200701172203439](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172204.png)
-
-![image-20200701172216216](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172217.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172115.png" alt="image-20200701172114842" style="zoom:100%;" />
 
 
 
-![image-20200701172244398](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172245.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172204.png" alt="image-20200701172203439" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172217.png" alt="image-20200701172216216" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172245.png" alt="image-20200701172244398" style="zoom:100%;" />
 
 
 
@@ -2132,7 +2132,7 @@ public class GCLogTest1 {
 
 
 
-![image-20200701172524552](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172525.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200701172525.png" alt="image-20200701172524552" style="zoom:100%;" />
 
 
 

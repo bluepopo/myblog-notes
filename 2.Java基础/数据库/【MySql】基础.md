@@ -339,7 +339,7 @@ HAVING MAX(salary)>12000;
 
 什么是约束：对表中的数据进行限定，保证数据的正确性、有效性和完整性。
 
-![image-20200713232055853](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130513.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130513.png" alt="image-20200713232055853" style="zoom:100%;" />
 
 ### primary key：主键约束
 
@@ -393,9 +393,9 @@ HAVING MAX(salary)>12000;
 
 
 
-![image-20200714183550301](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130526.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130526.png" alt="image-20200714183550301" style="zoom:100%;" />
 
-![image-20200714184001577](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130533.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720130533.png" alt="image-20200714184001577" style="zoom:100%;" />
 
 ###  not null：非空约束
 
@@ -1181,7 +1181,7 @@ DELETE FROM myv1 WHERE last_name = '张无忌';
 
 
 
-![image-20200714190857278](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714190903.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714190903.png" alt="image-20200714190857278" style="zoom:100%;" />
 
 
 
@@ -1495,7 +1495,7 @@ SHOW CREATE PROCEDURE  myp2;
 
 ```
 
-![image-20200714202135810](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714202137.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714202137.png" alt="image-20200714202135810" style="zoom:100%;" />
 
 
 
@@ -1756,7 +1756,7 @@ while(i<=insertCount){
 
 ```
 
-![image-20200714222718965](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714222720.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200714222720.png" alt="image-20200714222718965" style="zoom:100%;" />
 
 
 
