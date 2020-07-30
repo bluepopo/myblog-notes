@@ -1548,6 +1548,7 @@ Spring Security 的前身是 Acegi Security ，是 Spring 项目组中用来提�
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706115429.png)
 
 **Maven依赖**
+
 ```xml
 <dependencies>
 	<dependency>
@@ -1634,8 +1635,8 @@ Spring Security 的前身是 Acegi Security ，是 Spring 项目组中用来提�
 
 ### 2.2 自定义页面使用  Spring Security 
 
-
 **spring-security.xml**
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"

@@ -3267,31 +3267,391 @@ public class HashTableDemo {
 
 ![image-20200728123959644](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200728124308.png)
 
+有关树的数学知识：
+
+h 层的满二叉树，叶子结点个数：2 * h - 1 .（满二叉树的所有叶子结点都在最后一层）
 
 
 
 
 
 
-顺序二叉树
 
-堆排序
+## 9.2 二叉树的遍历
 
-
-
-赫夫曼树
+![image-20200728194804666](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200728194806.png)
 
 
 
-赫夫曼编码
+```java
+/**
+ * 二叉树的结点结构定义
+ */
+public class HeroNode {
+    public int no;
+    public String name;
+    public HeroNode left;
+    public HeroNode right;
+
+    public HeroNode(int no, String name) {
+        this.no = no;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "HeroNode[no=" + no + "," + "name=" + name + "]";
+    }
+    
+}
+```
+
+```java
+/**
+ * 二叉树的遍历
+ */
+public class BinaryTree {
+    public HeroNode root = new HeroNode(0,"");
+
+
+    /**
+     * 前序遍历
+     */
+    public static void preOrder(HeroNode root){
+       if (root != null){
+           System.out.println(root);
+           preOrder(root.left);
+           preOrder(root.right);
+       }
+
+    }
+
+    /**
+     * 中序遍历
+     */
+    public static void inOrder(HeroNode root){
+        if (root != null){
+            inOrder(root.left);
+            System.out.println(root);
+            inOrder(root.right);
+        }
+    }
+
+    /**
+     * 后序遍历
+     */
+    public static void postOrder(HeroNode root){
+        if (root != null){
+            postOrder(root.right);
+            System.out.println(root);
+            postOrder(root.left);
+        }
+    }
+
+    /**
+     * 前序查找
+     */
+    public static HeroNode preOrderSearch(HeroNode root,int no){
+        HeroNode resultNode = null;
+
+       if (root != null){
+           if (root.no == no){
+               return root;
+           }
+        //向左遍历
+        resultNode = preOrderSearch(root.left, no);
+         if (resultNode != null){
+             return resultNode;
+         }
+         //向右遍历
+         resultNode = preOrderSearch(root.right,no);
+     }
+        return resultNode;
+
+    }
+
+
+    /**
+     * 中序查找
+     */
+    public static HeroNode inOrderSearch(HeroNode root,int no){
+        HeroNode resultNode = null;
+        if (root != null){
+            //向左遍历
+           resultNode = inOrderSearch(root.left,no);
+           if (resultNode != null){
+               return resultNode;
+           }
+           if (root.no == no){
+               return root;
+           }
+           //向右递归
+            resultNode = inOrderSearch(root.right, no);
+        }
+
+        return resultNode;
+    }
 
 
 
-二叉排序树
+    /**
+     * 后序查找
+     */
+    public static HeroNode postOrderSearch(HeroNode root,int no){
+        HeroNode resultNode = null;
+        if (root != null){
+
+            //向右递归
+            resultNode = postOrderSearch(root.right, no);
+            if (resultNode != null){
+                return resultNode;
+            }
+            //向左递归
+           resultNode = postOrderSearch(root.left,no);
+            if (resultNode != null){
+                return resultNode;
+            }
+            //比较自身
+            if (root.no == no){
+                return root;
+            }
+
+        }
+
+        return resultNode;
+    }
+
+}
+```
+
+## 9.3  二叉树删除结点
+
+删除时要注意：
+
+- 二叉树的指针是单向的，在删除节点时，我们不能判断当前结点是否需要删除而删除之，而是需要 “ 断键”，找到父节点，判断它的子节点是否需要删除
+- 在这里如果删除一个非叶节点会删除该子树的，鸡肋，但是以后学到二叉排序树时再做扩展、这里理解思路了就行
+
+![image-20200729095429733](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729095431.png)
 
 
 
-平衡二叉树
+```java
+/**
+ * 删除结点
+ * 有点问题，无法删除根结点，理解思路为主
+ */
+public static void deleteNode(HeroNode root,int no){
+
+    if (root != null){
+        //判断左节点
+            if (root.left != null && root.left.no == no){
+                root.left = null;
+                return;
+            }
+            //判断右节点
+            if (root.right != null && root.right.no == no){
+                root.right = null;
+                return;
+            }
+
+            //向左递归
+            if (root.left != null){
+                deleteNode(root.left,no);
+            }
+            //向右递归
+            if (root.right != null){
+                deleteNode(root.right,no);
+            }
+        }
+}
+```
+
+
+
+
+
+![image-20200729103201959](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729103203.png)
+
+
+
+## 9.4 顺序二叉树
+
+将==满二叉树与数组==，两种存储方式的转换
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729115554.png" alt="image-20200729115553079" style="zoom:80%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729115656.png" alt="image-20200729115655160" style="zoom:80%;" />
+
+```java
+/**
+ * 数组与二叉树的转换
+ */
+public class ArrBinaryTree {
+    private int[] arr;
+
+    public ArrBinaryTree(int[] arr) {
+        this.arr = arr;
+    }
+
+
+    /**
+     *数组的前序遍历
+     */
+    public void preOrder(int index){
+        // 如果数组为空，或者arr.length = 0
+        if (arr == null || arr.length == 0){
+            System.out.println("数组为空，不能按照二叉树的前序遍历方式");
+            return;
+        }
+        //输出当前元素
+        System.out.println(arr[index]);
+        //向左子树递归
+        if (index * 2 + 1 < arr.length){
+            preOrder(2 * index + 1);
+        }
+        //向右递归
+        if (index * 2 + 2 < arr.length){
+            preOrder(index * 2 + 2);
+        }
+
+    }
+}
+```
+
+顺序存储二叉树的重要性！
+
+八大排序算法中的**堆排序**，就会使用到顺序存储二叉树， 关于堆排序，以后就会讲解到了。但是不要觉得现在的顺序存储简单就眼高手低了。
+
+
+
+## 9.5 线索化二叉树
+
+基本介绍：二叉树中有很多空指针，我们可以将空指针利用起来，指向当前结点的前驱或者后继。这样的二叉树就叫做线索化二叉树。
+
+![image-20200729130732722](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729130734.png)
+
+![image-20200729131437041](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729131438.png)
+
+```java
+/**
+ * 线索化二叉树
+ */
+public class ThreadedBinaryTree {
+    private HeroNode root;
+    public HeroNode pre = null;//用于在线索化时保存好前一个结点
+
+
+    public void setRoot(HeroNode root) {
+        this.root = root;
+    }
+
+    public void threadByInOrder(){
+        this.threadByInOrder(root);
+
+    }
+
+    /**
+     * 线索化二叉树
+     * 以中序遍历的次序线索化
+     */
+    public void threadByInOrder(HeroNode node){
+        if (node == null){
+            return;
+        }
+
+        //1.先线索化左子树
+        threadByInOrder(node.left);
+
+        //2.线索化当前结点
+        //2.1处理当前结点的前驱
+        if (node.left == null){
+            node.left = pre;
+            node.leftType = 1;//此时左指针的类型就变了
+        }
+
+        //2.2处理当前结点的后继
+        //由于我们已经定义了pre，变相的问题就是让上一个结点pre的后继指向当前结点，递归进行时一个后继链就会生成
+        if (pre != null && pre.right == null){
+            pre.right = node;
+            pre.rightType = 1;
+        }
+
+        //3.处理完结点后，就可以表示当前结点已变成上一个结点了
+        pre = node;
+
+
+        //3.线索化右子树
+        threadByInOrder(node.right);
+
+    }
+}
+```
+
+![image-20200729191948547](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729191950.png)
+
+
+
+
+
+==遍历线索化二叉树==
+
+```java
+/**
+ * 遍历线索化的二叉树（中序方式）
+ */
+public void threadedList(){
+    HeroNode node = root;
+    while (node != null){
+        //循环找到左子树的第一个leftType ==1的结点，该节点就是线索化的初始位置
+        while (node.leftType == 0){
+            node = node.left;
+        }
+        //输出当前结点
+        System.out.println(node);
+
+        //循环找到当前结点的后继,并同时输出后继
+        while (node.leftType == 1){
+            node = node.right;
+            System.out.println(node);
+        }
+        //根据后继的线索遍历完之后，到一个既有左节点又有右节点的结点为止
+        //使用新的根结点，并遍历它的右子树
+        node = node.right;
+
+    }
+
+}
+```
+
+
+
+![image-20200729194611961](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729194613.png)
+
+
+
+通过下图的指示可以自己一步步分析一下，父节点（中间结点）必定会通过在循环遍历左子树的时候随着输出。
+
+![image-20200729194721544](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200729194723.png)
+
+
+
+## 9.5 堆排序
+
+
+
+## 9.6 赫夫曼树
+
+
+
+## 9.7 赫夫曼编码
+
+
+
+## 9.8 二叉排序树
+
+
+
+## 9 .9 平衡二叉树
 
 
 
@@ -3361,3 +3721,4 @@ KMP算法
 
 
 
+  

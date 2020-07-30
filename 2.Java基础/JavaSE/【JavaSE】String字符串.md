@@ -257,8 +257,41 @@ String类的compareTo方法的源码解析
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702100959.png)
 
-
 ## 五、String与其他类型的转换
+
+
+
+## String和int的相互转换
+### int→String
+
+- s = "" + number;
+- String.valueOf(number)  `String类的valueOf方法可以把任意类型的数据转换成字符串（字节数组除外）`
+- Integer.toString(number)
+
+> 注意： Arrays 类的 toString(int[] arr) 方法可将任意整数转为字符串。
+
+
+
+### String→int
+- new Integer(s).intValue()
+
+- **Integer.parseInt(String s)**
+
+```java
+        Integer ii = new Integer("123");
+        int i = ii.intValue();
+        System.out.println(i);
+
+        String s = "555";
+        int i = Integer.parseInt(s);
+
+        String s2 = "hello";// s 必须是数字字符串才行！这样是错误的
+        int i2 = Integer.parseInt(s2);//java.lang.NumberFormatException: For input string: "hello"
+        System.out.println(i2);
+```
+
+
+
 ### 5.1 字节数组转化
 1. 字节数组转字符串
 - public String(byte[] bytes)（注意字节数组的格式，数值范围-128~127）
@@ -549,3 +582,8 @@ public class Test01 {
 
 https://www.jianshu.com/p/458283e5ce81
 
+
+
+### intern()方法
+
+![image-20200730124534961](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200730130009.png)
