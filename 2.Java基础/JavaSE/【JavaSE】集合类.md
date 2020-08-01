@@ -1,24 +1,138 @@
-【JavaSE】集合类
-
 
 
 @[toc]
-
-
 
 总体框架图：
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111109.png)
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111110.png)
 
 # 一、Collection接口
-**基本功能**
+## Collection接口源码
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111058.png)
-**遍历**
-方式一：集合转数组
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111111.png)
+```java
+public interface Collection<E> extends Iterable<E> {
+   //返回大小
+    int size();
+    
+    //是否为空
+    boolean isEmpty();
+    
+    //是否包含
+    boolean contains(Object o)
+        
+    //返回迭代器    
+    Iterator<E> iterator();
+    
+    //集合转换为数组
+    Object[] toArray();
 
-方式二：使用集合自带的迭代器
+    //转换为对应泛型的数组
+    <T> T[] toArray(T[] a);
+
+    //添加
+    boolean add(E e);
+
+    //移除指定元素
+    boolean remove(Object o);
+
+     //将 other 集合中的所有元素添加到这个集合，如果由于这个调用改变了集合 ， 返回 true
+    boolean addAll(Collection<? extends E> c);
+   
+    
+
+    //从这个集合删除 filter 返回 true 的所有元素
+    default boolean removeIf(Predicate<? super E> filter) {
+        Objects.requireNonNull(filter);
+        boolean removed = false;
+        final Iterator<E> each = iterator();
+        while (each.hasNext()) {
+            if (filter.test(each.next())) {
+                each.remove();
+                removed = true;
+            }
+        }
+        return removed;
+    }
+
+   //是否存在交集。从这个集合中删除所有与 other 集合中的元素不同的元素 。
+    boolean retainAll(Collection<?> c);
+    
+    //清空
+    void clear();  
+    
+    boolean equals(Object o); 
+    
+    int hashCode();
+    
+    @Override
+    default Spliterator<E> spliterator() {
+        return Spliterators.spliterator(this, 0);
+    }
+  
+    default Stream<E> stream() {
+        return StreamSupport.stream(spliterator(), false);
+    }
+ 
+    default Stream<E> parallelStream() {
+        return StreamSupport.stream(spliterator(), true);
+    }
+}
+```
+
+
+
+## 迭代器介绍
+
+Collection 接口扩展了 Iterable 接口。 因此 ， 对于标准类库中的任何集合都可以使用 “for-each ” 循环 。
+在 Java SE 8 中， 甚至不用写循环 。 可以调用 forEachRemaining 方法并提供一lambda
+表达式 （ 它会处理一个元素 ）。 将对迭代器的每一个元素调用这个 lambda 表达式 ， 直到再没
+有元素为止。
+
+```java
+i terator.forEachRemaining(element -> do something with element);
+```
+
+元素被访问的顺序取决于集合类型。 如果对 ArrayList 进行迭代 ， 迭代器将从索引
+0 开始， 每迭代一次 ， 索引值加1。
+
+然而， 如果访问HashSet 中的元素 ， 每个元素将会按照某种随机的次序出现。 虽然可以在迭代过程中遍历到所有元素，但却无法预知元素被访问的次序。 这对于计算总和等这类与顺序无关的操作来说， 并不是什么问题 。
+
+> 注释 ： 编程老手会注意到 ： Iterator 接口的 next 和 hasNext 方法与 Enumeration 接口的nextElement 和 hasMoreElements 方法的作用一样。 Java 集合类库的设计者可以选择使用
+> Enumeration 接口。 但是 ， 他们不喜欢这个接口累赘的方法名 ，于是引入了具有较短方法名的新接口。
+
+ Java 迭代器认为是位于两个元素之间 。 当调用 next 时 ， 迭代器就越过下一个元素 ， 并返回刚刚越过的那个元素的引用 （ 见图 9 - 3 )
+
+![image-20200801125548966](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801125550.png)
+
+更重要的是， 对next 方法和 remove 方法的调用具有互相依赖性。 如果调用
+remove 之前没有调用 next 将是不合法的 。 如果这样做 ， 将会抛出一个` IllegalStateException` 异常。
+如果想删除两个相邻的元素 ， 不能直接地这样调用 ：
+
+```java
+it.remove ()；
+it.remove ()； // Error !
+```
+
+相反地
+， 必须先调用 next 越过将要删除的元素 。
+
+```java
+it,remove () ;
+it.next () ；
+it.remove () ; // OK
+```
+
+
+
+
+
+
+
+## 遍历集合的方式
+
+方式一：集合转数组。使用普通for循环
+
+方式二：使用Collection接口定义的迭代器
 - iterator 集合的专有遍历方式，通过集合的` iterator() `方法获得，所以迭代器是依赖于集合而存在的
 
 
@@ -33,86 +147,68 @@ while (it.hasNext()){
 
 > 注意基础迭代器会存在并发修改异常的问题，这个后面再详细分析源码讨论
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111112.png)
-## 1. List
-**List 集合概述**
-- 有序集合（也称序列），用户可以精确控制列表中的每个元素的插入位置，通过整数索引访问元素
+方式三：使用实现类独有的遍历方式，
+
+- 如 Arraylist可以使用下标进行普通for循环，
+
+- Set只能使用 iterator 迭代器遍历、
+
+- Map遍历则有四种方式（键值对EntrySet、迭代器、keySet+values、通过键找值）
+
+- Map的四种遍历方式：https://www.cnblogs.com/damoblog/p/9124937.html
+
+
+
+**题外话：**
+
+什么是可选操作，在查看JDK 手册时Collection接口中一个方法后面会标明该方法是（可选操作）
+
+> 大概意思是collection子类可以**重写**这个方法以达到子类自己的目的，**也可以不覆盖**这个方法但是。**没有**实现这个方法的子类使用这个方法的话会抛出UnsupportedOperationException异常。（这个未获得支持的异常在运行时候才能探测到，属于动态类型异常），先看下报错的代码示例
+
+
+
+
+
+
+
+## 集合具体实现类架构图
+
+![image-20200801130103417](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801130105.png)
+
+![image-20200801122722011](G:\图片\blog\image-20200801122722011.png)
+
+![image-20200801130235706](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801130237.png)
+
+
+
+
+
+# 二. List接口
+
+**List 接口概述**
+
+- 有 序集合（也称序列），用户可以精确控制列表中的每个元素的插入位置，通过整数索引访问元素
 - 与 Set集合不同，List允许有重复元素
-**特点**
 - 有序：存储与取出的元素顺序一致
-- 可重复：存储的元素可重复
 
-**List集合的特有方法**
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111113.png)
-**遍历（没有学泛型之前，都要强转）**
-
--  Iterator 普通迭代器在一边迭代同时又出现修改集合操作的时候，会发生`异常`
-
-- ListIterator listIterator()（继承Iterator，可以从后往前遍历，但开发中不怎么用它）遍历List集合时修改元素不会发生并发修改异常
-
-**出现的原因**
-普通迭代器在迭代期间不允许修改元素
-迭代器遍历的过程中，通过集合对象修改了集合中的元素，造成了迭代器获取元素中判断预期修改值和实际修改值不一致，则会出现：`ConcurrentModificationException`
-**解决的方案**
-用 `普通 for循环`遍历，然后用集合对象做对应的操作即可,切记不可以用 增强 for 循环
-或者使用专有迭代器` ListIterator`
-
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111114.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111115.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111116.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111117.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111118.png)
-**列表迭代器【应用】**
-ListIterator 介绍
-
-- 通过 List集合的 `listIterator()方法`得到，所以说它是List集合特有的迭代器
-- 用于允许程序员沿任一方向遍历的列表迭代器，从后往前遍历也可以实现
-- <font color=blue>允许在迭代期间修改列表</font>，并获取列表中迭代器的当前位置
-
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111119.png)
-**增强for循环【应用】**
-
-```java
-for(String s : list) {
-      System.out.println(s);
-   }
-   
-   //内部原理是一个Iterator迭代器
-    
-    for(String s : list) {
-      if(s.equals("world")) {
-        list.add("javaee"); //ConcurrentModificationException
-      //和普通迭代器一样会抛出并发修改异常
-      }
-    }
-    
-```
-
-**List集合子类的特点【记忆】**
+**实现类的特点**
 
 - **ArrayList**:：底层是数组结构实现，查询快、增删慢
-- **LinkedList**： 底层是链表结构实现，查询慢、增删快
-- **Vector**：底层数据结构是数组。线程安全
-### ArrayList
+- **LinkedList**： 底层是双向链表结构实现，查询慢、增删快
+- **Vector**：底层是数组。synchonszied 修饰，线程安全
+- **CopyOnWriteArrayList**： 底层时vailette修饰的数组，线程安全、读写分离锁。
 
-> 参考：[https://blog.csdn.net/weixin_40304387/article/details/80790177]()
-> [https://www.cnblogs.com/V1haoge/p/10414458.html]()
 
-**1. 概述**
-ArrayList底层使用的是数组。是List的可变数组实现，这里的可变是针对List而言，而不是底层数组。
-数组有自身的特点，不变性，一旦数组被初始化，那么其长度就固定了，不可被改变。这就导致了ArrayList中的一个重要特性：`扩容`。
 
-```java
-public static void main(String[] args) {
-    ArrayList<String> arr=new ArrayList<>();
-    arr.add("hello");
-    arr.add("world");
-    arr.add("java");
-    //arr.add(3,"zy");
-    arr.add(4,"zy");//IndexOutOfBoundsException: Index: 4, Size: 3
-    System.out.println(arr);
-}
-```
+
+## ArrayList
+
+> [List集合之ArrayList深度解析](https://blog.csdn.net/weixin_40304387/article/details/80790177)
+>
+> [《Java基础系列-ArrayList》](https://www.jianshu.com/p/b85cf23fef07)
+>
+> 我的另一篇博客：[【Java源码分析】ArrayList底层原理（带图解）](https://blog.csdn.net/qq_41864648/article/details/107643243)
+
 
 
 **案例：元素去重**
@@ -167,11 +263,13 @@ public class ArrayListDemo02 {
         list.add(stu3);
         list.add(stu4);
         list.add(stu5);
+        //开辟一个新的数组
         ArrayList newList = new ArrayList();
         // 元素去重
         for (int i = 0; i < list.size(); i++ ){
             Student  s = (Student) list.get(i);//没有使用泛型，这里需要强转一下
             if (!newList.contains(s)){
+                //如果新数组不包含该元素，则添加
                 newList.add(s);
             }
         }
@@ -187,52 +285,48 @@ public class ArrayListDemo02 {
 
 ```
 
-`contains() `方法的源码分析：为什么要重写` equals() `方法
-不重写 ` equals() ` 方法的话，那list 集合中的每个对象在比较时，内存地址都不一样都是一个完全新生的不同的对象，那么 比较内容 也就不奏效了。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111120.png)
+`contains() `方法的源码分析：
 
-> 思考：去除字符串的两种方法，一种用了contains，另一种用了equals。其实去除自定义对象时也可以直接用equals，这样更明确需要重写equals。
->
-> `contains()`底层依赖于`equals()`，String已经重写，所以我们也要把自定义对象重写（eclipse自动生成，但最好自己知道怎么写！）
+![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801171559.png)
 
-### LinkedList
+> 
 
-LinkedList集合的特有功能【应用】
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111121.png)
+## LinkedList
 
-使用 LinkedList  模拟栈
-```java
-public class MyStack {
-	private LinkedList link;
+参考文章：
 
-	public MyStack() {
-		link = new LinkedList();
-	}
+[Java集合 LinkedList的原理及使用](https://www.cnblogs.com/LiaHon/p/11107245.html)
 
-	public void add(Object obj) {
-		link.addFirst(obj);
-	}
+[《JAVA源码分析》：LinkedList ](https://blog.csdn.net/u010412719/article/details/51124350)
 
-	public Object get() {
-		// return link.getFirst();
-		return link.removeFirst();
-	}
 
-	public boolean isEmpty() {
-		return link.isEmpty();
-	}
-}
 
-```
+## Vector
+[《Java源码分析》：Vector](https://blog.csdn.net/u010412719/article/details/51992819)
 
-### Vector
-底层是数组，线程安全，效率低，查询快，增删慢
+这篇文章开始介绍Vector。他和ArrayList有一些相似,其内部都是通过一个容量能够动态增长的数组来实现的。不同点是Vector是线程安全的。因为其内部有很多同步代码快来保证线程安全。
+
+https://baijiahao.baidu.com/s?id=1638844080997170869&wfr=spider&for=pc
+
+
+
+从上面的构造方法还有增删改查的操作其实我们都发现了，都有这么一个synchronized关键字，就是这个关键字为Vector容器提供了一个安全机制，保证了线程安全。
+
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111122.png)
 
 Vector的两种遍历方式
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111123.png)
 
-### CopyOnWriteArrayList
+
+
+![在这里插入图片描述](G:\图片\blog\20200702111120.png)
+
+
+
+
+
+
+
+## CopyOnWriteArrayList
 参考： [CopyOnWriteArrayList,冷门容器却每次面试都问](https://baijiahao.baidu.com/s?id=1666117483794506320&wfr=spider&for=pc)
 
 **1. CopyOnWriteArrayList的出现原因**
@@ -240,7 +334,6 @@ Vector的两种遍历方式
 一些案例说明了`ArrayList`使用的局限性，既然是`非线程安全`，会出现并发修改异常问题，也就是读写时的加锁问题。
 
 那我们就使用一些机制把它变安全不就好了。变安全的方法有很多。比如说替换成`Vector`，再或者是使用` Collections`，可以将 ArrayList 包装成一个线程安全的类。不过这两种方法也有很大的缺点，那就是他们使用的都是`独占锁`，独占式锁在同一时刻`只有一个线程`能够获取，效率太低。于是**CopyOnWriteArrayList** 应用而生了。
-
 
 **2、CopyOnWriteArrayList 介绍**
 
@@ -264,7 +357,6 @@ Vector的两种遍历方式
 
 这就是CopyOnWriteArrayList 的思想和原理。就是拷贝一份写。所以使用条件也很局限，那就是在读多写少的情况下比较好。
 
-
 **3、源码分析（基于JDK1.8）**
 
 - 读取
@@ -272,7 +364,7 @@ Vector的两种遍历方式
 public class CopyOnWriteArrayList<E>
     implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
     
-    private transient volatile Object[] array;
+    private transient volatile Object[] array;//volatile修饰？volatile与synchonazi有什么不同？
  
     final Object[] getArray() {
         return array;
@@ -328,18 +420,27 @@ public boolean add(E e) {
 读线程具有实时性，写线程会阻塞。不能解决数据不一致的问题。但是CopyOnWriteArrayList 不会出现读线程阻塞等待的情况
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111124.png)
+
+![在这里插入图片描述](G:\图片\blog\20200702111125.png)
+
+
+
+
+
 ## 2. Set
-**Set集合概述和特点**
+**Set接口介绍**
+
 - 无序：元素存储和取出没有顺序
 - 遍历：没有索引、只能通过迭代器 iterator 或增强 for循环遍历
 - 不重复：不能存储重复元素
 
-Set没有特有功能方法，都和 Collection 一样
+**实现类特点**
 
-```java
-//创建集合对象
-    Set<String> set = new HashSet<String>();
-```
+- HashSet
+- LinkedHashSet
+- TreeSet
+
+
 
 ### HashSet
 **HashSet 集合的特点**
@@ -348,7 +449,7 @@ Set没有特有功能方法，都和 Collection 一样
 - 对集合的迭代顺序不作任何保证，也就是说不保证存储和取出的元素顺序一致
 - 没有带索引的方法，所以不能使用普通 for循环遍历
 - 由于是 Set集合，所以是不包含重复元素的集合
-- HashSet底层数据结构是哈希表：是**一个元素为链表的数组**，综合了数组和链表的好处。
+- HashSet底层数据结构是哈希表：是**数组与链表结合，数组的每一个元素就是一个链表**，综合了数组查找快和链表增删方便的好处。
 
 **HashSet 集合的基本使用**
 
@@ -359,6 +460,7 @@ HashSet<String> hs = new HashSet<String>();
 **HashSet集合保证元素唯一性源码分析**
 
 <font color= 3CB371>1.根据对象的哈希值计算存储位置</font>
+
 - 如果当前位置没有元素则直接存入
 - 如果当前位置有元素存在，则进入第二步
 
@@ -371,7 +473,7 @@ HashSet<String> hs = new HashSet<String>();
 - 如果内容不相同，则将当前元素进行存储
 - 如果内容相同，则不存储当前元素
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111125.png)
+
 
 ### LinkedHashSet
 
@@ -461,14 +563,10 @@ Student类实现comparable接口并重写compareTo()方法
 
 # 二、Map接口
 
-**Map 集合的特点**
+## 1. 介绍
+
+**Map 接口**
 MAP的键要保证唯一性，所以在用自定义的类做键时，一定要重写两个方法：`hashmap`  `equals`方法
-
-双列集合接口
-
-```java
-interface Map<K,V>  K：键的类型；V：值的类型 
-```
 
 
 - 键值对映射关系
@@ -476,44 +574,53 @@ interface Map<K,V>  K：键的类型；V：值的类型
 - 键不能重复，值可以重复
 - 元素存取无序
 
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200702111131.png)
-**Map集合的遍历(方式1)**
+**实现类特点：**
 
-遍历思路
-- 我们刚才存储的元素都是成对出现的，所以我们把 Map看成是一个夫妻对的集合
-- 把所有的丈夫给集中起来
-- 遍历丈夫的集合，获取到每一个丈夫
-- 根据丈夫去找对应的妻子
+- HashMap 
+- LinkedHashMap
+- TreeMap
+- ConcurrentHashMap
+
+
+
+## 2. Map的四种遍历方式
+
+
+
+**(方式1)：通过key找value**
+
+-  map.keySet();
+- map.get(key);
 
 ```java
-//获取所有键的集合。用keySet()方法实现
+
     Set<String> keySet = map.keySet();
-    //遍历键的集合，获取到每一个键。用增强for实现
+
     for (String key : keySet) {
-      //根据键去找值。用get(Object key)方法实现
       String value = map.get(key);
       System.out.println(key + "," + value);
    }
  }
 ```
-**Map集合的遍历(方式2)**
-步骤分析
-- 获取所有键值对对象的集合
+
+
+
+
+**(方式2)：获取所有EntrySet实体集合**
+
 - Set<Map.Entry<K,V>> entrySet() ：获取所有键值对实体的集合
-- 遍历键值对实体的集合，得到每一个键值对对象
 - 用增强 for实现，得到每一个Map.Entry	
-- 根据键值对对象获取键和值
-	- 用 getKey()得到键
-	- 用 getValue()得到值
+- 根据Map.Entry获取键和值
+	-  getKey()
+	-  getValue()
+
+
+
 
 ```java
-//创建集合对象
+	//创建集合对象
     Map<String, String> map = new HashMap<String, String>();
-```
-
-
-```java
-//获取所有键值对对象的集合
+	//获取所有键值对对象的集合
     Set<Map.Entry<String, String>> entrySet = map.entrySet();
     //遍历键值对对象的集合，得到每一个键值对对象
     for (Map.Entry<String, String> me : entrySet) {
@@ -524,22 +631,82 @@ interface Map<K,V>  K：键的类型；V：值的类型
    }
 ```
 
+**(方式3)：实体的迭代器**
+
+```java
+//得到键值对实体的set集合
+Set<Map.Entry<String, String>> entries = map.entrySet();
+//得到set集合的迭代器
+Iterator<Map.Entry<String, String>> iterator = entries.iterator();
+//使用迭代器遍历每个实体
+while (iterator.hasNext()){
+    Map.Entry<String, String> entry = iterator.next();
+    String key = entry.getKey();
+    String value = entry.getValue();
+    System.out.println("key=" + key + ",value=" + value);
+
+}
+```
 
 
 
 
 
-### HashMap
-HashMap是基于哈希表的Map实现，此处的哈希表结构是用来保证`键的唯一性`的。
+**(方式4)：分别获得keys、values集合**
+
+- map.keySet();   //获得所有keys
+- map.values();   //获得所有values
+
+```java
+ Map<String, String> map = new HashMap<String, String>();
+ map.put("key1","value1");
+ map.put("key2","value2");
+ map.put("key3","value3");
+ map.put("key4","value4");
+
+ Set<String> keySet = map.keySet();//获得所有keys
+ Collection<String> values = map.values();//获得所有values
+ System.out.println("=======keys=========");
+ for (String key : keySet){
+     System.out.println(key);
+ }
+ System.out.println("=======values=========");
+for (String value : values){
+    System.out.println(value);
+}
+```
+
+
+
+
+
+
+## HashMap
+HashMap是数组+链表or红黑树的结构
 
 HashMap的几个案例（存储不同的键和值类型）
 
 - HashMap<String, String>
+
 - HashMap<Integer, String>
+
 - HashMap<String, Student>
+
 - HashMap<Student, String>
 
-> 几个案例中，最后一个案例最重要：`键为student对象，值为String`。所谓“键相同，值覆盖”的特性，底层必须借助哈希表保证键的唯一性，也就是student元素的唯一性，由于HashMap键的唯一性是依赖于哈希表，哈希表依赖于`hashCode()和equals()的重写`。student要保证作为键的唯一性，则`必须重写这两个方法！`
+  
+
+> 由于字符串、包装类、简单类型的不变特性，非常适合于做map的键，防止发生地址的改变而引起Map集合的混乱。
+>
+> `键为student对象，值为String`。所谓==键相同，值覆盖==的特性（区别于Set添加重复元素时是不会覆盖的）
+>
+> 底层必须借助哈希表保证key的唯一性，也就是student对象的唯一性，student类必须重写hashCode()和equals()。
+>
+> 引申一点：为什么重写 equals() 方法时，必须重写hashCode()方法？
+>
+> 当我们向一个Hash结构的集合中添加某个元素，集合会首先调用hashCode方法，这样就可以直接定位它所存储的位置，若该处没有其他元素，则直接保存。若该处已经有元素存在，就调用equals方法来匹配这两个元素是否相同，相同则不存，不同则链到后面（如果是链地址法）。
+>
+> 如果只重写equals()方法，我们可以new 两个数据一样的对象进行测试。
 
 
 
@@ -661,22 +828,28 @@ public class CharCountDemo {
 
 ```
 
-### LinkedHashMap
+## LinkedHashMap
 Map接口的哈希表和链表列表实现，具有可预知的迭代顺序
 - 哈希表保证唯一性
 - 链表保证有序性
 
-### Hashtable
+## Hashtable
+
+Hashtable类的源码分析，博客在这里：http://blog.csdn.net/u010412719/article/details/51972602
+
 （和HashMap几乎一样，被HashMap替代了）
 
 **Hashtable与HashMap的区别**
+
 - HashMap：线程不安全，效率高，允许null键和null值
 - Hashtable：线程安全，效率低，不允许null键和null值
 
 
-### TreeMap
-参考：[https://www.jianshu.com/p/e11fe1760a3d]()
-概述：
+## TreeMap
+[https://www.jianshu.com/p/e11fe1760a3d]()
+
+[《Java源码分析》：TreeMap](_https://blog.csdn.net/u010412719/article/details/52425512)
+
 - TreeMap存储K-V键值对，通过红黑树（R-B tree）实现；
 - TreeMap继承了NavigableMap接口，NavigableMap接口继承了SortedMap接口，可支持一系列的导航定位以及导航操作的方法，当然只是提供了接口，需要TreeMap自己去实现；
 - TreeMap实现了Cloneable接口，可被克隆，实现了Serializable接口，可序列化；
@@ -684,7 +857,8 @@ Map接口的哈希表和链表列表实现，具有可预知的迭代顺序
 
 
 
-**三种Map子类集合的对比：**
+## 三种Map子类集合的对比
+
 - `HashMap`可实现快速存储和检索，但其缺点是其包含的元素是`无序的`，这导致它在存在大量迭代的情况下表现不佳。
 - `LinkedHashMap`保留了HashMap的优势，且其包含的元素是`有序的`。它在有大量迭代的情况下表现更好。
 - `TreeMap`能便捷的实现对其内部元素的`各种排序`，但其一般性能比前两种map差。
@@ -696,7 +870,7 @@ Map接口的哈希表和链表列表实现，具有可预知的迭代顺序
 
 <br>
 
-### ConcurrentHashMap
+## ConcurrentHashMap
 链接：[https://www.jianshu.com/p/d0b37b927c48]()
 **HashMap线程不安全**
 因为多线程环境下，使用HashMap进行put操作可能会引起死循环，导致CPU利用率接近100%，所以在并发情况下不能使用HashMap。

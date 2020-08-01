@@ -4,7 +4,7 @@
 
 ---
 
-【JavaSE】多线程与并发编程（总结）
+【JavaSE】多线程基础实现类
 
 
 
@@ -809,7 +809,7 @@ public void run() {
 
 ```
 ### 线程安全的集合
-回顾：StringBuffer、Vector、Hashtable集合、CopyOnWriteArrayList
+回顾：StringBuffer、Vector、Hashtable集合、CopyOnWriteArrayList、concurrentHashMap
 ![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706195913.png)
 
 # 
