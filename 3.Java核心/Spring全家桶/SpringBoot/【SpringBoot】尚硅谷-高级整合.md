@@ -12,19 +12,19 @@
 
 ## 1.1 JSR-107
 
-![image-20200720160622118](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723000746.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200723000746.png" alt="image-20200720160622118" style="zoom:100%;" />
 
-![image-20200720160634977](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003257.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003257.png" alt="image-20200720160634977" style="zoom:100%;" />
 
 
 
 ## 1.2 SpringBoot缓存抽象
 
-![image-20200720161031169](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003241.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003241.png" alt="image-20200720161031169" style="zoom:100%;" />
 
-![image-20200720161357327](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720161358.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720161358.png" alt="image-20200720161357327" style="zoom:100%;" />
 
-![image-20200720161416051](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720163150.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720163150.png" alt="image-20200720161416051" style="zoom:100%;" />
 
 
 
@@ -106,31 +106,31 @@ public class EmployeeController {
 
 第二：@Cacheable 注解，表示可缓存的。将方法的运行结果进行缓存，再次访问该方法时直接使用缓存结果。
 
-![image-20200720172508099](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720172509.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720172509.png" alt="image-20200720172508099" style="zoom:100%;" />
 
-![image-20200720172710072](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720175716.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720175716.png" alt="image-20200720172710072" style="zoom:100%;" />
 
-![image-20200720172814498](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720175725.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720175725.png" alt="image-20200720172814498" style="zoom:100%;" />
 
 ### 1.2.3 Cache 原理
 
-![image-20200720174851384](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720174852.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720174852.png" alt="image-20200720174851384" style="zoom:100%;" />
 
-![image-20200720175034774](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003015.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721003015.png" alt="image-20200720175034774" style="zoom:100%;" />
 
-![image-20200720175423661](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002612.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002612.png" alt="image-20200720175423661" style="zoom:100%;" />
 
 
 
-![image-20200720203227895](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002227.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002227.png" alt="image-20200720203227895" style="zoom:100%;" />
 
-![image-20200720202736391](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720202737.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720202737.png" alt="image-20200720202736391" style="zoom:100%;" />
 
 ### 1.2.4 @Cacheable 查询缓存
 
-![image-20200720203325790](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720203327.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720203327.png" alt="image-20200720203325790" style="zoom:100%;" />
 
-![image-20200720204721370](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002146.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002146.png" alt="image-20200720204721370" style="zoom:100%;" />
 
 
 
@@ -221,7 +221,7 @@ public class EmployeeService {
 
 ### 1.2.7 @Caching 复杂缓存条件
 
-![image-20200720213342731](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720213344.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720213344.png" alt="image-20200720213342731" style="zoom:100%;" />
 
 
 
@@ -253,9 +253,9 @@ public class EmployeeService {
 
 ### 1.2.8 @CacheConfig 缓存公共配置
 
-![image-20200720214847758](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720214848.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720214848.png" alt="image-20200720214847758" style="zoom:100%;" />
 
-![image-20200720214806904](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720214929.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720214929.png" alt="image-20200720214806904" style="zoom:100%;" />
 
 ## 1.3 整合Redis
 
@@ -268,7 +268,7 @@ public class EmployeeService {
 - 根据源码分析，默认底层使用的是 ConcurrentMapCacheManager==ConcurrentMapCache，将数据保存在 ConcurrentMap<Object> 集合中。
 - redis中文网站：http://www.redis.cn/commands.html
 
-![image-20200720215514738](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002146.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721002146.png" alt="image-20200720215514738" style="zoom:100%;" />
 
 
 
@@ -304,15 +304,15 @@ spring.redis.host=192.168.40.132
 
 第三步：测试redis的连通性
 
-![image-20200720223735970](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720223743.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720223743.png" alt="image-20200720223735970" style="zoom:100%;" />
 
-![image-20200720224837640](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720224838.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720224838.png" alt="image-20200720224837640" style="zoom:100%;" />
 
-![image-20200720230848027](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720230849.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720230849.png" alt="image-20200720230848027" style="zoom:100%;" />
 
 
 
-![image-20200720231041836](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721001957.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721001957.png" alt="image-20200720231041836" style="zoom:100%;" />
 
 
 
@@ -332,14 +332,14 @@ spring.redis.host=192.168.40.132
 - 我们想使用对象序列化为json格式的数据，怎么办呢？
 - 解决：我们自定义一个 CacheManager
 
-![image-20200720231454967](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720231456.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720231456.png" alt="image-20200720231454967" style="zoom:100%;" />
 
-![image-20200720233207447](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721001951.png)
-
-
-
-![](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720235704.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721001951.png" alt="image-20200720233207447" style="zoom:100%;" />
 
 
 
-![image-20200720235615236](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721000015.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720235704.png" alt="" style="zoom:100%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721000015.png" alt="image-20200720235615236" style="zoom:100%;" />

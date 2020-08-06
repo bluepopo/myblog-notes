@@ -11,7 +11,7 @@ HashMap的的结构是由数组+链表 or 红黑树实现的。（JDK1.8之后�
 链表：
 因为数组table的长度是有限的，并且不同的key可能会具有相同的hash值，此时通过hash值计算出来的索引就有可能会相同，这种情况称为Hash冲突。而为了解决这一现象，就需要链表来解决冲突，数组Table中的每一个元素不单纯只是一个Entry对象，它还是一个链表的头节点，每一个Entry对象通过Next指针指向下一个Entry节点；当新来的Entry映射到冲突数组位置时，只需要插入对应的链表位置即可。
 
-![image-20200801205134892](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801205136.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801205136.png" alt="image-20200801205134892" style="zoom:100%;" />
 
 
 
@@ -86,7 +86,7 @@ transient Node<K,V>[] table;
 
 # 三、内部类
 
-![image-20200801175335885](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801175337.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801175337.png" alt="image-20200801175335885" style="zoom:100%;" />
 
 
 
@@ -783,7 +783,7 @@ final class EntrySet extends AbstractSet<Map.Entry<K,V>> {
 
 大致思路如图所示，我自己的粗浅理解是 拿到Entry迭代器，迭代器调用 nextNode( )去数据结构中获取下一个个的Node结点，键值对的数据就封装在Node结点之中。
 
-![image-20200801204005114](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801204442.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801204442.png" alt="image-20200801204005114" style="zoom:100%;" />
 
 # 四、构造函数
 

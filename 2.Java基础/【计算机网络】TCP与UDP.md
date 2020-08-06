@@ -12,7 +12,7 @@
 
 参考文章：https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc
 
-![image-20200707170409672](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707170411.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707170411.png" alt="image-20200707170409672" style="zoom:100%;" />
 
 其中比较重要的字段有：
 
@@ -116,7 +116,7 @@
 
 
 
-![image-20200707173411994](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707173412.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707173412.png" alt="image-20200707173411994" style="zoom:100%;" />
 
 
 
@@ -164,7 +164,7 @@
 
 
 
-![image-20200707175259678](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707175301.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200707175301.png" alt="image-20200707175259678" style="zoom:100%;" />
 
 ## 2. 为什么“握手”是三次，“挥手”却要四次？
 

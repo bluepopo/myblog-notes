@@ -431,8 +431,8 @@ ArrayList每次修改（增加、删除）容器时，都是修改自身的modCo
 在生成迭代器时，迭代器会保存该modCount值，迭代器每次**获取**元素时，会比较自身的modCount与ArrayList的modCount是否相等，来判断容器是否已经被修改，如果被修改了则抛出异常（fast-fail机制）表示迭代器modCount和实际修改值不一致，则会出现：`ConcurrentModificationException`
 
 数组添加、删除时，modCount都会增长
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143307.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143313.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143307.png" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143313.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 > 注释：在查看内部类 Itr
 > 源码时，发现该迭代器竟然没有自己的add方法、但是却有个remove方法。如果使用迭代器自带的remove方法，在删除完集合元素后，有一段
@@ -443,14 +443,14 @@ ArrayList每次修改（增加、删除）容器时，都是修改自身的modCo
 - 或者使用专有迭代器` ListIterator`
 
 get() 方法在获取元素时，并没有检查集合修改次数是否有变动。
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143322.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143322.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 ListIterator 介绍
 - 通过 List集合的 `listIterator()方法`得到，它是List集合特有的迭代器
 - 允许从后往前遍历
 - <font color=blue>允许在迭代期间修改列表</font>，并获取列表中迭代器的当前位置
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143340.png)
-![在这里插入图片描述](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143346.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143340.png" alt="在这里插入图片描述" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801143346.png" alt="在这里插入图片描述" style="zoom:100%;" />
 
 
 # 六、源码详细

@@ -10,7 +10,7 @@ JVM 运行时内存数据区分为： PC程序计数器、虚拟机栈、本地�
 
 
 
-![image-20200721224554074](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721224555.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200721224555.png" alt="image-20200721224554074" style="zoom:100%;" />
 
  ==PC程序计数器==：用来存储指向下一条指令的地址，也即执行引擎要执行的指令代码。由执行引擎读取下一条指令。
 
@@ -76,7 +76,7 @@ JVM 运行时内存数据区分为： PC程序计数器、虚拟机栈、本地�
 
 ## 3. 双亲委派机制
 
-![image-20200706224314538](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706224528.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706224528.png" alt="image-20200706224314538" style="zoom:100%;" />
 
 
 
@@ -124,9 +124,9 @@ JVM 运行时内存数据区分为： PC程序计数器、虚拟机栈、本地�
 
 
 
-![image-20200706225131916](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706231319.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706231319.png" alt="image-20200706225131916" style="zoom:100%;" />
 
-![image-20200706225152180](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706231304.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200706231304.png" alt="image-20200706225152180" style="zoom:100%;" />
 
 
 

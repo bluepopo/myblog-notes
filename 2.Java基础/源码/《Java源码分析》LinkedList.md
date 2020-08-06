@@ -30,7 +30,7 @@ LinkedList 是非同步的。
 
 下面就是Node类的定义。
 
-![image-20200801160224384](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801160225.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200801160225.png" alt="image-20200801160224384" style="zoom:100%;" />
 
 从源码可以看到，Node类只定义了数据元素、前驱指向、后继指向。这就是双向链表的节点的定义。
 

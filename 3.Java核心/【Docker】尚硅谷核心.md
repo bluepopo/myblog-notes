@@ -2,7 +2,7 @@
 
 # 一、Docker的组成
 
-![image-20200711202702266](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711202704.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711202704.png" alt="image-20200711202702266" style="zoom:100%;" />
 
 ## 1.1 镜像
 
@@ -40,13 +40,13 @@ CentOS 6.5 (64-bit) 或更高的版本
 
 ## 2.1 CentOS 6 安装
 
-![image-20200711210443439](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711210444.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711210444.png" alt="image-20200711210443439" style="zoom:100%;" />
 
 
 
 查看已安装的CentOS版本信息（CentOS6.8有，CentOS7无该命令）
 
-![image-20200711202210387](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110029.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110029.png" alt="image-20200711202210387" style="zoom:100%;" />
 
 
 
@@ -54,7 +54,7 @@ CentOS 6.5 (64-bit) 或更高的版本
 
 1. yum install -y epel-release
 
-![image-20200711203013520](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711203015.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711203015.png" alt="image-20200711203013520" style="zoom:100%;" />
 
 2. yum install -y docker-io
 
@@ -65,13 +65,13 @@ No package docker-io available.
 
 
 
-![image-20200711203641634](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110038.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110038.png" alt="image-20200711203641634" style="zoom:100%;" />
 
 
 
 
 
-![image-20200711204413429](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711204414.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711204414.png" alt="image-20200711204413429" style="zoom:100%;" />
 
 
 
@@ -87,13 +87,13 @@ No package docker-io available.
 
 官方文档：[https://docs.docker.com/engine/install/centos/]()
 
-![image-20200711205751599](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110046.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110046.png" alt="image-20200711205751599" style="zoom:100%;" />
 
-![image-20200711213835097](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711213836.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711213836.png" alt="image-20200711213835097" style="zoom:100%;" />
 
 
 
-![image-20200711213353046](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110054.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110054.png" alt="image-20200711213353046" style="zoom:100%;" />
 
 ## 2.4 CentOS 8 安装
 
@@ -126,7 +126,7 @@ $ sudo yum remove docker \
 $ sudo yum install -y yum-utils device-mapper-persistent-data  lvm2
 ```
 
-![image-20200712224513289](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224514.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224514.png" alt="image-20200712224513289" style="zoom:100%;" />
 
 
 
@@ -140,7 +140,7 @@ $ sudo yum-config-manager \
 
 
 
-![image-20200712224555026](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224556.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224556.png" alt="image-20200712224555026" style="zoom:100%;" />
 
 
 
@@ -152,7 +152,7 @@ $ sudo yum-config-manager \
 $ sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
-![image-20200712224740540](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224741.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712224741.png" alt="image-20200712224740540" style="zoom:100%;" />
 
 <font color=red>出现错误：docker-ce-3：19.xxxxx要求 containerd.io 版本大于 1.2.2-3，但是这里并没有提供者支持安装</font>
 
@@ -162,7 +162,7 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io
 yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
 ```
 
-![image-20200712225316368](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712225317.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712225317.png" alt="image-20200712225316368" style="zoom:100%;" />
 
 
 
@@ -172,9 +172,9 @@ yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/c
 $ sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
-![image-20200712225947299](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712225948.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712225948.png" alt="image-20200712225947299" style="zoom:100%;" />
 
-![image-20200712230135353](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232219.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232219.png" alt="image-20200712230135353" style="zoom:100%;" />
 
 我这里是直接docker安装成功了
 
@@ -186,33 +186,33 @@ $ sudo yum install docker-ce docker-ce-cli containerd.io
 yum remove podman-manpages-1.4.2-5.module_el8.1.0+237+63e26edc.noarch
 ```
 
-![image-20200712230241300](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232253.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232253.png" alt="image-20200712230241300" style="zoom:100%;" />
 
-![image-20200712230523262](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232307.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232307.png" alt="image-20200712230523262" style="zoom:100%;" />
 
 
 
 **安装完成后启动docker**
 
-![image-20200712230826400](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232357.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232357.png" alt="image-20200712230826400" style="zoom:100%;" />
 
-![image-20200712231407914](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232317.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712232317.png" alt="image-20200712231407914" style="zoom:100%;" />
 
-![image-20200712232939337](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712233437.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712233437.png" alt="image-20200712232939337" style="zoom:100%;" />
 
 
 
-![image-20200712230648591](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712233443.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712233443.png" alt="image-20200712230648591" style="zoom:100%;" />
 
 ## 2.3 阿里云镜像加速
 
 
 
-![image-20200711214654957](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110102.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110102.png" alt="image-20200711214654957" style="zoom:100%;" />
 
-![image-20200711220900381](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711220901.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711220901.png" alt="image-20200711220900381" style="zoom:100%;" />
 
 使用命令
 
@@ -241,15 +241,15 @@ Hello-World怎么运行呢？
 
 使用命令：==docker run hello-world==
 
-![image-20200711225347837](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711225349.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711225349.png" alt="image-20200711225347837" style="zoom:100%;" />
 
-![image-20200711225931748](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110115.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110115.png" alt="image-20200711225931748" style="zoom:100%;" />
 
 ## 2.4 Docker底层原理
 
 Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主机上， 然后通过==Socket连接==从客户端访问，守护进程从客户端接受命令并管理运行在主机上的容器。` 容器，是一个运行时环境，就是我们前面说到的集装箱。`
 
-![image-20200711233623567](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233624.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233624.png" alt="image-20200711233623567" style="zoom:100%;" />
 
 
 
@@ -259,11 +259,11 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 (2)docker利用的是宿主机的内核,而不需要Guest OS。因此,当新建一个容器时,docker不需要和虚拟机一样重新加载一个操作系统内核。仍而避免引寻、加载操作系统内核返个比较费时费资源的过程,当新建一个虚拟机时,虚拟机软件需要加载Guest OS,返个新建过程是分钟级别的。而docker由于直接利用宿主机的操作系统,则省略了返个过程,因此新建一个docker容器只需要几秒钟。
 
-![image-20200711233847278](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233849.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233849.png" alt="image-20200711233847278" style="zoom:100%;" />
 
 
 
-![image-20200711233859661](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233901.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711233901.png" alt="image-20200711233859661" style="zoom:100%;" />
 
 # 三、Docker命令
 
@@ -283,9 +283,9 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 
 
-![image-20200711233522336](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110126.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110126.png" alt="image-20200711233522336" style="zoom:100%;" />
 
-![image-20200711234051059](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110131.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110131.png" alt="image-20200711234051059" style="zoom:100%;" />
 
 <img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110137.png" alt="image-20200711234428627" style="zoom:67%;" />
 
@@ -297,7 +297,7 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 列出本地主机上的镜像
 
-![image-20200711235312157](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110151.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110151.png" alt="image-20200711235312157" style="zoom:100%;" />
 
 各个选项说明:
 
@@ -316,21 +316,21 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 -  同一仓库源可以有多个 TAG，代表这个仓库源的不同个版本，我们使用 REPOSITORY:TAG 来定义不同的镜像。
   如果你不指定一个镜像的版本标签，例如你只使用 ubuntu，docker 将默认使用 ubuntu:latest 镜像
 
-![image-20200711235533030](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711235534.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200711235534.png" alt="image-20200711235533030" style="zoom:100%;" />
 
-![image-20200711235915544](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110200.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110200.png" alt="image-20200711235915544" style="zoom:100%;" />
 
-![image-20200712000107752](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712000109.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712000109.png" alt="image-20200712000107752" style="zoom:100%;" />
 
 
 
 ### ==docker search==
 
-![image-20200712000250115](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110209.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110209.png" alt="image-20200712000250115" style="zoom:100%;" />
 
-![image-20200712000502618](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110217.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110217.png" alt="image-20200712000502618" style="zoom:100%;" />
 
-![image-20200712000734740](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110223.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110223.png" alt="image-20200712000734740" style="zoom:100%;" />
 
 
 
@@ -338,7 +338,7 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 拉取某个XXX镜像名字
 
-![image-20200712001141614](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712001143.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712001143.png" alt="image-20200712001141614" style="zoom:100%;" />
 
 
 
@@ -348,9 +348,9 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 删除 某个XXX镜像名字ID
 
-![image-20200712001603260](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712001605.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712001605.png" alt="image-20200712001603260" style="zoom:100%;" />
 
-![image-20200712002140759](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110231.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712110231.png" alt="image-20200712002140759" style="zoom:100%;" />
 
 ## 3.3 容器命令
 
@@ -375,15 +375,15 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 >       hostPort:containerPort
 >       containerPort
 
-![image-20200712113019977](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712113021.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712113021.png" alt="image-20200712113019977" style="zoom:100%;" />
 
-![image-20200712111902255](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712111904.png)
-
-
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712111904.png" alt="image-20200712111902255" style="zoom:100%;" />
 
 
 
-![image-20200712112218666](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712112219.png)
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712112219.png" alt="image-20200712112218666" style="zoom:100%;" />
 
 
 
@@ -405,23 +405,23 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 > -q :	静默模式，只显示容器编号。
 > --no-trunc : 不截断输出。
 
-![image-20200712113906507](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164715.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164715.png" alt="image-20200712113906507" style="zoom:100%;" />
 
-![image-20200712114323899](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712114325.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712114325.png" alt="image-20200712114323899" style="zoom:100%;" />
 
-![image-20200712114558849](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164710.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164710.png" alt="image-20200712114558849" style="zoom:100%;" />
 
 
 
 ### 退出容器&启动重启
 
-![image-20200712115218272](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712115220.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712115220.png" alt="image-20200712115218272" style="zoom:100%;" />
 
-![image-20200712115129333](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164614.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164614.png" alt="image-20200712115129333" style="zoom:100%;" />
 
-![image-20200712115556847](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712115647.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712115647.png" alt="image-20200712115556847" style="zoom:100%;" />
 
-![image-20200712115824305](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164609.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164609.png" alt="image-20200712115824305" style="zoom:100%;" />
 
 
 
@@ -437,7 +437,7 @@ Docker是一个Client-Server结构的系统，==Docker守护进程==运行在主
 
 `docker ps -a -q | xargs docker rm `
 
-![image-20200712120055869](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712120057.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712120057.png" alt="image-20200712120055869" style="zoom:100%;" />
 
 
 
@@ -477,7 +477,7 @@ docker run -d centos /bin/sh -c "while true;do echo hello zzyy;sleep 2;done"
 *   -f ：跟随最新的日志打印，不断更新追加
 *   --tail 10 ：显示最后10条日志
 
-![image-20200712154010109](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712154012.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712154012.png" alt="image-20200712154010109" style="zoom:100%;" />
 
 
 
@@ -515,9 +515,9 @@ docker exec -it 容器ID bashShell
 
 
 
-![image-20200712155228013](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164316.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164316.png" alt="image-20200712155228013" style="zoom:100%;" />
 
-![image-20200712155908844](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712155910.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712155910.png" alt="image-20200712155908844" style="zoom:100%;" />
 
 
 
@@ -529,7 +529,7 @@ docker exec -it 容器ID bashShell
 
 
 
-![image-20200712160722334](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164306.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164306.png" alt="image-20200712160722334" style="zoom:100%;" />
 
 
 
@@ -537,7 +537,7 @@ docker exec -it 容器ID bashShell
 
 ## 3.4 命令总结
 
-![image-20200712160808897](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712160810.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712160810.png" alt="image-20200712160808897" style="zoom:100%;" />
 
 > 
 
@@ -609,7 +609,7 @@ bootfs(boot file system)主要包含bootloader和kernel, bootloader主要是引�
 
 rootfs (root file system) ，在bootfs之上。包含的就是典型 Linux 系统中的 /dev, /proc, /bin, /etc 等标准目录和文件。rootfs就是各种不同的操作系统发行版，比如Ubuntu，Centos等等。 
 
-![image-20200712163341417](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712163342.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712163342.png" alt="image-20200712163341417" style="zoom:100%;" />
 
  **平时我们安装进虚拟机的CentOS都是好几个G，为什么docker这里才200M？？**
 
@@ -651,23 +651,23 @@ commit更改后的容器，形成一个新的镜像
 
 运行新的镜像，以该镜像运行的tomcat容器都没有 /docs 文件
 
-![image-20200712171040911](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164255.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164255.png" alt="image-20200712171040911" style="zoom:100%;" />
 
-![image-20200712170238060](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712170239.png)
-
-
-
-
-
-![image-20200712170935755](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712170937.png)
-
-![image-20200712171229436](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712171230.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712170239.png" alt="image-20200712170238060" style="zoom:100%;" />
 
 
 
 
 
-![image-20200712171757315](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712173851.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712170937.png" alt="image-20200712170935755" style="zoom:100%;" />
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712171230.png" alt="image-20200712171229436" style="zoom:100%;" />
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712173851.png" alt="image-20200712171757315" style="zoom:100%;" />
 
 
 
@@ -725,13 +725,13 @@ Docker容器产生的数据，如果不通过docker commit生成新的镜像，�
 
 
 
-![image-20200712205920594](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712205921.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712205921.png" alt="image-20200712205920594" style="zoom:100%;" />
 
 
 
 1.  命令：docker run -it -v /宿主机目录:/容器内目录 centos /bin/bash
 
-![image-20200712180407718](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712205949.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712205949.png" alt="image-20200712180407718" style="zoom:100%;" />
 
 2. 查看数据卷是否挂载成功
 
@@ -739,31 +739,31 @@ docker inspect 容器ID
 
 Volums 数据卷，可以看到容器中的目录和宿主机中的目录绑定了
 
-![image-20200712181335163](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164237.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713164237.png" alt="image-20200712181335163" style="zoom:100%;" />
 
 
 
-![image-20200712200545516](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712200546.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712200546.png" alt="image-20200712200545516" style="zoom:100%;" />
 
 3. 容器和宿主机之间数据共享
 
-![image-20200712181407753](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712210002.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712210002.png" alt="image-20200712181407753" style="zoom:100%;" />
 
 
 
-![image-20200712201452733](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163600.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163600.png" alt="image-20200712201452733" style="zoom:100%;" />
 
 
 
 4. 容器停止退出后，主机修改后数据是否同步
 
-![image-20200712181446714](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163540.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163540.png" alt="image-20200712181446714" style="zoom:100%;" />
 
 
 
 命令(带权限) ：  docker run -it -v /宿主机绝对路径目录:/容器内目录:==ro== 镜像名
 
-![image-20200712181539101](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163034.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713163034.png" alt="image-20200712181539101" style="zoom:100%;" />
 
 
 
@@ -771,13 +771,13 @@ Volums 数据卷，可以看到容器中的目录和宿主机中的目录绑定�
 
 ### DockerFile添加
 
-![image-20200712210216389](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161821.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161821.png" alt="image-20200712210216389" style="zoom:100%;" />
 
 1.根目录下新建mydocker文件夹并进入
 
 
 
-![image-20200712211413551](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161717.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161717.png" alt="image-20200712211413551" style="zoom:100%;" />
 
 
 
@@ -805,7 +805,7 @@ CMD echo "finished,--------success1"
 CMD /bin/bash
 ```
 
-![image-20200712212211599](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712212417.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712212417.png" alt="image-20200712212211599" style="zoom:100%;" />
 
 
 
@@ -818,7 +818,7 @@ docker build -f /mydocker/Dockerfile -t zzyy/centos
 
 
 
-![image-20200712213859963](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161705.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161705.png" alt="image-20200712213859963" style="zoom:100%;" />
 
 
 
@@ -830,9 +830,9 @@ docker build -f /mydocker/Dockerfile -t zzyy/centos
 
 6. 通过上述步骤，容器内的卷目录地址已经知道，对应的主机目录地址哪？？
 
-![image-20200712215342161](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712215343.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712215343.png" alt="image-20200712215342161" style="zoom:100%;" />
 
-![image-20200712215441850](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161652.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161652.png" alt="image-20200712215441850" style="zoom:100%;" />
 
 
 
@@ -865,13 +865,13 @@ Docker挂载主机目录Docker访问出现cannot open directory .: Permission de
 
 容器间传递共享(--volumes-from)
 
-![image-20200712220223201](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712220224.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712220224.png" alt="image-20200712220223201" style="zoom:100%;" />
 
 1. 先启动一个父容器dc01，并在dataVolumeContainer2新增一些内容
 
-![image-20200712220448758](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221555.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221555.png" alt="image-20200712220448758" style="zoom:100%;" />
 
-![image-20200712220515085](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221744.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221744.png" alt="image-20200712220515085" style="zoom:100%;" />
 
 
 
@@ -881,13 +881,13 @@ Docker挂载主机目录Docker访问出现cannot open directory .: Permission de
 docker run -it --name dc02 --volumes-from dc01 zzyy/centos
 ```
 
-![image-20200712220727681](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221716.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221716.png" alt="image-20200712220727681" style="zoom:100%;" />
 
-![image-20200712220949212](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712220950.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712220950.png" alt="image-20200712220949212" style="zoom:100%;" />
 
 3. 回到dc01可以看到02/03各自添加的都能共享了
 
-![image-20200712221151409](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221153.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712221153.png" alt="image-20200712221151409" style="zoom:100%;" />
 
 
 
@@ -897,9 +897,9 @@ docker run -it --name dc02 --volumes-from dc01 zzyy/centos
 
 
 
-![image-20200712222407622](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222409.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222409.png" alt="image-20200712222407622" style="zoom:100%;" />
 
-![image-20200712222422610](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222423.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222423.png" alt="image-20200712222422610" style="zoom:100%;" />
 
 ==结论：容器之间配置信息的传递，数据卷的生命周期一直持续到没有容器使用它为止==
 
@@ -907,7 +907,7 @@ docker run -it --name dc02 --volumes-from dc01 zzyy/centos
 
 答：都是可访问的。
 
-![image-20200712222734654](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222735.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200712222735.png" alt="image-20200712222734654" style="zoom:100%;" />
 
 
 
@@ -939,7 +939,7 @@ Dockerfile是用来构建Docker镜像的构建文件，是由一系列命令和�
 
 
 
-![image-20200713111345992](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713113411.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713113411.png" alt="image-20200713111345992" style="zoom:100%;" />
 
 
 
@@ -975,7 +975,7 @@ Dockerfile是用来构建Docker镜像的构建文件，是由一系列命令和�
 *  Docker容器则可以认为是软件的运行态。
 **Dockerfile面向开发，Docker镜像成为交付标准，Docker容器则涉及部署与运维，三者缺一不可，合力充当Docker体系的基石。**
 
-![image-20200713113840729](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161351.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161351.png" alt="image-20200713113840729" style="zoom:100%;" />
 
 1. Dockerfile，需要定义一个Dockerfile，Dockerfile定义了进程需要的一切东西。Dockerfile涉及的内容包括执行代码或者是文件、环境变量、依赖包、运行时环境、动态链接库、操作系统的发行版、服务进程和内核进程`(当应用进程需要和系统服务和内核进程打交道，这时需要考虑如何设计namespace的权限控制)`等等;
 
@@ -987,7 +987,7 @@ Dockerfile是用来构建Docker镜像的构建文件，是由一系列命令和�
 
 ## 6.3 DockerFile体系结构(保留字指令)
 
-![image-20200713115720306](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125757.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125757.png" alt="image-20200713115720306" style="zoom:100%;" />
 
 FROM ： 基础镜像，当前新镜像是基于哪个镜像的
 
@@ -1020,7 +1020,7 @@ VOLUME : 容器数据卷，用于数据保存和持久化工作
 
 CMD : 指定一个容器启动时要运行的命令 
 
-![image-20200713121140680](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125751.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125751.png" alt="image-20200713121140680" style="zoom:100%;" />
 
 Dockerfile 中可以有多个 CMD 指令，但只有最后一个生效，CMD 会被 docker run 之后的参数替换
 
@@ -1028,7 +1028,7 @@ ENTRYPOINT : 指定一个容器启动时要运行的命令,ENTRYPOINT 的目的�
 
 ONBUILD : 当构建一个被继承的Dockerfile时运行命令，父镜像在被子继承后父镜像的onbuild被触发
 
-![image-20200713121419872](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713121421.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713121421.png" alt="image-20200713121419872" style="zoom:100%;" />
 
 ## 6.4 案例1 :自定义镜像mycentos
 
@@ -1036,15 +1036,15 @@ ONBUILD : 当构建一个被继承的Dockerfile时运行命令，父镜像在被
 
 Docker Hub 中 99% 的镜像都是通过在 base 镜像中安装和配置需要的软件构建出来的
 
-![image-20200713121721455](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713121722.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713121722.png" alt="image-20200713121721455" style="zoom:100%;" />
 
 
 
 ==自定义镜像mycentos==
 
-![image-20200713122220329](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713122221.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713122221.png" alt="image-20200713122220329" style="zoom:100%;" />
 
-![image-20200713122126825](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161147.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161147.png" alt="image-20200713122126825" style="zoom:100%;" />
 
 1. <font color=blue>Hub默认CentOS镜像什么情况</font>
 
@@ -1055,9 +1055,9 @@ Docker Hub 中 99% 的镜像都是通过在 base 镜像中安装和配置需要�
 
 2. <font color=blue>准备编写DockerFile文件</font>
 
-![image-20200713122537795](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161141.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161141.png" alt="image-20200713122537795" style="zoom:100%;" />
 
-![image-20200713124945019](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713124946.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713124946.png" alt="image-20200713124945019" style="zoom:100%;" />
 
 ```
 FROM centos
@@ -1080,19 +1080,19 @@ CMD /bin/bash
 
 
 
-![image-20200713125352853](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713125354.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713125354.png" alt="image-20200713125352853" style="zoom:100%;" />
 
-![image-20200713125259989](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161133.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161133.png" alt="image-20200713125259989" style="zoom:100%;" />
 
-![image-20200713125501016](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161126.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161126.png" alt="image-20200713125501016" style="zoom:100%;" />
 
 <font color=blue>4. 运行,docker run -it 新镜像名字:TAG </font>
 
-![image-20200713130106304](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713130107.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713130107.png" alt="image-20200713130106304" style="zoom:100%;" />
 
 <font color=blue>5. 列出镜像的变更历史 ,docker history 镜像名</font>
 
-![image-20200713130250908](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713130252.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713130252.png" alt="image-20200713130250908" style="zoom:100%;" />
 
 
 
@@ -1112,11 +1112,11 @@ Case  tomcat的讲解演示  docker run -it -p 8888:8080 tomcat ls -l
 
 
 
-![image-20200713131306176](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713132442.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713132442.png" alt="image-20200713131306176" style="zoom:100%;" />
 
 
 
-![image-20200713131716496](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713132452.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713132452.png" alt="image-20200713131716496" style="zoom:100%;" />
 
 
 
@@ -1124,11 +1124,11 @@ Case  tomcat的讲解演示  docker run -it -p 8888:8080 tomcat ls -l
 
 docker run 之后的参数会被当做参数传递给 ENTRYPOINT，之后形成新的命令组合
 
-![image-20200713130601283](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161119.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161119.png" alt="image-20200713130601283" style="zoom:100%;" />
 
 
 
-![image-20200713133540057](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713133541.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713133541.png" alt="image-20200713133540057" style="zoom:100%;" />
 
 ```properties
 FROM centos
@@ -1136,7 +1136,7 @@ RUN yum install -y curl
 ENTRYPOINT [ "curl", "-s", "http://ip.cn" ]
 ```
 
-![image-20200713134012446](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713134013.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713134013.png" alt="image-20200713134012446" style="zoom:100%;" />
 
 
 
@@ -1144,9 +1144,9 @@ ENTRYPOINT [ "curl", "-s", "http://ip.cn" ]
 
 
 
-![image-20200713134434961](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161111.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161111.png" alt="image-20200713134434961" style="zoom:100%;" />
 
-![image-20200713135003407](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161105.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161105.png" alt="image-20200713135003407" style="zoom:100%;" />
 
 
 
@@ -1158,15 +1158,15 @@ ENTRYPOINT [ "curl", "-s", "http://ip.cn" ]
 
 ==COPY 复制==
 
-![image-20200713135624123](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713135625.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713135625.png" alt="image-20200713135624123" style="zoom:100%;" />
 
-![image-20200713135640303](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161057.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161057.png" alt="image-20200713135640303" style="zoom:100%;" />
 
-![image-20200713135648341](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125826.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200720125826.png" alt="image-20200713135648341" style="zoom:100%;" />
 
 
 
-![image-20200713140909653](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161050.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161050.png" alt="image-20200713140909653" style="zoom:100%;" />
 
 
 
@@ -1206,16 +1206,16 @@ docker run -d -p 9080:8080 --name myt9
 -v /zzyyuse/mydockerfile/tomcat9/tomcat9logs/:/usr/local/apache-tomcat-9.0.8/logs --privileged=true zzyytomcat9
 ```
 
-![image-20200713141115575](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713141116.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713141116.png" alt="image-20200713141115575" style="zoom:100%;" />
 
 > 备注：Docker挂载主机目录Docker访问出现cannot open directory .: Permission denied
 > 解决办法：在挂载目录后多加一个--privileged=true参数即可
 
-![image-20200713141147593](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713141149.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713141149.png" alt="image-20200713141147593" style="zoom:100%;" />
 
-![image-20200713144229014](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144230.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144230.png" alt="image-20200713144229014" style="zoom:100%;" />
 
-![image-20200713144239294](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144241.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144241.png" alt="image-20200713144239294" style="zoom:100%;" />
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1256,7 +1256,7 @@ docker run -d -p 9080:8080 --name myt9
 
 ## 6.8 小总结
 
-![image-20200713144420048](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144421.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144421.png" alt="image-20200713144420048" style="zoom:100%;" />
 
 
 
@@ -1264,7 +1264,7 @@ docker run -d -p 9080:8080 --name myt9
 
 # 七、Docker常用安装
 
-![image-20200713144912886](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144914.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713144914.png" alt="image-20200713144912886" style="zoom:100%;" />
 
 
 
@@ -1272,11 +1272,11 @@ docker run -d -p 9080:8080 --name myt9
 
 ## 7.1 安装 Tomcat
 
-![image-20200713145005466](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145006.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145006.png" alt="image-20200713145005466" style="zoom:100%;" />
 
 ## 7.2 安装 MySQL
 
-![image-20200713145115006](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145116.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145116.png" alt="image-20200713145115006" style="zoom:100%;" />
 
 ```
 docker pull daocloud.io/library/mysql:5.7
@@ -1292,9 +1292,9 @@ exit
 
 ```
 
-![image-20200713145517712](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145519.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713145519.png" alt="image-20200713145517712" style="zoom:100%;" />
 
-![image-20200713152054257](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152055.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152055.png" alt="image-20200713152054257" style="zoom:100%;" />
 
 ```properties
 docker run -p 3306:3306 --name mysql -v /zzyyuse/mysql/conf:/etc/mysql/conf.d -v /zzyyuse/mysql/logs:/logs -v /zzyyuse/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 -d daocloud.io/library/mysql:5.7
@@ -1313,11 +1313,11 @@ docker run -p 3306:3306 --name mysql -v /zzyyuse/mysql/conf:/etc/mysql/conf.d -v
 docker exec -it MySQL运行成功后的容器ID     /bin/bash
 ```
 
-![image-20200713152300997](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152304.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152304.png" alt="image-20200713152300997" style="zoom:100%;" />
 
 
 
-![image-20200713153133253](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161037.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161037.png" alt="image-20200713153133253" style="zoom:100%;" />
 
 
 
@@ -1325,11 +1325,11 @@ docker exec -it MySQL运行成功后的容器ID     /bin/bash
 
 外部Win10也来连接运行在dokcer上的mysql服务
 
-![image-20200713152326333](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152338.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713152338.png" alt="image-20200713152326333" style="zoom:100%;" />
 
-![image-20200713161003621](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161005.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713161005.png" alt="image-20200713161003621" style="zoom:100%;" />
 
-![image-20200713160922248](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713160923.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713160923.png" alt="image-20200713160922248" style="zoom:100%;" />
 
 
 
@@ -1341,7 +1341,7 @@ docker exec -it MySQL运行成功后的容器ID     /bin/bash
 docker exec myql服务容器ID sh -c ' exec mysqldump --all-databases -uroot -p"123456" ' > /zzyyuse/all-databases.sql
 ```
 
-![image-20200713153820603](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713153822.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713153822.png" alt="image-20200713153820603" style="zoom:100%;" />
 
 
 
@@ -1349,7 +1349,7 @@ docker exec myql服务容器ID sh -c ' exec mysqldump --all-databases -uroot -p"
 
 ## 7.3 安装 Redis
 
-![image-20200713171004556](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713171006.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713171006.png" alt="image-20200713171004556" style="zoom:100%;" />
 
 ```properties
 docker run -p 6379:6379 -v /zzyyuse/myredis/data:/data -v /zzyyuse/myredis/conf/redis.conf:/usr/local/etc/redis/redis.conf  -d redis:3.2 redis-server /usr/local/etc/redis/redis.conf --appendonly yes
@@ -1359,7 +1359,7 @@ docker run -p 6379:6379 -v /zzyyuse/myredis/data:/data -v /zzyyuse/myredis/conf/
 #-- appendonly yes 
 ```
 
-![image-20200713171153589](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193537.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193537.png" alt="image-20200713171153589" style="zoom:100%;" />
 
 
 
@@ -2421,7 +2421,7 @@ aof-rewrite-incremental-fsync yes
 
 ```
 
-![image-20200713172427620](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713172428.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713172428.png" alt="image-20200713172427620" style="zoom:100%;" />
 
 
 
@@ -2433,9 +2433,9 @@ aof-rewrite-incremental-fsync yes
 docker exec -it 运行着Rediis服务的容器ID redis-cli
 ```
 
-![image-20200713172926280](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713172928.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713172928.png" alt="image-20200713172926280" style="zoom:100%;" />
 
-![image-20200713173326783](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713173424.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713173424.png" alt="image-20200713173326783" style="zoom:100%;" />
 
 
 
@@ -2443,7 +2443,7 @@ docker exec -it 运行着Rediis服务的容器ID redis-cli
 
 ## 8.1 本地镜像发布到阿里云流程
 
-![image-20200713181208054](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713181209.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713181209.png" alt="image-20200713181208054" style="zoom:100%;" />
 
 ##  镜像的生成方法
 
@@ -2456,7 +2456,7 @@ docker commit [OPTIONS] 容器ID [REPOSITORY[:TAG]]
 > -a :提交的镜像作者；
 > -m :提交时的说明文字；
 
-![image-20200713181609750](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193531.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193531.png" alt="image-20200713181609750" style="zoom:100%;" />
 
 ## 8.2 将本地镜像推送到阿里云
 
@@ -2475,7 +2475,7 @@ docker commit [OPTIONS] 容器ID [REPOSITORY[:TAG]]
 
 6. 查看详情
 
-![image-20200713182701925](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713182843.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713182843.png" alt="image-20200713182701925" style="zoom:100%;" />
 
 
 
@@ -2489,8 +2489,8 @@ $ sudo docker push registry.cn-beijing.aliyuncs.com/zytowork/zytest:[镜像版�
 请根据实际镜像信息替换示例中的[ImageId]和[镜像版本号]参数。
 ```
 
-![image-20200713183609141](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713183610.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713183610.png" alt="image-20200713183609141" style="zoom:100%;" />
 
-![image-20200713183619498](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193346.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713193346.png" alt="image-20200713183619498" style="zoom:100%;" />
 
-![image-20200713192845898](https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713192847.png)
+<img src="https://raw.githubusercontent.com/bluepopo/myblog/master/img/20200713192847.png" alt="image-20200713192845898" style="zoom:100%;" />
